@@ -1,7 +1,7 @@
 @import '../styles/variables.scss';
 
 .navbar {
-  padding: 10px 20px;
+  padding: 25px 20px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -11,15 +11,20 @@
   top: 0px;
 
   .logo_navbar {
-    height: 27px;
-    width: 101px;
+    width: 89px;
   }
 
   .menu {
-    background-color: $la261_yellow;
-    width: 40px;
-    height: 40px;
-    font-size: 14px;
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+    img {
+      width: 32px;
+    }
+    .text_menu {
+      font-size: 10.5px;
+      font-family: 'ai-li';
+    }
   }
 }
 
@@ -29,84 +34,143 @@
   .title {
     margin-top: 30px;
     font-size: 40px;
-    font-weight: 700;
     line-height: 35px;
+    font-family: 'ai-bold';
   }
 
   .logo_circle {
     margin: 32px 0 21px 0;
-    width: 190px;
-    height: 190px;
+    width: 168px;
   }
 
   .subtext {
+    max-width: 80%;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-family: 'ai-li';
     span {
-      font-weight: bold;
+      font-family: 'ai-bold';
     }
   }
 
   .principal_footer {
-    margin-top: 57px;
-    border-top: 1px solid black;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 10px;
+
+    margin-top: 57px;
+
+    border-top: 1px solid black;
+
     height: 25px;
+
+    font-size: 8px;
+    font-family: 'ai-li';
     img {
-      height: 11px;
-      width: 7px;
+      width: 4px;
     }
   }
 }
 
 .creative_process {
   background-color: $la261_yellow;
-  min-height: 833px;
-  padding: 54px 20px 20px 20px;
+  padding: 54px 0px 51.5px 0px;
   .title {
-    font-size: 35px;
-    font-weight: 700;
+    padding: 0 20px;
+    font-size: 32.5px;
     line-height: 30px;
+    font-family: 'ai-bold';
   }
 
   .scroll_section {
-    margin-top: 40px;
+    margin-top: 30px;
     display:flex;
     overflow-x: scroll ;
 
     &::-webkit-scrollbar {
       width: 5px;
       height: 5px;
+      padding: 20px;
     }
     &::-webkit-scrollbar-track {
       background: transparent;
       border: 1px solid black;
       border-radius: 20px;
+      margin: 20px;
     }
     &::-webkit-scrollbar-thumb {
       background: black;
+      border-radius: 20px;
     }
 
     width: 100%;
 
     .scroll_body {
       display:flex;
-      gap: 50px;
 
-      > div {
+      &:first-child {
+        padding-left: 20px;
+      }
+
+      &:last-child {
+        padding-right: 20px;
+      }
+
+      .scroll_item {
+        &:nth-child(1){
+          .image {
+            margin-left: 0px !important;
+          }
+        }
         .image {
-          height: 270px;
-          width: 180px;
+          height: 250px;
+          width: 168px;
           background-color: $la261_skygray;
+          margin-left: 42px;
         }
         .text {
-          margin: 20px 0 40px 0;
+          display:flex;
+          .arrow {
+            width: 42px;
+            margin: 20px 0 40px 0;
+            display:flex;
+            justify-content: center;
+            img {
+              height: 24.5px;
+            }
+          }
+          .text_arrow {
+            width: 168px;
+            .text_arrow-title {
+              margin-top: 15px;
+              font-size: 22.5px;
+              font-family: 'ai-bold';
+            }
+            .text_arrow-description {
+              margin-top: 15px;
+              margin-bottom: 40px;
+              font-size: 12px;
+              font-family: 'ai-li';
+            }
+          }
         }
       }
     }
 
   }
+
+  .our_services {
+    margin: 30px 0 0 20px;
+    width: 154px;
+    font-size: 8.5px;
+    font-family: 'ai-semibo';
+    height: 35px;
+    border-radius: 20px;
+    background-color: $la261_yellow;
+    border: 1px solid black;
+  }
 }
 
-
+.main_projects {
+  padding: 51.5px 0px;
+}

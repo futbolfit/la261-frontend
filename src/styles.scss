@@ -1,13 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
 
 @font-face {
-  font-family: 'aileron';
+  font-family: 'ai-bold';
   src:
-  url('./../public/assets/fonts/Aileron-Bold.otf') format('otf'),
-  url('./../public/assets/fonts/Aileron-BoldItalic.otf') format('otf'),
-  url('./../public/assets/fonts/Aileron-Regular.otf') format('otf'),
-  url('./../public/assets/fonts/Aileron-SemiBold.otf') format('otf'),
+  url('./../public/assets/fonts/Aileron-Bold.woff') format('woff'),
 }
+
+@font-face {
+  font-family: 'ai-li';
+  src:
+  url('./../public/assets/fonts/Aileron-Light.woff') format('woff'),
+}
+
+@font-face {
+  font-family: 'ai-boit';
+  src:
+  url('./../public/assets/fonts/Aileron-BoldItalic.woff') format('woff'),
+}
+
+@font-face {
+  font-family: 'ai-re';
+  src:
+  url('./../public/assets/fonts/Aileron-Regular.woff') format('woff'),
+}
+
+@font-face {
+  font-family: 'ai-semibo';
+  src:
+  url('./../public/assets/fonts/Aileron-SemiBold.woff') format('woff');
+}
+
 
 body {
   margin: 0px;
@@ -15,5 +37,4 @@ body {
 
 * {
   box-sizing: border-box;
-  font-family: 'aileron';
 }
