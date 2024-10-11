@@ -73,8 +73,27 @@
 }
 
 .creative_process {
+  position: relative;
   background-color: $la261_yellow;
   padding: 54px 0px 51.5px 0px;
+
+  .all_ideas {
+    position: absolute;
+    bottom: -25px;
+    right: 30px;
+    width: 128px;
+    height: 128px;
+    font-size: 9.5px;
+    font-family: 'ai-bold';
+    border: 1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    padding: 20px;
+  }
+
   .title {
     padding: 0 20px;
     font-size: 32.5px;
