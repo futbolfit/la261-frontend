@@ -192,4 +192,51 @@
 
 .main_projects {
   padding: 51.5px 0px;
+  .main_projects-title {
+    font-family: 'ai-bold';
+    font-size: 54.5px;
+    padding: 0 20px;
+    margin-bottom: 51.5px;
+  }
+
+  .main_projects-list {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 51.5px;
+    .main_projects-item {
+      width: 272px;
+      display:flex;
+      flex-direction: column;
+      .image {
+        height: 336px;
+        width: 272px;
+        background-color: $la261_skygray;
+        img {
+          height: inherit;
+          width: inherit;
+        }
+      }
+      .title {
+        margin-top: 20px;
+        font-family: 'ai-boit';
+        font-size: 20px;
+      }
+      .subtitle {
+        margin-top: 10px;
+        font-family: 'ai-semibo';
+        font-size: 16.5px;
+        background-color: $la261_yellow;
+        width:fit-content;
+      }
+      .description {
+        width: 75%;
+        margin-top: 10px;
+        font-family: 'ai-re';
+        font-size: 11.5px;
+        text-align: start;
+      }
+    }
+  }
 }
