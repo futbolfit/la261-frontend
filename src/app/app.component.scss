@@ -478,7 +478,6 @@
       @media (min-width: 1440px) {
         width: 390px;
         height: 115px;
-
       }
       > div {
         background-size: contain;
@@ -538,43 +537,94 @@
   display:flex;
   flex-direction: column;
   align-items: start;
-  .logo_footer {
-    width: 95px;
-    margin-bottom: 34.5px;
+  @media (min-width: 1440px) {
+    padding: 42px 75px 30px 75px;
   }
-  .list_titles {
-    display:flex;
-    flex-direction: column;
-    align-items: start;
-    font-family: 'ai-re';
-    font-size: 11px;
-    gap: 8px;
-    margin-bottom: 18.5px;
-  }
-
-  .social_media_logos {
-    display:flex;
-    gap: 8px;
-    margin-bottom: 34.5px;
-    img {
-      height: 17.5px;
+  .work_together-body {
+    @media (min-width: 1440px) {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
     }
-  }
-  .work_together-title {
-    font-family: 'ai-bold';
-    font-size: 16.5px;
-  }
-  .work_together-email {
-    margin-top: 5px;;
-    font-family: 'ai-semibo';
-    font-size: 13.5px;
-    text-decoration: underline;
+    .logo_footer {
+      width: 95px;
+      margin-bottom: 34.5px;
+      @media (min-width: 1440px) {
+        width: 162px;
+        height:fit-content
+      }
+    }
+    .social_media {
+      .list_titles {
+        display:flex;
+        flex-direction: column;
+        align-items: start;
+        font-family: 'ai-re';
+        font-size: 11px;
+        gap: 8px;
+        margin-bottom: 18.5px;
+        &:hover {
+          cursor: pointer;
+        }
+        @media (min-width: 1440px) {
+          font-size: 18.5px;
+          height: 100px;
+          width: 306px;
+          align-content: space-between;
+          flex-wrap: wrap;
+        }
+      }
+
+      .social_media_logos {
+        display:flex;
+        gap: 8px;
+        margin-bottom: 34.5px;
+        @media (min-width: 1440px) {
+          gap: 12px;
+        }
+        img {
+          height: 17.5px;
+          @media (min-width: 1440px) {
+            height: 30px;
+          }
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .work_together-slogan {
+      .work_together-title {
+        font-family: 'ai-bold';
+        font-size: 16.5px;
+        @media (min-width: 1440px) {
+          font-size: 28px;
+          text-align: end;
+        }
+      }
+      .work_together-email {
+        margin-top: 5px;;
+        font-family: 'ai-semibo';
+        font-size: 13.5px;
+        text-decoration: underline;
+        @media (min-width: 1440px) {
+          font-size: 23px;
+        }
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
   }
 
   .work_together-footer {
     margin-top: 40px;
     font-size: 7.5px;
     font-family: 'ai-re';
+    @media (min-width: 1440px) {
+      margin-top: 65px;
+      font-size: 15px;
+    }
   }
 
 }
