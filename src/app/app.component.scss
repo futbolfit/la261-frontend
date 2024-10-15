@@ -363,6 +363,7 @@
     margin-bottom: 51.5px;
     @media (min-width: 1440px) {
       padding: 0 75px;
+      font-size: 105px;
     }
   }
 
@@ -437,10 +438,13 @@
      justify-content: center;
     .principal_button {
       margin: 51.5px 0 51.5px 0;
+      @media (min-width: 1440px) {
+        margin: 68px 0 81px 0;
+      }
     }
   }
   .principal_footer {
-    margin: 0 20px 0px 20px;
+    margin: 0 75px 0px 75px;
   }
 }
 
@@ -451,17 +455,31 @@
     font-family: 'ai-bold';
     padding: 0 20px;
     margin-bottom: 42px;
+    @media (min-width: 1440px) {
+      font-size: 50px;
+      line-height: 40px;
+      padding: 0 75px;
+    }
   }
 
   .clients_list {
     padding: 0 20px;
     display:flex;
     flex-wrap: wrap;
+    @media (min-width: 1440px) {
+      padding: 0 75px;
+      justify-content: end;
+    }
     .client_item {
       width: 109.5px;
       height: 51.5px;
       display:flex;
       justify-content: center;
+      @media (min-width: 1440px) {
+        width: 390px;
+        height: 115px;
+
+      }
       > div {
         background-size: contain;
         background-repeat: no-repeat;
@@ -469,41 +487,41 @@
       }
       &:nth-child(1){
         > div {
-          width: 109.5px;
+          width: 280px;
           height: auto;
           background-image: url('./../../public/assets/images/Logos_Clientes/Logo\ Marathon@4x.png');
         }
       }
       &:nth-child(2){
         > div {
-          width: 59.5px;
+          width: 159.5px;
           background-image: url('./../../public/assets/images/Logos_Clientes/Logo\ Rems@4x.png');
         }
       }
       &:nth-child(3){
         > div {
-          width: 99.5px;
+          width: 200px;
           height: auto;
           background-image: url('./../../public/assets/images/Logos_Clientes/Logo\ Centrum\ PUCP@4x.png');
         }
       }
       &:nth-child(4){
         > div {
-          width: 89.5px;
+          width: 189.5px;
           height: auto;
           background-image: url('./../../public/assets/images/Logos_Clientes/Logo\ Netafilm@4x.png');
         }
       }
       &:nth-child(5){
         > div {
-          width: 79.5px;
+          width: 179.5px;
           height: auto;
           background-image: url('./../../public/assets/images/Logos_Clientes/Logo\ Negocios\ Inmobiliarios@4x.png');
         }
       }
       &:nth-child(6){
         > div {
-          width: 109.5px;
+          width: 209.5px;
           height: auto;
           background-image: url('./../../public/assets/images/Logos_Clientes/Logo\ IM\ Hernderson@4x.png');
         }
