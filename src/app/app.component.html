@@ -1,5 +1,30 @@
 <div class="main">
   <div class="main_container">
+    <div class="sidebar" [ngStyle]="{
+      'right': isSidebarOpen ? '0px' : '-300px'
+      }">
+      <div class="close_sidebar" (click)="handleSidebar()">
+        ×
+      </div>
+      <div class="sidebar_items">
+        <div class="side_item">Inicio</div>
+        <div class="side_item">Servicios</div>
+        <div class="side_item">Proyectos</div>
+        <div class="side_item">Nosotros</div>
+        <div class="side_item">Contacto</div>
+      </div>
+      <div class="sidebar_contact">
+        <img src="assets/images/LogoB@4x.png" alt="logo" class="logo_navbar">
+        <div>comunicaciones&#64;la261.com</div>
+      </div>
+    </div>
+    <div class="dark-background"
+    (click)="handleSidebar()"
+    [ngStyle]="{
+      'opacity': isSidebarOpen ? '1' : '0',
+      'display': isSidebarOpen ? 'block' : 'none'
+      }"
+    ></div>
     <div class="navbar">
       <div class="navbar-container">
         <img src="assets/images/LogoB@4x.png" alt="logo" class="logo_navbar">
@@ -14,7 +39,7 @@
           </div>
         </div>
 
-        <div class="menu">
+        <div class="menu" (click)="handleSidebar()">
           <img src="assets/images/Hamburguesa12@4x.png" alt="">
           <div class="text_menu">
             MENU

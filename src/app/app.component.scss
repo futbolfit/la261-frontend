@@ -18,12 +18,80 @@
   width: 100%;
   display:flex;
   justify-content: center;
+  // NEW
+  contain: paint;
   .main_container {
     width: 100%;
+    height: 100vh;
+    overflow: scroll;
     display:flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
   }
+}
+
+.sidebar {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  background-color: $la261_yellow;
+  width: 300px;
+  min-height: 100vh;
+  z-index: 10;
+  transition: right 250ms ease;
+  padding: 30px;
+  .close_sidebar {
+    font-family: 'ai-re';
+    font-size: 40px;
+    text-align: end;
+  }
+  .sidebar_items {
+    font-family: 'ai-re';
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 70px;
+  }
+  .sidebar_contact {
+    img {
+      width: 89px;
+      margin-bottom: 10px;
+      @media (min-width: 1024px) {
+        width: 104px;
+      }
+      @media (min-width: 1440px) {
+        width: 104px;
+      }
+    }
+    margin-top: 5px;
+    font-family: 'ai-semibo';
+    font-size: 13.5px;
+    text-decoration: underline;
+    @media (min-width: 768px) {
+      font-size: 15px;
+    }
+    @media (min-width: 1024px) {
+      font-size: 18px;
+    }
+    @media (min-width: 1440px) {
+      font-size: 23px;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+.dark-background {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.271);
+  width: 100%;
+  min-height: 100vh;
+  z-index: 9;
+  transition: background-color 500ms ease;
 }
 
 .navbar {
@@ -37,6 +105,14 @@
   .navbar-container {
     width: 100%;
     padding: 25px 20px 10px 20px;
+    @media (min-width: 425px) {
+      padding: 25px 50px 10px 50px;
+      max-width: 1440px;
+    }
+    @media (min-width: 768px) {
+      padding: 25px 50px 10px 50px;
+      max-width: 1440px;
+    }
     @media (min-width: 1024px) {
       padding: 25px 75px 10px 75px;
       max-width: 1440px;
@@ -130,10 +206,6 @@
   background-color: transparent;
   border: 1px solid black;
 
-  @media (min-width: 768px) {
-    font-size: 12px;
-    width: 220px;
-  }
   @media (min-width: 1024px) {
     font-size: 12px;
     width: 220px;
@@ -239,17 +311,18 @@
         font-family: 'ai-bold';
         @media (min-width: 768px) {
           width: fit-content;
-          margin-top: 112px;
+          margin-top: 82px;
           font-size: 40px;
           line-height: 38px;
         }
         @media (min-width: 1024px) {
           width: fit-content;
-          margin-top: 112px;
+          margin-top: 82px;
           font-size: 60px;
           line-height: 58px;
         }
         @media (min-width: 1440px) {
+          margin-top: 112px;
           width: max-content;
           font-size: 82px;
           line-height: 68px;
@@ -271,9 +344,10 @@
         display: flex;
         flex-direction: column;
         justify-content: end;
-        padding-bottom: 100px;
+        padding-bottom: 90px;
       }
       @media (min-width: 1440px) {
+        padding-bottom: 100px;
       }
       .logo_circle {
         margin: 32px 0 21px 0;
@@ -367,12 +441,12 @@
     }
 
     .principal_button {
-      margin: 30px 0 0 20px;
+      margin: 51.5px 0 0 20px;
       @media (min-width: 768px) {
-        margin: 80px 0 59px 75px;
+        margin: 80px 0 59px 50px;
       }
       @media (min-width: 1024px) {
-        margin: 80px 0 59px 75px;
+        margin: 80px 0 59px 50px;
       }
       @media (min-width: 1440px) {
         margin: 80px 0 59px 75px;
@@ -431,6 +505,9 @@
       line-height: 30px;
       font-family: 'ai-bold';
 
+      @media (min-width: 425px) {
+        padding: 0 50px 20px 50px;
+      }
       @media (min-width: 768px) {
         padding: 0 50px 20px 50px;
         font-size: 40px;
@@ -464,6 +541,9 @@
         @media (min-width: 1024px) {
           overflow-x: auto;
         }
+        @media (min-width: 1130px) and (max-width: 1440px) {
+          justify-content: center;
+        }
         @media (min-width: 1440px) {
           overflow-x: auto;
           justify-content: end;
@@ -480,6 +560,9 @@
           border: 1px solid black;
           border-radius: 20px;
           margin: 20px;
+          @media (min-width: 425px) {
+            margin: 20px 50px;
+          }
           @media (min-width: 768px) {
             margin: 50px;
           }
@@ -500,6 +583,9 @@
 
           &:first-child {
             padding-left: 20px;
+            @media (min-width: 425px) {
+              padding-left: 50px;
+            }
             @media (min-width: 768px) {
               padding-left: 50px;
             }
@@ -513,6 +599,9 @@
 
           &:last-child {
             padding-right: 20px;
+            @media (min-width: 425px) {
+              padding-right: 50px;
+            }
             @media (min-width: 768px) {
               padding-right: 50px;
             }
@@ -594,16 +683,17 @@
                 .text_arrow-title {
                   margin-top: 15px;
                   font-size: 22.5px;
+                  line-height: 21.5px;
                   font-family: 'ai-bold';
                   @media (min-width: 768px) {
-                    font-size: 30px;
+                    font-size: 28px;
                     margin-top: 27px;
-                    line-height: 28px;
+                    line-height: 26.5px;
                   }
                   @media (min-width: 1024px) {
-                    font-size: 30px;
+                    font-size: 28px;
                     margin-top: 27px;
-                    line-height: 28px;
+                    line-height: 26.5px;
                   }
                   @media (min-width: 1440px) {
                     font-size: 30px;
@@ -613,23 +703,26 @@
                 }
                 .text_arrow-description {
                   margin-top: 15px;
-                  margin-bottom: 40px;
+                  margin-bottom: 51px;
                   font-size: 12px;
                   font-family: 'ai-li';
                   @media (min-width: 768px) {
                     font-family: 'ai-re';
                     font-size: 16px;
                     margin-top: 20px;
+                    margin-bottom: 80px;
                   }
                   @media (min-width: 1024px) {
                     font-family: 'ai-re';
                     font-size: 16px;
                     margin-top: 20px;
+                    margin-bottom: 80px;
                   }
                   @media (min-width: 1440px) {
                     font-family: 'ai-re';
                     font-size: 16px;
                     margin-top: 20px;
+                    margin-bottom: 40px;
                   }
                 }
               }
@@ -723,7 +816,7 @@
           @media (min-width: 1440px) {
             display: flex;
           }
-          z-index: 100;
+          z-index: 3;
           position: absolute;
           top: -70px;
           right: 30px;
