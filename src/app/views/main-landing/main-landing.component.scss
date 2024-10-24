@@ -110,12 +110,12 @@
       .title {
         @media (min-width: 768px) {
           display: flex;
-          justify-content: end;
+          justify-content: start;
           width: 50%;
         }
         @media (min-width: 1024px) {
           display: flex;
-          justify-content: end;
+          justify-content: start;
           width: 50%;
         }
         @media (min-width: 1440px) {
