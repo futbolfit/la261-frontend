@@ -51,6 +51,35 @@
         cursor: pointer;
       }
     }
+    .social_media_logos {
+      display:flex;
+      gap: 8px;
+      margin-top: 25px;
+      @media (min-width: 768px) {
+
+      }
+      @media (min-width: 1024px) {
+
+      }
+      @media (min-width: 1440px) {
+
+      }
+      img {
+        height: 23.5px;
+        @media (min-width: 768px) {
+
+        }
+        @media (min-width: 1024px) {
+
+        }
+        @media (min-width: 1440px) {
+
+        }
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
   }
   .dark-background {
     position: fixed;
