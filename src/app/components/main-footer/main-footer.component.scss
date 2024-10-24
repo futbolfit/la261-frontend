@@ -64,9 +64,7 @@
           font-size: 11px;
           gap: 8px;
           margin-bottom: 18.5px;
-          &:hover {
-            cursor: pointer;
-          }
+
           @media (min-width: 768px) {
             font-size: 15.5px;
             height: 80px;
@@ -87,6 +85,13 @@
             width: 306px;
             align-content: space-between;
             flex-wrap: wrap;
+          }
+
+          > div {
+            &:hover {
+              cursor: pointer;
+              text-decoration: solid underline;
+            }
           }
         }
 

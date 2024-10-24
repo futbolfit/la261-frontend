@@ -624,6 +624,14 @@
         gap: 85px 20px;
       }
       .main_projects-item {
+        &:hover {
+          .image {
+            filter: brightness(0.9)
+          }
+          .title, .subtitle {
+            text-decoration: solid underline;
+          }
+        }
         width: 272px;
         display:flex;
         flex-direction: column;
@@ -675,9 +683,6 @@
           }
           @media (min-width: 1440px) {
             height: 517px;
-          }
-          &:hover {
-            filter: brightness(0.9)
           }
           img {
             height: inherit;
