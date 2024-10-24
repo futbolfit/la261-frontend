@@ -1,0 +1,91 @@
+<div class="main">
+  <div class="main_container">
+    <app-navbar></app-navbar>
+    <div class="projects">
+      <div class="title_project">
+        <div class="sub">
+          Proyecto
+        </div>
+        <div class="main-title">
+          Charla Nutrición Deportiva
+        </div>
+      </div>
+      <div class="title_project">
+        <div class="sub">
+          Cliente
+        </div>
+        <div class="main-italic">
+          Proper
+        </div>
+      </div>
+      <div class="description_project">
+        <div class="focus-title">
+          Detalle de proyecto
+        </div>
+        <div class="description-text">
+          <div>
+            Charla especializada en la alimentación en el sector deportivo para los equipos de fútbol pertenecientes a la empresa.
+          </div>
+          <div>
+            _Organización de torneo <br>
+            _Piezas gráficas <br>
+            _Personal <br>
+            _Animadores <br>
+            _Premios <br>
+            _Equipo audiovisual
+          </div>
+        </div>
+      </div>
+      <div class="slider-container">
+        <div class="project_photos" #slider>
+          <div class="photos_scroll" >
+            <div class="photo-item"></div>
+            <div class="photo-item"></div>
+            <div class="photo-item"></div>
+            <div class="photo-item"></div>
+          </div>
+        </div>
+        <div class="arrow-right" (click)="next()">
+          <img src="assets/images/Boton_A@4x.png" alt="">
+        </div>
+        <div class="arrow-left" (click)="previous()">
+          <img src="assets/images/Boton_B@4x.png" alt="">
+        </div>
+      </div>
+      <div class="resume">
+        ¿Cómo le fue <br>
+        al cliente <br>
+        trabajando <br>
+        con nosotros?
+      </div>
+      <div class="subtitle-project">
+        <div class="sub">
+          Cliente
+        </div>
+        <div class="main-title">
+          Proper
+        </div>
+        <div class="sub-text">
+          Empresa de construcción especializada en el diseño, ejecución y mantenimiento de proyectos inmobiliarios.
+        </div>
+      </div>
+      <div class="subtitle-project">
+        <div class="sub">
+          Gerente Marketing Proper
+        </div>
+        <div class="main-title">
+          Camilo Ramos Rojas
+        </div>
+        <div class="sub-description">
+          "Creemos que el evento superó nuestras expectativas desde el planeamiento y el entendimiento de lo que queríamos lograr. Nuestros colaboradores no paran de comentar del torneo. Están muy motivados."
+        </div>
+      </div>
+      <div class="principal_button-container">
+        <button class="principal_button">
+          MÁS PROYECTOS
+        </button>
+      </div>
+    </div>
+    <app-main-footer></app-main-footer>
+  </div>
+</div>

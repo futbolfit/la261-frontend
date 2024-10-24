@@ -1,0 +1,183 @@
+@import 'variables.scss';
+
+:host {
+  background-color: $la261_yellow;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .work_together-container {
+    width: 100%;
+    padding: 42px 20px 30px 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    @media (min-width: 768px) {
+      padding: 65px 50px 65px 50px;
+      max-width: 1440px;
+    }
+    @media (min-width: 1024px) {
+      padding: 75px 50px 75px 50px;
+      max-width: 1440px;
+    }
+    @media (min-width: 1440px) {
+      padding: 85px 75px 85px 75px;
+      max-width: 1440px;
+    }
+    .work_together-body {
+      @media (min-width: 768px) {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      @media (min-width: 1024px) {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      @media (min-width: 1440px) {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      .logo_footer {
+        width: 95px;
+        margin-bottom: 34.5px;
+        @media (min-width: 768px) {
+          width: 122px;
+          height: 31px;
+        }
+        @media (min-width: 1024px) {
+          width: 142px;
+          height: 36px;
+        }
+        @media (min-width: 1440px) {
+          width: 162px;
+          height: 41.5px
+        }
+      }
+      .social_media {
+        .list_titles {
+          display:flex;
+          flex-direction: column;
+          align-items: start;
+          font-family: 'ai-re';
+          font-size: 11px;
+          gap: 8px;
+          margin-bottom: 18.5px;
+          &:hover {
+            cursor: pointer;
+          }
+          @media (min-width: 768px) {
+            font-size: 15.5px;
+            height: 80px;
+            width: 196px;
+            align-content: space-between;
+            flex-wrap: wrap;
+          }
+          @media (min-width: 1024px) {
+            font-size: 18.5px;
+            height: 100px;
+            width: 286px;
+            align-content: space-between;
+            flex-wrap: wrap;
+          }
+          @media (min-width: 1440px) {
+            font-size: 18.5px;
+            height: 100px;
+            width: 306px;
+            align-content: space-between;
+            flex-wrap: wrap;
+          }
+        }
+
+        .social_media_logos {
+          display:flex;
+          gap: 8px;
+          margin-bottom: 34.5px;
+          @media (min-width: 768px) {
+            gap: 12px;
+          }
+          @media (min-width: 1024px) {
+            gap: 12px;
+          }
+          @media (min-width: 1440px) {
+            gap: 12px;
+          }
+          img {
+            height: 17.5px;
+            @media (min-width: 768px) {
+              height: 30px;
+            }
+            @media (min-width: 1024px) {
+              height: 30px;
+            }
+            @media (min-width: 1440px) {
+              height: 30px;
+            }
+            &:hover {
+              cursor: pointer;
+            }
+          }
+        }
+      }
+      .work_together-slogan {
+        .work_together-title {
+          font-family: 'ai-bold';
+          font-size: 16.5px;
+          @media (min-width: 768px) {
+            font-size: 17px;
+            line-height: 17.5px;
+            text-align: end;
+          }
+          @media (min-width: 1024px) {
+            font-size: 25px;
+            line-height: 25.5px;
+            text-align: end;
+          }
+          @media (min-width: 1440px) {
+            font-size: 28px;
+            line-height: 29.5px;
+            text-align: end;
+          }
+        }
+        .work_together-email {
+          margin-top: 5px;
+          font-family: 'ai-semibo';
+          font-size: 13.5px;
+          text-decoration: underline solid;
+          @media (min-width: 768px) {
+            font-size: 15px;
+          }
+          @media (min-width: 1024px) {
+            font-size: 18px;
+          }
+          @media (min-width: 1440px) {
+            font-size: 23px;
+          }
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .work_together-footer {
+      margin-top: 40px;
+      font-size: 7.5px;
+      font-family: 'ai-re';
+      @media (min-width: 768px) {
+        margin-top: 80px;
+        font-size: 12px;
+      }
+      @media (min-width: 1024px) {
+        margin-top: 90px;
+        font-size: 13px;
+      }
+      @media (min-width: 1440px) {
+        margin-top: 100px;
+        font-size: 15px;
+      }
+    }
+  }
+
+}
