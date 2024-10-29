@@ -230,8 +230,11 @@
           }
         }
         .principal_footer {
-          margin: 36px 0;
-          @include element-footer();
+          display: none;
+          @media (min-width: 1440px) {
+            margin: 36px 0;
+            @include element-footer();
+          }
         }
         .sub_part {
           @media (min-width: 1440px) {
