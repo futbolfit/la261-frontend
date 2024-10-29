@@ -1,5 +1,6 @@
 @import 'variables.scss';
 @import 'btn.mixin.scss';
+@import 'element-footer.mixin.scss';
 
 :host {
 
@@ -38,36 +39,7 @@
   }
 
   .principal_footer {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-
-    border-top: 1px solid black;
-    height: 25px;
-
-    font-size: 8px;
-    font-family: 'ai-li';
-    @media (min-width: 768px) {
-      font-size: 12px;
-    }
-    @media (min-width: 1024px) {
-      font-size: 12px;
-    }
-    @media (min-width: 1440px) {
-      font-size: 13px;
-    }
-    img {
-      width: 4px;
-      @media (min-width: 768px) {
-        width: 6px;
-      }
-      @media (min-width: 1024px) {
-        width: 6px;
-      }
-      @media (min-width: 1440px) {
-        width: 7px;
-      }
-    }
+    @include element-footer();
   }
 
   .principal {
