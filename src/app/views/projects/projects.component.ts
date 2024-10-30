@@ -20,8 +20,10 @@ export default class ProjectsComponent {
   cont: number = 0;
 
   next() {
-    const wli = Number(
-      getComputedStyle(this.carouselChildren[0])
+    let wli: number;
+
+    wli = Number(
+      getComputedStyle(this.carouselChildren[this.cont])
         .getPropertyValue('width')
         .split('px')[0]
     );
@@ -29,8 +31,7 @@ export default class ProjectsComponent {
       this.carouselChildren[this.cont].getBoundingClientRect().x < 1 ||
       this.carouselChildren[this.cont].getBoundingClientRect().x > 1
     ) {
-      this.sliderElement.nativeElement.scrollLeft = wli * (this.cont + 1);
-
+      this.sliderElement.nativeElement.scrollLeft += wli;
       if (this.cont !== this.carouselChildren.length - 1) {
         this.cont = this.cont + 1;
       } else {
@@ -41,23 +42,31 @@ export default class ProjectsComponent {
   }
 
   previous() {
-    const wli = Number(
-      getComputedStyle(this.carouselChildren[0])
-        .getPropertyValue('width')
-        .split('px')[0]
-    );
+    const lastWli = this.carouselChildren[this.carouselChildren.length - 1].getBoundingClientRect().x;
+
     if (
       this.carouselChildren[this.cont].getBoundingClientRect().x < 1 ||
       this.carouselChildren[this.cont].getBoundingClientRect().x > 1
     ) {
-      console.log(wli);
-      this.sliderElement.nativeElement.scrollLeft = wli * (this.cont - 1);
+
 
       if (this.cont !== 0) {
+
+        const wli = Number(
+          getComputedStyle(this.carouselChildren[this.cont - 1])
+            .getPropertyValue('width')
+            .split('px')[0]
+        );
+
+        console.log({scrollleft: this.sliderElement.nativeElement.scrollLeft});
+        console.log({wli: wli});
+        console.log({cont: this.cont});
+
+        this.sliderElement.nativeElement.scrollLeft -= wli;
         this.cont = this.cont - 1;
       } else {
-        this.cont = 3;
-        this.sliderElement.nativeElement.scrollLeft = wli * this.carouselChildren.length;
+        this.cont = this.carouselChildren.length - 1;
+        this.sliderElement.nativeElement.scrollLeft = lastWli;
       }
     }
   }
