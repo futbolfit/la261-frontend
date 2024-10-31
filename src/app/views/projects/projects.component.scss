@@ -61,7 +61,7 @@
               .sub {
                 font-family: 'ai-semibo';
                 font-size: 12.5px;
-                @media (min-width: 1024px) {
+                @media (min-width: 768px) {
                   font-size: 18px;
                 }
                 @media (min-width: 1440px) {
@@ -71,7 +71,7 @@
               .main-title {
                 font-size: 25px;
                 font-family: 'ai-bold';
-                @media (min-width: 1024px) {
+                @media (min-width: 768px) {
                   font-size: 30px;
                   line-height: 28px;
                 }
@@ -83,7 +83,7 @@
               .main-italic {
                 font-size: 23.5px;
                 font-family: 'ai-boit';
-                @media (min-width: 1024px) {
+                @media (min-width: 768px) {
                   font-size: 32px;
                 }
                 @media (min-width: 1440px) {
@@ -117,7 +117,7 @@
                 font-family: 'ai-semibo';
                 background-color: $la261_yellow;
                 width: fit-content;
-                @media (min-width: 1024px) {
+                @media (min-width: 768px) {
                   font-size: 17px;
                 }
                 @media (min-width: 1440px) {
@@ -131,7 +131,7 @@
                 display: flex;
                 flex-direction: column;
                 gap:10px;
-                @media (min-width: 1024px) {
+                @media (min-width: 768px) {
                   font-size: 15px;
                   letter-spacing: 0.4px;
                 }
@@ -163,7 +163,7 @@
               img {
                 width: 20px;
                 height: 20px;
-                @media (min-width: 1024px) {
+                @media (min-width: 768px) {
                   width: 32px;
                   height: 32px;
                 }
@@ -271,13 +271,17 @@
                 scroll-snap-type: x mandatory;
                 scroll-behavior: smooth;
                 -webkit-overflow-scrolling: touch;
+                @media (min-width: 1024px) {
+
+                }
 
                 .photo-item {
                   scroll-snap-align: start;
                   min-width: calc(100vw - 40px);
                   @media (min-width: 1024px) {
+                    width: min-content;
+                    max-width: 596px;
                     min-width: min-content;
-                    max-width: 966px;
                   }
                   @media (min-width: 1440px) {
                     min-width: min-content;
@@ -312,7 +316,7 @@
         }
         .principal_footer {
           display: none;
-          @media (min-width: 1024px) {
+          @media (min-width: 768px) {
             margin: 36px 0;
             @include element-footer();
           }
@@ -323,7 +327,7 @@
         }
         .sub_part {
 
-          @media (min-width: 1024px) {
+          @media (min-width: 768px) {
             display: flex;
             gap: 30px;
 
@@ -357,6 +361,10 @@
             font-size: 25px;
             line-height: 23px;
             @media (min-width: 1024px) {
+              font-size: 32px;
+              line-height: 30px;
+            }
+            @media (min-width: 1024px) {
               font-size: 38px;
               line-height: 33px;
             }
@@ -369,6 +377,9 @@
             .sub {
               font-family: 'ai-semibo';
               font-size: 11px;
+              @media (min-width: 768px) {
+                font-size: 12px;
+              }
               @media (min-width: 1024px) {
                 font-size: 13px;
               }
@@ -380,6 +391,9 @@
               font-family: ai-boit;
               font-size: 14px;
               margin-bottom: 4px;
+              @media (min-width: 768px) {
+                font-size: 17px;
+              }
               @media (min-width: 1024px) {
                 font-size: 19px;
               }
@@ -393,6 +407,9 @@
               color: rgba(0, 0, 0, 0.5);
 
               margin-bottom: 20px;
+              @media (min-width: 768px) {
+                font-size: 13px;
+              }
               @media (min-width: 1024px) {
                 font-size: 14px;
                 width: 80%;
@@ -405,6 +422,9 @@
             .sub-description {
               font-family: ai-semibo;
               font-size: 11.5px;
+              @media (min-width: 768px) {
+                font-size: 13px;
+              }
               @media (min-width: 1024px) {
                 font-size: 15px;
                 width: 70%;
