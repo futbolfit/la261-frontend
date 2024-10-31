@@ -20,20 +20,19 @@ export default class ProjectsComponent {
   cont: number = 0;
 
   next() {
-    let wli: number;
-
-    wli = Number(
-      getComputedStyle(this.carouselChildren[this.cont])
-        .getPropertyValue('width')
-        .split('px')[0]
-    );
     if (
       this.carouselChildren[this.cont].getBoundingClientRect().x < 1 ||
       this.carouselChildren[this.cont].getBoundingClientRect().x > 1
     ) {
-      this.sliderElement.nativeElement.scrollLeft += wli;
       if (this.cont !== this.carouselChildren.length - 1) {
+        const wli = Number(
+          getComputedStyle(this.carouselChildren[this.cont])
+            .getPropertyValue('width')
+            .split('px')[0]
+        );
+
         this.cont = this.cont + 1;
+        this.sliderElement.nativeElement.scrollLeft += wli;
       } else {
         this.cont = 0;
         this.sliderElement.nativeElement.scrollLeft = 0;
@@ -48,8 +47,6 @@ export default class ProjectsComponent {
       this.carouselChildren[this.cont].getBoundingClientRect().x < 1 ||
       this.carouselChildren[this.cont].getBoundingClientRect().x > 1
     ) {
-
-
       if (this.cont !== 0) {
 
         const wli = Number(
@@ -57,10 +54,6 @@ export default class ProjectsComponent {
             .getPropertyValue('width')
             .split('px')[0]
         );
-
-        console.log({scrollleft: this.sliderElement.nativeElement.scrollLeft});
-        console.log({wli: wli});
-        console.log({cont: this.cont});
 
         this.sliderElement.nativeElement.scrollLeft -= wli;
         this.cont = this.cont - 1;

@@ -221,35 +221,27 @@
                   display: flex;
                   justify-content: center;
                   align-items: center;
-                  // TODO img
                   img {
                     max-width: calc(100vw - 40px);
                     width: 100%;
                     height: 100%;
                     object-fit: contain;
                     @media (min-width: 1440px) {
-                      height: 100%;
                       max-width: inherit;
+                      width: inherit;
+                      height: 100%;
                       object-fit: cover;
                     }
                   }
-                  video {
-                    width: calc(100vw - 40px);
-                    @media (min-width: 1440px) {
-                      width: 900px;
-                    }
-                    source {
-                      width: inherit;
-                    }
-                  }
-                }
-
-                // MOCK UP
-                :nth-child(2n) {
-                  //background-color: $la261_skygray;
-                }
-                :nth-child(2n + 1) {
-                  //background-color: $la261_orange;
+                  // video {
+                  //   width: calc(100vw - 40px);
+                  //   @media (min-width: 1440px) {
+                  //     width: 900px;
+                  //   }
+                  //   source {
+                  //     width: inherit;
+                  //   }
+                  // }
                 }
               }
             }
