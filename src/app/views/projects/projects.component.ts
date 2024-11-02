@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, ElementRef, ViewChild } from '@angular/core';
 import { NavbarComponent } from '../../components/navbar/navbar.component';
 import { MainFooterComponent } from "../../components/main-footer/main-footer.component";
+import { YouTubePlayerModule } from '@angular/youtube-player';
 
 @Component({
   selector: 'app-projects',
@@ -9,7 +10,8 @@ import { MainFooterComponent } from "../../components/main-footer/main-footer.co
   imports: [
     CommonModule,
     NavbarComponent,
-    MainFooterComponent
+    MainFooterComponent,
+    YouTubePlayerModule
 ],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss',
