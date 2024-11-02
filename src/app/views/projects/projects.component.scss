@@ -155,8 +155,13 @@
               max-width: calc(900px + 78px);
             }
             .arrow-right, .arrow-left {
+              display: none;
+
               position: absolute;
               z-index: 5;
+              @media (min-width: 450px) {
+                display: block;
+              }
               @media (min-width: 1024px) {
                 position: relative;
               }
@@ -214,17 +219,19 @@
               }
             }
             .project_photos {
-              height: 445px;
               padding: 10px 0;
 
-              overflow-x: auto;
-              scroll-snap-type: x mandatory;
-              scroll-behavior: smooth;
-
               display:flex;
+
               width: 100%;
               max-width: calc(100vw - 40px);
               margin-bottom: 40px;
+              @media (min-width: 450px) {
+                height: 445px;
+                overflow-x: auto;
+                scroll-snap-type: x mandatory;
+                scroll-behavior: smooth;
+              }
               @media (min-width: 1024px) {
                 //height: 450px;
                 height: 600px;
@@ -260,12 +267,16 @@
 
               .photos_scroll {
                 display: flex;
-                gap: 18px;
-                scroll-snap-type: x mandatory;
-                scroll-behavior: smooth;
-                -webkit-overflow-scrolling: touch;
-                @media (min-width: 1024px) {
+                flex-direction: column;
 
+                gap: 1px;
+
+                @media (min-width: 450px) {
+                  gap: 18px;
+                  flex-direction: row;
+                  scroll-snap-type: x mandatory;
+                  scroll-behavior: smooth;
+                  -webkit-overflow-scrolling: touch;
                 }
 
                 .photo-item {
