@@ -105,7 +105,9 @@
             .description_project {
               padding: 26px 0;
               border-top: 1px solid black;
-              border-bottom: 1px solid black;
+              @media (min-width: 450px){
+                border-bottom: 1px solid black;
+              }
               @media (min-width: 1024px) {
                 width: 80%;
                 border-bottom: none;
