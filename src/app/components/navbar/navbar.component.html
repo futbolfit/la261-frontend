@@ -5,19 +5,23 @@
     ×
   </div>
   <div class="sidebar_items">
-    <div class="side_item">Inicio</div>
-    <div class="side_item">Servicios</div>
-    <div class="side_item">Proyectos</div>
-    <div class="side_item">Nosotros</div>
-    <div class="side_item">Contacto</div>
+    <div class="side_item active" routerLink="/">Inicio</div>
+    <div class="side_item inactive">Servicios</div>
+    <div class="side_item active" routerLink="/projects">Proyectos</div>
+    <div class="side_item inactive">Nosotros</div>
+    <div class="side_item inactive">Contacto</div>
   </div>
   <div class="sidebar_contact">
     <img src="assets/images/LogoB@4x.png" alt="logo" class="logo_navbar">
     <div>comunicaciones&#64;la261.com</div>
   </div>
   <div class="social_media_logos">
-    <img src="assets/images/Boton Instagram@2x.png" alt="">
-    <img src="assets/images/Boton Linkedin@2x.png" alt="">
+    <a href="https://www.instagram.com/la261agencia/">
+      <img src="assets/images/Boton Instagram@2x.png" alt="">
+    </a>
+    <a href="https://www.linkedin.com/company/la261/">
+      <img src="assets/images/Boton Linkedin@2x.png" alt="">
+    </a>
     <img src="assets/images/Boton Facebook@2x.png" alt="">
   </div>
 </div>
@@ -34,11 +38,11 @@
 
     <div class="bar">
       <div class="bar_container">
-        <div>INICIO</div>
-        <div>SERVICIOS</div>
-        <div>PROYECTOS</div>
-        <div>NOSOTROS</div>
-        <div>CONTACTO</div>
+        <div class="active" routerLink="/">INICIO</div>
+        <div class="inactive">SERVICIOS</div>
+        <div class="active" routerLink="/projects">PROYECTOS</div>
+        <div class="inactive">NOSOTROS</div>
+        <div class="inactive">CONTACTO</div>
       </div>
     </div>
 

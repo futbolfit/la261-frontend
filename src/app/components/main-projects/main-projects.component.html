@@ -1,0 +1,42 @@
+<div class="main_projects-title">
+  Proyectos
+</div>
+<div class="main_projects-list_container">
+  <div class="main_projects-list">
+    @for (project of projects; track $index; let idx = $index) {
+      <div class="main_projects-item" [routerLink]="'/projects/' + project.project_name">
+        @if (idx === 1) {
+          <div class="logo_projects">
+            <img src="assets/images/Logo_Alternativo@4x.png" alt="">
+          </div>
+        }
+        <div class="image" [ngStyle]="{ 'background-image' : 'url(' + project.images_urls[0] + ')'}">
+        </div>
+        <div class="title">{{ project.client }}</div>
+        <div class="subtitle">
+          {{ project.project_title }}
+        </div>
+        <div class="description">
+          {{ project.project_description }}
+        </div>
+      </div>
+    }
+  </div>
+</div>
+
+<div class="button_container">
+  @if( page === 'main-landing') {
+    <button class="principal_button" routerLink="/projects">
+      MÁS PROYECTOS
+    </button>
+  } @else {
+    <div class="no-button"></div>
+  }
+</div>
+
+<div class="principal_footer">
+  <div>
+    CLIENTES
+  </div>
+  <img src="assets/images/Slash@2x.png" alt="" >
+</div>

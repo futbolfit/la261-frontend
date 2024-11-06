@@ -4,7 +4,7 @@
   .sidebar {
     position: fixed;
     top: 0px;
-    right: 0px;
+    right: -300px;
     background-color: $la261_yellow;
     width: 300px;
     min-height: 100vh;
@@ -22,6 +22,9 @@
       flex-direction: column;
       gap: 10px;
       margin-bottom: 70px;
+      .inactive {
+        opacity: 0.3;
+      }
     }
     .sidebar_contact {
       img {
@@ -134,6 +137,9 @@
         @media (min-width: 1440px) {
           width: 104px;
         }
+        &:hover {
+          cursor: pointer;
+        }
       }
 
       .bar {
@@ -147,11 +153,14 @@
             gap: 65px;
             font-size: 10.5px;
             font-family: 'ai-semibo';
-            > div {
+            .active {
               &:hover {
                 text-decoration: underline;
                 cursor: pointer;
               }
+            }
+            .inactive {
+              opacity: 0.3;
             }
           }
         }
@@ -164,7 +173,7 @@
             gap: 65px;
             font-size: 13.5px;
             font-family: 'ai-semibo';
-            > div {
+            .active {
               &:hover {
                 text-decoration: underline;
                 cursor: pointer;
@@ -180,6 +189,9 @@
         }
         @media (min-width: 1440px) {
           display: none;
+        }
+        &:hover {
+          cursor: pointer;
         }
         display:flex;
         align-items: center;

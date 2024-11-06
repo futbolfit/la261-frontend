@@ -4,15 +4,19 @@
     <img src="assets/images/LogoB@4x.png" alt="logo" class="logo_footer">
     <div class="social_media">
       <div class="list_titles">
-        <div>Inicio</div>
-        <div>Servicios</div>
-        <div>Proyectos</div>
-        <div>Nosotros</div>
-        <div>Contacto</div>
+        <div class="active" routerLink="/" >Inicio</div>
+        <div class="inactive">Servicios</div>
+        <div class="active" routerLink="/projects">Proyectos</div>
+        <div class="inactive">Nosotros</div>
+        <div class="inactive">Contacto</div>
       </div>
       <div class="social_media_logos">
-        <img src="assets/images/Boton Instagram@2x.png" alt="">
-        <img src="assets/images/Boton Linkedin@2x.png" alt="">
+        <a href="https://www.instagram.com/la261agencia/">
+          <img src="assets/images/Boton Instagram@2x.png" alt="">
+        </a>
+        <a href="https://www.linkedin.com/company/la261/">
+          <img src="assets/images/Boton Linkedin@2x.png" alt="">
+        </a>
         <img src="assets/images/Boton Facebook@2x.png" alt="">
       </div>
     </div>
@@ -22,9 +26,9 @@
         ¡Envíanos un correo y <br>
         agendemos una reu!
       </div>
-      <div class="work_together-email">
+      <a class="work_together-email" href="mailto:comunicaciones@la261.com?Subject=¡Trabajemos juntos!&body=Buen día,%0D%0DMe gustaría agendar una reunión.">
         comunicaciones&#64;la261.com
-      </div>
+      </a>
     </div>
   </div>
   <div class="work_together-footer">

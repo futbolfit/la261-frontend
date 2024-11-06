@@ -10,6 +10,10 @@ export const routes: Routes = [
     loadComponent: () => import('./views/projects/projects.component'),
   },
   {
+    path: 'projects/:project_name',
+    loadComponent: () => import('./views/project/project.component'),
+  },
+  {
     path: '**',
     redirectTo: '',
   }

@@ -87,11 +87,14 @@
             flex-wrap: wrap;
           }
 
-          > div {
+          .active {
             &:hover {
               cursor: pointer;
               text-decoration: solid underline;
             }
+          }
+          .inactive {
+            opacity: 0.3;
           }
         }
 
@@ -150,6 +153,7 @@
           font-family: 'ai-semibo';
           font-size: 13.5px;
           text-decoration: underline solid;
+          color: black;
           @media (min-width: 768px) {
             font-size: 15px;
           }
