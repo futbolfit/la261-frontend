@@ -193,6 +193,8 @@
           -webkit-box-orient: vertical;
           overflow: hidden;
           text-overflow: ellipsis;
+          word-break: break-word;
+          overflow-wrap: break-word;
           @media (min-width: 768px) {
             font-size: 16px;
           }
