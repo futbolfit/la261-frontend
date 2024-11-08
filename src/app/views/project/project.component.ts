@@ -29,9 +29,13 @@ export default class ProjectComponent implements OnInit {
 
   ngOnInit(): void {
     const project_name = this.route.snapshot.paramMap.get('project_name');
-    const project = projects.find((pro) => pro.project_name === project_name);
-    if (!project) this.router.navigateByUrl('/');
-    this.project = project;
+    const project_found = projects.find((pro) => pro.project_name === project_name);
+    if (project_found) {
+      const project = Project.fromJson(project_found);
+      this.project = project;
+    } else {
+      this.router.navigateByUrl('/')
+    }
   }
 
   @ViewChild('slider', { static: false }) sliderElement!: ElementRef;

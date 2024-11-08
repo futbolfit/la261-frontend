@@ -89,6 +89,7 @@
           .title, .subtitle {
             text-decoration: solid underline;
           }
+          cursor: pointer;
         }
         width: 272px;
         display:flex;
@@ -183,7 +184,7 @@
         .description {
           width: 75%;
           margin-top: 10px;
-          font-family: 'ai-re';
+          font-family: 'ai-li';
           font-size: 11.5px;
           text-align: start;
           max-height: 77px;

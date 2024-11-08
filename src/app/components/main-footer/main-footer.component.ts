@@ -13,4 +13,8 @@ import { RouterModule } from '@angular/router';
   styleUrl: './main-footer.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class MainFooterComponent { }
+export class MainFooterComponent {
+  openInNewWindow(url: string) {
+    window.open(url, '_blank');
+  }
+}

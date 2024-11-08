@@ -12,9 +12,18 @@
     transition: right 250ms ease;
     padding: 30px;
     .close_sidebar {
+      width: 100%;
+      display: flex;
+      justify-content: end;
       font-family: 'ai-re';
       font-size: 40px;
       text-align: end;
+      .icon {
+        width: min-content;
+        &:hover {
+          cursor: pointer;
+        }
+      }
     }
     .sidebar_items {
       font-family: 'ai-re';
@@ -22,11 +31,20 @@
       flex-direction: column;
       gap: 10px;
       margin-bottom: 70px;
+      .active {
+        &:hover {
+          cursor: pointer;
+          text-decoration: solid underline;
+        }
+      }
       .inactive {
         opacity: 0.3;
       }
     }
     .sidebar_contact {
+      a {
+        color: black;
+      }
       img {
         width: 89px;
         margin-bottom: 10px;

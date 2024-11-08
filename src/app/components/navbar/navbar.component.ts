@@ -16,6 +16,10 @@ import { RouterModule } from '@angular/router';
 export class NavbarComponent {
   isSidebarOpen: boolean = false;
 
+  openInNewWindow(url: string) {
+    window.open(url, '_blank');
+  }
+
   handleSidebar() {
     this.isSidebarOpen = !this.isSidebarOpen;
   }

@@ -1,7 +1,11 @@
 [
   {
     "project_name": "lanzamiento-more-living",
-    "client": "Huanwil",
+    "client_name": "Huanwil",
+    "client_description":"Empresa dedicada al desarrollo, ejecución y comercialización de proyectos inmobiliarios.",
+    "client_presenter_name":"",
+    "client_presenter_role":"",
+    "client_review":"",
     "project_title": "Lanzamiento More Living",
     "project_description": "Evento de Lanzamiento del proyecto inmobiliario More Living: departamentos que combinan el diseño, el confort y la practicidad. Una experiencia para maximizar los sentidos a través de un recorrido con diferentes estaciones.",
     "project_details": [
@@ -12,6 +16,7 @@
       "Show musical / Fiorella Montellanos",
       "Arte en vivo / Caro Paz"
     ],
+    "main_image_url": "assets/images/projects/01_Galeria_More/more_00.jpg",
     "images_urls": [
       "assets/images/projects/01_Galeria_More/more_01.jpg",
       "assets/images/projects/01_Galeria_More/more_02.jpg",
@@ -32,7 +37,11 @@
   },
   {
     "project_name": "in-talks",
-    "client": "Negocios Inmobiliarios",
+    "client_name": "Negocios Inmobiliarios",
+    "client_description":"Comunidad educativa de inversionistas, profesionales e interesados en el sector inmobiliario.",
+    "client_presenter_name":"",
+    "client_presenter_role":"",
+    "client_review":"",
     "project_title": "InTalks",
     "project_description": "Evento educativo sobre negocios inmobiliarios a base de charlas y espacios de conversación con los especialistas del sector.",
     "project_details": [
@@ -44,6 +53,7 @@
       "Merchandising",
       "Contenido audiovisual"
     ],
+    "main_image_url": "assets/images/projects/02_Galeria_InTalks/talks_00.jpg",
     "images_urls": [
       "assets/images/projects/02_Galeria_InTalks/talks_01.jpg",
       "assets/images/projects/02_Galeria_InTalks/talks_02.jpg",
@@ -66,7 +76,11 @@
   },
   {
     "project_name": "copa-rems-2024",
-    "client": "Rems",
+    "client_name": "Rems",
+    "client_description":"Empresa de gestión de activos inmobiliarios.",
+    "client_presenter_name":"Patricia Palacin",
+    "client_presenter_role":"Gerente de Gestión, Desarrollo y Experiencia",
+    "client_review":"La Copa REMS 2024 fue un éxito rotundo que superó nuestras expectativas y las de nuestros clientes y proveedores. No solo se fomentó la integración entre los participantes, sino también se incrementó su compromiso y motivación. Todos quedamos inspirados y entusiasmados esperando el siguiente evento. ¡Excelente e impecable organización y desarrollo!",
     "project_title": "Copa Rems 2024",
     "project_description": "Torneo corporativo de fútbol 7 para 35 equipos. El deporte como medio de integración y networking entre empresas clientes de Rems.",
     "project_details": [
@@ -76,6 +90,7 @@
       "Comunicación y contenido digital",
       "Diseño y producción de uniformes"
     ],
+    "main_image_url": "assets/images/projects/03_Galeria_Copa_Rems/rems_00.jpg",
     "images_urls": [
       "assets/images/projects/03_Galeria_Copa_Rems/rems_01.jpg",
       "assets/images/projects/03_Galeria_Copa_Rems/rems_02.jpg",
@@ -99,7 +114,11 @@
   },
   {
     "project_name": "copa-marathon-2024",
-    "client": "Grupo Marathon",
+    "client_name": "Grupo Marathon",
+    "client_description":"Empresa retail especialista en deportes más grande a nivel nacional.",
+    "client_presenter_name":"",
+    "client_presenter_role":"",
+    "client_review":"",
     "project_title": "Copa Marathon 2024",
     "project_description": "Segunda edición del torneo interno para trabajadores del grupo Marathon. Incorporación de voley mixto con el fin de integrar a más colaboradores.",
     "project_details": [
@@ -107,6 +126,7 @@
       "Diseño y producción de piezas gráficas",
       "Contenido audiovisual"
     ],
+    "main_image_url": "assets/images/projects/04_Galeria_Copa_Marathon_2024/2024_mara_00.jpg",
     "images_urls": [
       "assets/images/projects/04_Galeria_Copa_Marathon_2024/2024_mara_01.jpg",
       "assets/images/projects/04_Galeria_Copa_Marathon_2024/2024_mara_02.jpg",
@@ -122,7 +142,11 @@
   },
   {
     "project_name": "copa-marathon-2023",
-    "client": "Grupo Marathon",
+    "client_name": "Grupo Marathon",
+    "client_description":"Empresa retail especialista en deportes más grande a nivel nacional.",
+    "client_presenter_name":"",
+    "client_presenter_role":"",
+    "client_review":"",
     "project_title": "Copa Marathon 2023",
     "project_description": "Torneo interno de fútbol 7 para el personal del grupo Marathon: Nike, Under Armour, TAF y Marathon. Promoción de un estilo de vida saludable a través del deporte.",
     "project_details": [
@@ -130,6 +154,7 @@
       "Diseño y producción de piezas gráficas",
       "Contenido audiovisual"
     ],
+    "main_image_url": "assets/images/projects/05_Galeria_Copa_Marathon_2023/2023_mara_00.jpg",
     "images_urls": [
       "assets/images/projects/05_Galeria_Copa_Marathon_2023/2023_mara_01.jpg",
       "assets/images/projects/05_Galeria_Copa_Marathon_2023/2023_mara_02.jpg",
@@ -151,7 +176,11 @@
   },
   {
     "project_name": "copa-pedregal-2023",
-    "client": "Netafim",
+    "client_name": "Netafim",
+    "client_description":"Empresa transnacional líder en las soluciones de riego para la agricultura sustentable a nivel global.",
+    "client_presenter_name":"Carlo Guillén Estabridis",
+    "client_presenter_role":"Asistente de Marketing Netafim Perú",
+    "client_review":"Durante las actividades que logramos sacar adelante conjuntamente parecía que nuestro equipo crecía de un momento a otro. Confiamos en su trabajo porque conocemos de primera mano la seriedad y entrega que ven detrás de cada evento",
     "project_title": "Copa Pedregal 2023",
     "project_description": "Evento de integración y torneo relámpago de fútbol 7 para los agricultores de El Pedregal, Arequipa. Encuentro deportivo para la fidelización de clientes y exposición de marca.",
     "project_details": [
@@ -161,6 +190,7 @@
       "Merchandising",
       "Contenido audiovisual"
     ],
+    "main_image_url": "assets/images/projects/06_Galeria_Copa_Pedregal/pedregal_00.jpg",
     "images_urls": [
       "assets/images/projects/06_Galeria_Copa_Pedregal/pedregal_01.jpg",
       "assets/images/projects/06_Galeria_Copa_Pedregal/pedregal_02.jpg",

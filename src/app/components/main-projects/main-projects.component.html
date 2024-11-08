@@ -10,9 +10,9 @@
             <img src="assets/images/Logo_Alternativo@4x.png" alt="">
           </div>
         }
-        <div class="image" [ngStyle]="{ 'background-image' : 'url(' + project.images_urls[0] + ')'}">
+        <div class="image" [ngStyle]="{ 'background-image' : 'url(' + project.main_image_url + ')'}">
         </div>
-        <div class="title">{{ project.client }}</div>
+        <div class="title">{{ project.client_name }}</div>
         <div class="subtitle">
           {{ project.project_title }}
         </div>

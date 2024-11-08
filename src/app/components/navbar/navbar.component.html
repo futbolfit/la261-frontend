@@ -1,8 +1,10 @@
 <div class="sidebar" [ngStyle]="{
   'right': isSidebarOpen ? '0px' : '-300px'
   }">
-  <div class="close_sidebar" (click)="handleSidebar()">
-    ×
+  <div class="close_sidebar">
+    <div class="icon" (click)="handleSidebar()">
+      ×
+    </div>
   </div>
   <div class="sidebar_items">
     <div class="side_item active" routerLink="/">Inicio</div>
@@ -13,16 +15,18 @@
   </div>
   <div class="sidebar_contact">
     <img src="assets/images/LogoB@4x.png" alt="logo" class="logo_navbar">
-    <div>comunicaciones&#64;la261.com</div>
+    <a href="mailto:comunicaciones@la261.com?Subject=¡Trabajemos juntos!&body=Buen día,%0D%0DMe gustaría agendar una reunión.">comunicaciones&#64;la261.com</a>
   </div>
   <div class="social_media_logos">
-    <a href="https://www.instagram.com/la261agencia/">
+    <div (click)="openInNewWindow('https://www.instagram.com/la261agencia')">
       <img src="assets/images/Boton Instagram@2x.png" alt="">
-    </a>
-    <a href="https://www.linkedin.com/company/la261/">
+    </div>
+    <div (click)="openInNewWindow('https://www.linkedin.com/company/la261/')">
       <img src="assets/images/Boton Linkedin@2x.png" alt="">
-    </a>
-    <img src="assets/images/Boton Facebook@2x.png" alt="">
+    </div>
+    <div (click)="openInNewWindow('https://www.facebook.com/profile.php?id=61567563443124')">
+      <img src="assets/images/Boton Facebook@2x.png" alt="">
+    </div>
   </div>
 </div>
 <div class="dark-background"
