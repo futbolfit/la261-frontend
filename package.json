@@ -2,10 +2,9 @@
   "name": "la261",
   "version": "0.0.0",
   "scripts": {
-    "install": "npm install --force",
     "ng": "ng",
     "start": "ng serve -o",
-    "build": "npm run install && ng build",
+    "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:la261": "node dist/la261/server/server.mjs"
