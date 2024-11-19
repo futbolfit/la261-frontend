@@ -99,6 +99,7 @@ export default class ProjectComponent implements OnInit {
   }
 
   get carouselChildren () {
+    console.log(this.sliderElement.nativeElement.children[0].children);
     return this.sliderElement.nativeElement.children[0].children;
   }
 

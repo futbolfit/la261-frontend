@@ -37,6 +37,7 @@
           </div>
         </div>
         <div class="slider-container">
+          <div class="click-zone" (click)="next()"></div>
           <div class="project_photos" #slider>
             <div class="photos_scroll" >
               @for (photo of project?.images_urls; track $index) {

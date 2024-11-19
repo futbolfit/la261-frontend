@@ -162,6 +162,21 @@
             @media (min-width: 1440px) {
               max-width: calc(900px + 78px);
             }
+
+            .click-zone {
+              display: none;
+              @media (min-width: 1024px) {
+                display: flex;
+                position: absolute;
+                z-index: 1;
+                right: 0px;
+                width: 10%;
+                height: 100%;
+                &:hover {
+                  cursor: url('./../../../../public/assets/images/Boton_A@4x_mini.png') 20 20, auto;
+                }
+              }
+            }
             .arrow-right, .arrow-left {
               display: none;
 
@@ -227,6 +242,7 @@
               }
             }
             .project_photos {
+              position: relative;
               padding: 10px 0;
 
               display:flex;
@@ -244,6 +260,7 @@
                 height: 450px;
                 margin-bottom: 10px;
                 max-width: 100%;
+                padding: 0;
               }
               @media (min-width: 1440px) {
                 height: 485px;
@@ -275,7 +292,6 @@
                 background: black;
                 border-radius: 20px;
               }
-
               .photos_scroll {
                 display: flex;
                 flex-direction: column;
