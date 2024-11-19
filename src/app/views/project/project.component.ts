@@ -6,6 +6,7 @@ import { YouTubePlayerModule } from '@angular/youtube-player';
 import { Project } from '../../data/models/project.model';
 import projects from './../../data/projects.json';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-projects',
@@ -27,12 +28,20 @@ export default class ProjectComponent implements OnInit {
   private route = inject(ActivatedRoute);
   private router = inject(Router);
 
+  private title = inject(Title);
+  private meta = inject(Meta);
+
   ngOnInit(): void {
     const project_name = this.route.snapshot.paramMap.get('project_name');
     const project_found = projects.find((pro) => pro.project_name === project_name);
     if (project_found) {
       const project = Project.fromJson(project_found);
       this.project = project;
+
+      this.title.setTitle(project_found.project_title + ' - La261')
+      this.meta.updateTag({ name: 'description', content: project_found?.project_description})
+      this.meta.updateTag({ name: 'og:title', content: project_found.project_title})
+      this.meta.updateTag({ name: 'keywords', content: '261,La261,Lorena,Beatriz,Eventos,Agencia,Marketing,Proyectos'})
     } else {
       this.router.navigateByUrl('/')
     }
