@@ -163,7 +163,21 @@
               max-width: calc(900px + 78px);
             }
 
-            .click-zone {
+            .click-zone_previous {
+              display: none;
+              @media (min-width: 1024px) {
+                display: flex;
+                position: absolute;
+                z-index: 1;
+                left: 0px;
+                width: 10%;
+                height: 100%;
+                &:hover {
+                  cursor: url('./../../../../public/assets/images/arrow_previous_mini.png') 20 20, auto;
+                }
+              }
+            }
+            .click-zone_next {
               display: none;
               @media (min-width: 1024px) {
                 display: flex;
@@ -173,7 +187,7 @@
                 width: 10%;
                 height: 100%;
                 &:hover {
-                  cursor: url('./../../../../public/assets/images/Boton_A@4x_mini.png') 20 20, auto;
+                  cursor: url('./../../../../public/assets/images/arrow_next_mini.png') 20 20, auto;
                 }
               }
             }
@@ -390,11 +404,15 @@
                         }
                         @media (min-width: 1024px) {
                           width: 590px;
-                          height: 580px;
+                          height: 450px;
                         }
                         @media (min-width: 1440px) {
                           width: 927px;
-                          height: 665px;
+                          height: 485px;
+                        }
+                        @media (min-width: 1440px) and (min-height: 860px) {
+                          width: 927px;
+                          height: 685px;
                         }
                       }
                     }
