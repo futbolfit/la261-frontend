@@ -6,6 +6,10 @@ export const routes: Routes = [
     loadComponent: () => import('./views/main-landing/main-landing.component'),
   },
   {
+    path: 'us',
+    loadComponent: () => import('./views/us/us.component'),
+  },
+  {
     path: 'projects',
     loadComponent: () => import('./views/projects/projects.component'),
   },

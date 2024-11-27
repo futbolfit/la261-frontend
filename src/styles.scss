@@ -1,3 +1,4 @@
+
 /* You can add global styles to this file, and also import other style files */
 
 @font-face {
@@ -28,6 +29,24 @@
   font-family: 'ai-semibo';
   src:
   url('./../public/assets/fonts/Aileron-SemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'my-bo';
+  src:
+  url('./../public/assets/fonts/MyriadPro-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'my-re';
+  src:
+  url('./../public/assets/fonts/MyriadPro-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'my-semibo';
+  src:
+  url('./../public/assets/fonts/MyriadPro-Semibold.woff') format('woff');
 }
 
 
