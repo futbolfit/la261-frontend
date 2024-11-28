@@ -6,8 +6,16 @@ export const routes: Routes = [
     loadComponent: () => import('./views/main-landing/main-landing.component'),
   },
   {
+    path: 'contact',
+    loadComponent: () => import('./views/contact/concact.component'),
+  },
+  {
     path: 'us',
     loadComponent: () => import('./views/us/us.component'),
+  },
+  {
+    path: 'services',
+    loadComponent: () => import('./views/our-services/our-services.component'),
   },
   {
     path: 'projects',
