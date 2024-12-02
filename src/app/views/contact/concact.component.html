@@ -4,116 +4,302 @@
     <div class="our-services-container">
       <div class="our-services">
         <div class="us-text">
-          <div class="us-text-container">
-            <div class="principal-title">
-              Nuestros <br> Servicios
+          <div class="us-text-org">
+            <div class="us-text-container">
+              <div class="principal-subtitle">CONTACTO</div>
+              <div class="principal-title">
+                Transformamos <br />
+                tus objetivos <br />
+                en experiencias <br />
+                únicas
+              </div>
+              <div class="principal-description">
+                Completa el formulario y cuéntanos todos <br />
+                <span>los detalles de tu idea o proyecto</span>. <br />
+                Te responderemos en la brevedad posible
+              </div>
             </div>
-            <div class="principal-description">
-              Somos La261, Agencia de Marketing de Servicios Especializados, expertos en transformar <span>objetivos en experiencias únicas</span> a través de eventos diseñados con creatividad y precisión a través de eventos diseñados con creatividad y precisión, a través de eventos diseñados con creatividad y precisión
+            <form
+              class="form-contact mobile"
+              [formGroup]="contactForm"
+              (ngSubmit)="submitContactForm()"
+            >
+              <div class="input-item">
+                <div class="title-input">
+                  Nombre y Apellido @if(isFieldRequired('names')) {
+                  <span>*</span>
+                  }
+                </div>
+                <div class="input-body">
+                  <div class="text-input">
+                    <input
+                      type="text"
+                      formControlName="names"
+                      [ngStyle]="{
+                        'border-bottom': getConditionTemplate(
+                          'input-border',
+                          'names'
+                        )
+                      }"
+                      placeholder="Nombre y Apellido"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="input-item">
+                <div class="title-input">
+                  Email @if(isFieldRequired('email')) {
+                  <span>*</span>
+                  }
+                </div>
+                <div class="input-body">
+                  <div class="text-input">
+                    <input
+                      type="email"
+                      formControlName="email"
+                      [ngStyle]="{
+                        'border-bottom': getConditionTemplate(
+                          'input-border',
+                          'email'
+                        )
+                      }"
+                      placeholder="Email"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="input-item">
+                <div class="title-input">
+                  Empresa @if(isFieldRequired('company')) {
+                  <span>*</span>
+                  }
+                </div>
+                <div class="input-body">
+                  <div class="text-input">
+                    <input
+                      type="text"
+                      formControlName="company"
+                      [ngStyle]="{
+                        'border-bottom': getConditionTemplate(
+                          'input-border',
+                          'company'
+                        )
+                      }"
+                      placeholder="Empresa"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="input-item">
+                <div class="title-input">
+                  Mensaje @if(isFieldRequired('message')) {
+                  <span>*</span>
+                  }
+                </div>
+                <div class="input-body">
+                  <div class="text-input">
+                    <textarea
+                      formControlName="message"
+                      [ngStyle]="{
+                        border: getConditionTemplate('input-border', 'message')
+                      }"
+                      placeholder="Mensaje"
+                      rows="4"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="submit-button">
+                <button type="submit">ENVIAR</button>
+              </div>
+            </form>
+            <div class="links">
+              <div class="email">
+                <img src="assets/images/mail.svg" alt="" />
+                comunicaciones&#64;la261.com
+              </div>
+              <div class="whatsapp">
+                <img src="assets/images/whatsapp.svg" alt="" />
+                999-667-889
+              </div>
+              <div class="social-media">
+                <img src="/assets/images/Boton Instagram@2x.png" alt="" />
+                <img src="/assets/images/Boton Linkedin@2x.png" alt="" />
+                <img src="/assets/images/Boton Facebook@2x.png" alt="" />
+              </div>
             </div>
+
           </div>
+          <form
+              class="form-contact desktop"
+              [formGroup]="contactForm"
+              (ngSubmit)="submitContactForm()"
+            >
+              <div class="input-item">
+                <div class="title-input">
+                  Nombre y Apellido @if(isFieldRequired('names')) {
+                  <span>*</span>
+                  }
+                </div>
+                <div class="input-body">
+                  <div class="text-input">
+                    <input
+                      type="text"
+                      formControlName="names"
+                      [ngStyle]="{
+                        'border-bottom': getConditionTemplate(
+                          'input-border',
+                          'names'
+                        )
+                      }"
+                      placeholder="Nombre y Apellido"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="input-item">
+                <div class="title-input">
+                  Email @if(isFieldRequired('email')) {
+                  <span>*</span>
+                  }
+                </div>
+                <div class="input-body">
+                  <div class="text-input">
+                    <input
+                      type="email"
+                      formControlName="email"
+                      [ngStyle]="{
+                        'border-bottom': getConditionTemplate(
+                          'input-border',
+                          'email'
+                        )
+                      }"
+                      placeholder="Email"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="input-item">
+                <div class="title-input">
+                  Empresa @if(isFieldRequired('company')) {
+                  <span>*</span>
+                  }
+                </div>
+                <div class="input-body">
+                  <div class="text-input">
+                    <input
+                      type="text"
+                      formControlName="company"
+                      [ngStyle]="{
+                        'border-bottom': getConditionTemplate(
+                          'input-border',
+                          'company'
+                        )
+                      }"
+                      placeholder="Empresa"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="input-item">
+                <div class="title-input">
+                  Mensaje @if(isFieldRequired('message')) {
+                  <span>*</span>
+                  }
+                </div>
+                <div class="input-body">
+                  <div class="text-input">
+                    <textarea
+                      formControlName="message"
+                      [ngStyle]="{
+                        border: getConditionTemplate('input-border', 'message')
+                      }"
+                      placeholder="Mensaje"
+                      rows="4"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="submit-button">
+                <button type="submit">ENVIAR</button>
+              </div>
+            </form>
+        </div>
+        <div class="us-text">
           <div class="principal_footer">
-            <div>
-              NUESTROS SERVICIOS
-            </div>
-            <img src="assets/images/Slash@2x.png" alt="" >
+            <div>RESEÑA DEL CLIENTE</div>
+            <img src="assets/images/Slash@2x.png" alt="" />
           </div>
-          <div class="us-text">
-            <div class="services-container">
-              <div class="service">
-                <div class="service-image">
-                  <img src="assets/images/serv/services_01.jpg" alt="">
-                </div>
-                <div class="service-text">
-                  <div class="service-star">*</div>
-                  <div class="service-titles">
-                    <div class="service-title main-title">
-                      Torneos y Eventos Deportivos
-                    </div>
-                    <div class="service-description">
-                      Nuestra experiencia en el mundo deportivo nos permite organizar los mejores torneos deportivos, actividades recreativas, competiciones internas, clases, entrenamientos personalizados y todo lo que tu organización necesita.
-                    </div>
+        </div>
+        <div class="foot-group">
+          <div class="first-part">
+            <div class="else-choose">
+              <div class="why-choose-container">
+                <div class="last-titles">
+                  <div class="last-title">
+                    ¿Qué dicen los clientes <br />
+                    de nuestro trabajo?
                   </div>
                 </div>
               </div>
-              <div class="service">
-                <div class="service-image">
-                  <img src="assets/images/serv/services_02.jpg" alt="">
-                </div>
-                <div class="service-text">
-                  <div class="service-star">*</div>
-                  <div class="service-titles">
-                    <div class="service-title main-title">
-                      Activaciones de Marca
+            </div>
+            <div class="recomendations">
+              <div class="recomendations-slider-container" #recoSlider>
+                <div class="recomendations-slider-sub">
+                  <div class="recomendations-slider">
+                    @for (project of projects; track $index) {
+                      @if (project.client_review !== '') {
+                    <div class="recomendation">
+                      <div class="subtitle-project">
+                        <div class="sub">
+                          {{ project.client_presenter_role }}
+                        </div>
+                        <div class="main-title">
+                          {{ project.client_presenter_name }}
+                        </div>
+                        <div class="sub-description">
+                          "{{ project.client_review }}"
+                        </div>
+                      </div>
                     </div>
-                    <div class="service-description">
-                      Potenciamos el valor de tu organización, producto o servicio, con eventos de lanzamiento y campañas de marketing experiencial.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="service">
-                <div class="service-image">
-                  <img src="assets/images/serv/services_03.jpg" alt="">
-                </div>
-                <div class="service-text">
-                  <div class="service-star">*</div>
-                  <div class="service-titles">
-                    <div class="service-title main-title">
-                      Eventos de Networking
-                    </div>
-                    <div class="service-description">
-                      Creamos conferencias, charlas, seminarios, ceremonias de premiación y reconocimiento, con un alto valor de recordación y conexión con el usuario.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="service">
-                <div class="service-image">
-                  <img src="assets/images/serv/services_04.jpg" alt="">
-                </div>
-                <div class="service-text">
-                  <div class="service-star">*</div>
-                  <div class="service-titles">
-                    <div class="service-title main-title">
-                      Experiencias Personalizadas
-                    </div>
-                    <div class="service-description">
-                      Brindamos un servicio personalizado de diseño y consultoría para la creación de eventos memorables, a la medida de las necesidades y objetivos del cliente.
+                    } }
+                    <div class="recomendation desktop">
+                      <div class="subtitle-project">
+                        <div class="sub">
+                        </div>
+                        <div class="main-title">
+                        </div>
+                        <div class="sub-description">
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="service">
-                <div class="service-image">
-                  <img src="assets/images/serv/services_05.jpg" alt="">
+                <div class="opacity-zone desktop">
                 </div>
-                <div class="service-text">
-                  <div class="service-star">*</div>
-                  <div class="service-titles">
-                    <div class="service-title main-title">
-                      Comunicación y Branding de Eventos
-                    </div>
-                    <div class="service-description">
-                      Implementamos todo el plan de comunicación de tu evento. Desde el desarrollo estratégico hasta la creación de materiales promocionales y contenido digital.
-                    </div>
+                <div class="arrows">
+                  <div class="arrow-left" (click)="previous()">
+                    <img src="assets/images/Flecha_ProcesoCreativo@4x.png" alt="" />
+                  </div>
+                  <div class="arrow-right" (click)="next()">
+                    <img src="assets/images/Flecha_ProcesoCreativo@4x.png" alt="" />
                   </div>
                 </div>
               </div>
             </div>
           </div>
-      </div>
-      <div class="why-choose">
-        <div class="why-choose-container">
-          <div class="last-titles">
-            <div class="buttons">
-              <div class="principal_button">COTIZA TU PROYECTO</div>
-              <div class="principal_button">QUIERO HABLAR CON UN ASESOR</div>
+          <div class="why-choose">
+            <div class="why-choose-container">
+              <div class="last-titles">
+                <div class="buttons">
+                  <div class="principal_button">NUESTROS SERVICIOS</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      </div>
     </div>
-  <app-main-footer></app-main-footer>
+    <app-main-footer></app-main-footer>
+  </div>
 </div>
