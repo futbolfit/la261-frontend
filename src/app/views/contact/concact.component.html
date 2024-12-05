@@ -15,8 +15,7 @@
               </div>
               <div class="principal-description">
                 Completa el formulario y cuéntanos todos <br />
-                <span>los detalles de tu idea o proyecto</span>. <br />
-                Te responderemos en la brevedad posible
+                <span>los detalles de tu idea o proyecto</span>.
               </div>
             </div>
             <form
@@ -104,28 +103,36 @@
                         border: getConditionTemplate('input-border', 'message')
                       }"
                       placeholder="Mensaje"
-                      rows="4"
+                      rows="5"
                     ></textarea>
                   </div>
                 </div>
               </div>
               <div class="submit-button">
-                <button type="submit">ENVIAR</button>
+                <button type="submit" [class.is-sent]="isSent">
+                  {{ isSent ? 'ENVIADO' : 'ENVIAR' }}
+                </button>
               </div>
             </form>
             <div class="links">
-              <div class="email">
+              <a href="mailto:comunicaciones@la261.com?Subject=¡Trabajemos juntos!&body=Buen día,%0D%0DMe gustaría agendar una reunión." class="email">
                 <img src="assets/images/mail.svg" alt="" />
                 comunicaciones&#64;la261.com
-              </div>
-              <div class="whatsapp">
+              </a>
+              <div class="whatsapp" (click)="sendWhatsapp()">
                 <img src="assets/images/whatsapp.svg" alt="" />
                 999-667-889
               </div>
               <div class="social-media">
-                <img src="/assets/images/Boton Instagram@2x.png" alt="" />
-                <img src="/assets/images/Boton Linkedin@2x.png" alt="" />
-                <img src="/assets/images/Boton Facebook@2x.png" alt="" />
+                <a href="https://www.instagram.com/la261agencia" target="_blank">
+                  <img src="/assets/images/Boton Instagram@2x.png" alt="" />
+                </a>
+                <a href="https://www.linkedin.com/company/la261/" target="_blank">
+                  <img src="/assets/images/Boton Linkedin@2x.png" alt="" />
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61567563443124" target="_blank">
+                  <img src="/assets/images/Boton Facebook@2x.png" alt="" />
+                </a>
               </div>
             </div>
 
@@ -221,7 +228,9 @@
                 </div>
               </div>
               <div class="submit-button">
-                <button type="submit">ENVIAR</button>
+                <button type="submit" [class.is-sent]="isSent">
+                  {{ isSent ? 'ENVIADO' : 'ENVIAR' }}
+                </button>
               </div>
             </form>
         </div>

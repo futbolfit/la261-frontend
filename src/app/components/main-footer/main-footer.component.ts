@@ -14,7 +14,4 @@ import { RouterModule } from '@angular/router';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MainFooterComponent {
-  openInNewWindow(url: string) {
-    window.open(url, '_blank');
-  }
 }

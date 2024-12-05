@@ -109,6 +109,8 @@
                   font-size: 15px;
                 }
                 .email, .whatsapp, .social-media {
+                  text-decoration: none;
+                  color: black;
                   display: flex;
                   align-items: center;
                   gap: 10px;
@@ -326,7 +328,7 @@
                       @include btn-basic();
                       width: fit-content;
                       padding: 0 20px;
-                      height: 30px;
+                      height: 35px;
                     }
                   }
                 }
@@ -378,6 +380,7 @@
           border: none;
         }
         textarea {
+          resize: none;
           padding: 10px;
           font-family: 'ai-re';
           &::placeholder {
@@ -392,10 +395,15 @@
       @include btn-basic();
       background-color: black;
       color: white;
+      transition: all 0.8s ease;
       &:hover {
         background-color: $la261_yellow;
         color: black;
       }
+    }
+    .is-sent {
+      background-color: $la261_yellow;
+      color: black;
     }
   }
 }
