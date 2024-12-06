@@ -4,9 +4,14 @@
   font-family: 'ai-semibo';
   height: 35px;
   border-radius: 20px;
+  padding: 0 20px;
   background-color: transparent;
   border: 1px solid black;
   color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   @media (min-width: 1024px) {
     font-size: 12px;

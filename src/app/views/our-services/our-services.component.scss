@@ -329,28 +329,9 @@
                     gap: 43px;
                   }
                   .principal_button {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
                     @include btn-basic();
-                    padding: 0 20px;
-                    height: 35px;
-                    min-width: 178px;
-                    @media (min-width: 768px) {
-                      width: auto;
-                      padding: 0 20px;
-                    }
-                    @media (min-width: 1024px) {
-                      width: auto;
-                      padding: 0 20px;
-                      height: 35px;
-                      min-width: 232px;
-                    }
-                    @media (min-width: 1440px) {
-                      width: auto;
-                      padding: 0 20px;
-                      height: 40px;
-                    }
+                    min-width: 154px;
+                    width: fit-content;
                   }
                 }
               }

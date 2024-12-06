@@ -10,6 +10,7 @@ import { interval, Subject, takeUntil } from 'rxjs';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { isFieldRequired } from '../../utils/utils';
 import { PublicService } from '../../services/public.service';
+import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-us',
   standalone: true,
@@ -18,6 +19,7 @@ import { PublicService } from '../../services/public.service';
     NavbarComponent,
     MainFooterComponent,
     ReactiveFormsModule,
+    RouterModule
 ],
   templateUrl: './concact.component.html',
   styleUrl: './concact.component.scss',
