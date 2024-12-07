@@ -11,9 +11,10 @@
     @include element-footer();
   }
 
-  display: block;
-  padding: 51.5px 0px;
+  display: flex;
+  flex-direction: column;
   width: 100%;
+  padding: 51.5px 0px;
   @media (min-width: 768px) {
     padding: 90px 0 100px 0px;
     width: 100%;
@@ -229,15 +230,20 @@
     }
   }
   .principal_footer {
-    margin: 0 20px 0px 20px;
+    width: calc(100% - 40px);
+    margin: auto;
+    // margin: 0 20px 0px 20px;
     @media (min-width: 768px) {
-      margin: 0 50px 0px 50px;
+      //margin: 0 50px 0px 50px;
+      width: calc(100% - 100px);
     }
     @media (min-width: 1024px) {
       margin: 0 50px 0px 50px;
+      width: calc(100% - 100px);
     }
     @media (min-width: 1440px) {
       margin: 0 75px 0px 75px;
+      width: calc(100% - 150px);
     }
   }
 }
