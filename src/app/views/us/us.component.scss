@@ -180,6 +180,7 @@
             .title-buttons-container {
               display: flex;
               flex-direction: row;
+              justify-content: flex-end;
               gap: 18px;
               width: 100%;
               @media (min-width: 768px) {
@@ -237,9 +238,15 @@
           @include element-footer();
         }
         .us-principal {
-          margin: 40px 0;
-          @media (min-width: 1440px) {
+          margin: 20px 0 50px 0;
+          @media (min-width: 768px) {
             margin: 40px 0 80px 0;
+          }
+          @media (min-width: 1024px) {
+            margin: 40px 0 100px 0;
+          }
+          @media (min-width: 1440px) {
+            margin: 40px 0 100px 0;
           }
           .us-text-container {
             display: flex;
@@ -265,7 +272,19 @@
             }
             .hi-image {
               width: 80%;
-              max-width: 600px;
+              max-width: 270px;
+              @media (min-width: 425px) {
+                max-width: 310px;
+              }
+              @media (min-width: 768px) {
+                max-width: 440px;
+              }
+              @media (min-width: 1024px) {
+                max-width: 500px;
+              }
+              @media (min-width: 1440px) {
+                max-width: 600px;
+              }
             }
             .first-para {
               text-align: center;
@@ -279,7 +298,7 @@
               text-align: center;
               font-family: 'ai-li';
               span {
-                font-family: 'ai-bold';
+                font-family: 'ai-boit';
               }
             }
           }
@@ -644,7 +663,7 @@
               border-radius: 50%;
               background-color: transparent;
               perspective: 1000px;
-              &:hover .flip-box-inner {
+              &.is-flipped .flip-box-inner {
                 transform: rotateX(180deg);
               }
               @media (min-width: 1440px) {
@@ -761,6 +780,12 @@
                 align-items: center;
                 min-width: 178px;
                 @include btn-basic();
+                @media (min-width: 1024px) {
+                  width: fit-content;
+                }
+                @media (min-width: 1440px) {
+                  width: fit-content;
+                }
               }
             }
           }

@@ -1,5 +1,5 @@
 <div class="main">
-  <div class="main_container">
+  <div class="main_container" #scrollable>
     <app-navbar></app-navbar>
     <div class="main-part">
       <div class="banner">
@@ -13,17 +13,16 @@
         </div>
         <div class="title-buttons">
           <div class="title-buttons-container">
-            <div class="title-button">NOSOTROS</div>
-          <div class="title-button">VALORES</div>
+            <div class="title-button" (click)="scrollTo('NOSOTROS')">NOSOTROS</div>
           </div>
           <div class="title-buttons-container">
-            <div class="title-button">EQUIPO</div>
-            <div class="title-button">¿QUÉ NOS HACE DIFERENTES?</div>
+            <div class="title-button" (click)="scrollTo('EQUIPO')">EQUIPO</div>
+            <div class="title-button" (click)="scrollTo('QUE-NOS-HACE-DIFERENTES')">¿QUÉ NOS HACE DIFERENTES?</div>
           </div>
         </div>
       </div>
     </div>
-    <div class="us">
+    <section class="us" id="NOSOTROS">
       <div class="principal_footer">
         <div>
           CONÓCENOS
@@ -127,7 +126,7 @@
           </div>
         </div>
       </div> -->
-      <div class="principal_footer">
+      <div class="principal_footer" id="EQUIPO">
         <div>
           EQUIPO
         </div>
@@ -172,13 +171,13 @@
           </div>
         </div>
       </div>
-      <div class="principal_footer">
+      <div class="principal_footer" id="QUE-NOS-HACE-DIFERENTES">
         <div>
           ¿QUÉ NOS HACE DIFERENTES?
         </div>
         <img src="assets/images/Slash@2x.png" alt="" >
       </div>
-    </div>
+    </section>
     <div class="why-choose">
       <div class="why-choose-container">
         <div class="main-title">
@@ -186,68 +185,26 @@
         </div>
         <div class="choose">
           <div class="choose-items-container">
-            <div class="choose-item">
-              <div class="flip-box-inner">
-                <div class="flip-box-front">
-                  <div class="choose-title">
-                    Calidad
+            @for (item of whyChooseItems; track $index) {
+              <div
+                class="choose-item"
+                [class.is-flipped]="whyChooseFlipped[item.id]">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <div class="choose-title" [innerHTML]="item.title">
+                    </div>
+                    <div class="choose-see-more" (click)="processChooseItem($event)">
+                      Ver más
+                    </div>
                   </div>
-                  <div class="choose-see-more">
-                    Ver más
+                  <div class="flip-box-back">
+                    <span>
+                      {{ item.description }}
+                    </span>
                   </div>
-                </div>
-                <div class="flip-box-back">
-                  <span>Nuestro objetivo es entregar los mejores resultados y experiencias superando todas las expecativas.</span>
                 </div>
               </div>
-            </div>
-            <div class="choose-item">
-              <div class="flip-box-inner">
-                <div class="flip-box-front">
-                  <div class="choose-title">
-                    Compromiso <br> y empatía
-                  </div>
-                  <div class="choose-see-more">
-                    Ver más
-                  </div>
-                </div>
-                <div class="flip-box-back">
-                  <span>Hacemos los proyectos de nuestros clientes como si fueran nuestros, con una escucha activa y colaborativa.</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="choose-items-container">
-            <div class="choose-item">
-              <div class="flip-box-inner">
-                <div class="flip-box-front">
-                  <div class="choose-title">
-                    Creatividad
-                  </div>
-                  <div class="choose-see-more">
-                    Ver más
-                  </div>
-                </div>
-                <div class="flip-box-back">
-                  <span>Nuestra experiencia y conocimiento de diversos rubros, nos permite abordar los proyectos de forma innovadora.</span>
-                </div>
-              </div>
-            </div>
-            <div class="choose-item">
-              <div class="flip-box-inner">
-                <div class="flip-box-front">
-                  <div class="choose-title">
-                    Atención al detalle
-                  </div>
-                  <div class="choose-see-more">
-                    Ver más
-                  </div>
-                </div>
-                <div class="flip-box-back">
-                  <span>Contamos con una gran capacidad de gestión, organización y desarrollo de proyectos de forma minuciosa y precisa.</span>
-                </div>
-              </div>
-            </div>
+            }
           </div>
         </div>
         <div class="last-titles">

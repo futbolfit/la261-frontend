@@ -81,13 +81,9 @@
                 line-height: 30px;
                 margin-bottom: 8px;
                 margin-top: 20px;
-                @media (min-width: 425px) {
-                  font-size: 50px;
-                  line-height: 45px;
-                }
                 @media (min-width: 768px) {
-                  font-size: 50px;
-                  line-height: 45px;
+                  font-size: 40px;
+                  line-height: 38px;
                 }
                 @media (min-width: 1024px) {
                   font-size: 60px;
@@ -332,6 +328,12 @@
                     @include btn-basic();
                     min-width: 154px;
                     width: fit-content;
+                    @media (min-width: 1024px) {
+                      width: fit-content;
+                    }
+                    @media (min-width: 1440px) {
+                      width: fit-content;
+                    }
                   }
                 }
               }
