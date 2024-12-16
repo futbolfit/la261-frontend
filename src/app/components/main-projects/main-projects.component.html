@@ -3,7 +3,7 @@
 </div>
 <div class="main_projects-list_container">
   <div class="main_projects-list">
-    @for (project of projects; track $index; let idx = $index) {
+    @for (project of ( page === 'main-landing' ? projects.slice(0,6) : projects); track $index; let idx = $index) {
       <div class="main_projects-item" [routerLink]="'/projects/' + project.project_name">
         @if (idx === 1) {
           <div class="logo_projects">

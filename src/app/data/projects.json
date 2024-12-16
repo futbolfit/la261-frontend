@@ -141,6 +141,68 @@
     "videos_urls": []
   },
   {
+    "project_name": "copa-pedregal-2023",
+    "client_name": "Netafim",
+    "client_description":"Empresa transnacional líder en las soluciones de riego para la agricultura sustentable a nivel global.",
+    "client_presenter_name":"Carlo Guillén Estabridis",
+    "client_presenter_role":"Asistente de Marketing Netafim Perú",
+    "client_review":"Durante las actividades que logramos sacar adelante conjuntamente parecía que nuestro equipo crecía de un momento a otro. Confiamos en su trabajo porque conocemos de primera mano la seriedad y entrega que ven detrás de cada evento",
+    "project_title": "Copa Pedregal 2023",
+    "project_description": "Evento de integración y torneo relámpago de fútbol 7 para los agricultores de El Pedregal, Arequipa. Encuentro deportivo para la fidelización de clientes y exposición de marca.",
+    "project_details": [
+      "Organización y estructura del torneo",
+      "Diseño y producción de piezas gráficas",
+      "Animación y activaciones",
+      "Merchandising",
+      "Contenido audiovisual"
+    ],
+    "main_image_url": "assets/images/projects/06_Galeria_Copa_Pedregal/pedregal_00.jpg",
+    "images_urls": [
+      "assets/images/projects/06_Galeria_Copa_Pedregal/pedregal_01.jpg",
+      "assets/images/projects/06_Galeria_Copa_Pedregal/pedregal_02.jpg",
+      "assets/images/projects/06_Galeria_Copa_Pedregal/pedregal_03.jpg",
+      "assets/images/projects/06_Galeria_Copa_Pedregal/pedregal_04.jpg",
+      "assets/images/projects/06_Galeria_Copa_Pedregal/pedregal_05.jpg",
+      "assets/images/projects/06_Galeria_Copa_Pedregal/pedregal_06.jpg",
+      "assets/images/projects/06_Galeria_Copa_Pedregal/pedregal_07.jpg",
+      "assets/images/projects/06_Galeria_Copa_Pedregal/pedregal_08.jpg"
+    ],
+    "videos_urls": [
+      "KdI5JBckZ54"
+    ]
+  },
+  {
+    "project_name": "copa-henderson-2024",
+    "client_name": "I.M. Henderson",
+    "client_description":"Empresa promotora de inmuebles.",
+    "client_presenter_name":"",
+    "client_presenter_role":"",
+    "client_review":"",
+    "project_title":"Copa Henderson 2024",
+    "project_description":"Torneo de fútbol 7 y evento de integración para las empresas proveedoras de I.M. Henderson. Un encuentro deportivo y social para fortalecer la colaboración.",
+    "project_details":[
+      "Organización y estructura del torneo",
+      "Producción de piezas gráficas y premios",
+      "Animación y activaciones",
+      "Merchandising"
+    ],
+    "main_image_url":"assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_01.jpg",
+    "images_urls": [
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_01.jpg",
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_02.jpg",
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_03.jpg",
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_04.jpg",
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_05.jpg",
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_06.jpg",
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_07.jpg",
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_08.jpg",
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_09.jpg",
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_10.jpg",
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_11.jpg"
+    ],
+    "videos_urls": []
+  },
+  {
     "project_name": "copa-marathon-2023",
     "client_name": "Grupo Marathon",
     "client_description":"Empresa retail especialista en deportes más grande a nivel nacional.",
@@ -173,36 +235,5 @@
       "assets/images/projects/05_Galeria_Copa_Marathon_2023/2023_mara_15.jpg"
     ],
     "videos_urls": []
-  },
-  {
-    "project_name": "copa-pedregal-2023",
-    "client_name": "Netafim",
-    "client_description":"Empresa transnacional líder en las soluciones de riego para la agricultura sustentable a nivel global.",
-    "client_presenter_name":"Carlo Guillén Estabridis",
-    "client_presenter_role":"Asistente de Marketing Netafim Perú",
-    "client_review":"Durante las actividades que logramos sacar adelante conjuntamente parecía que nuestro equipo crecía de un momento a otro. Confiamos en su trabajo porque conocemos de primera mano la seriedad y entrega que ven detrás de cada evento",
-    "project_title": "Copa Pedregal 2023",
-    "project_description": "Evento de integración y torneo relámpago de fútbol 7 para los agricultores de El Pedregal, Arequipa. Encuentro deportivo para la fidelización de clientes y exposición de marca.",
-    "project_details": [
-      "Organización y estructura del torneo",
-      "Diseño y producción de piezas gráficas",
-      "Animación y activaciones",
-      "Merchandising",
-      "Contenido audiovisual"
-    ],
-    "main_image_url": "assets/images/projects/06_Galeria_Copa_Pedregal/pedregal_00.jpg",
-    "images_urls": [
-      "assets/images/projects/06_Galeria_Copa_Pedregal/pedregal_01.jpg",
-      "assets/images/projects/06_Galeria_Copa_Pedregal/pedregal_02.jpg",
-      "assets/images/projects/06_Galeria_Copa_Pedregal/pedregal_03.jpg",
-      "assets/images/projects/06_Galeria_Copa_Pedregal/pedregal_04.jpg",
-      "assets/images/projects/06_Galeria_Copa_Pedregal/pedregal_05.jpg",
-      "assets/images/projects/06_Galeria_Copa_Pedregal/pedregal_06.jpg",
-      "assets/images/projects/06_Galeria_Copa_Pedregal/pedregal_07.jpg",
-      "assets/images/projects/06_Galeria_Copa_Pedregal/pedregal_08.jpg"
-    ],
-    "videos_urls": [
-      "KdI5JBckZ54"
-    ]
   }
 ]
