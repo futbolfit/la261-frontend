@@ -51,7 +51,7 @@ export default class ContactComponent implements OnInit, OnDestroy {
 
     if (!isPlatformServer(this.platform)) {
       this.ngZone.runOutsideAngular(() => {
-        interval(6000)
+        interval(10000)
         .pipe(takeUntil(this.destroy$)) // Detener el intervalo al destruir el componente
         .subscribe({
           next: (res) => {
@@ -80,7 +80,7 @@ export default class ContactComponent implements OnInit, OnDestroy {
     const encodedMessage = encodeURIComponent('¡Buen día! Me gustaría agendar una reunión.');
 
     // Crear el enlace
-    const whatsappUrl = `https://wa.me/${51999667889}?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/${51993092037}?text=${encodedMessage}`;
 
     // Abrir el enlace en una nueva pestaña o redirigir
     window.open(whatsappUrl, '_blank');
