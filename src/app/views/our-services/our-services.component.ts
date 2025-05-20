@@ -28,7 +28,7 @@ export default class OurServicesComponent implements OnInit {
     this.meta.updateTag({ name: 'description', content: 'Expertos en transformar objetivos en experiencias únicas a través de eventos diseñados con creatividad y precisión.'})
     this.meta.updateTag({ name: 'og:title', content: 'Somos la La261'})
     this.meta.updateTag({ name: 'og:description', content: 'Expertos en transformar objetivos en experiencias únicas a través de eventos diseñados con creatividad y precisión.'})
-    this.meta.updateTag({ name: 'og:image', content: 'https://media.licdn.com/dms/image/v2/D4E0BAQHJsGZ7UByx6Q/company-logo_200_200/company-logo_200_200/0/1729301158422?e=1740009600&v=beta&t=KpQJF8ywfpdpIEWrkB2MBJfdmD8z9mSfnebU4HxOq14'})
+    this.meta.updateTag({ name: 'og:image', content: 'https://la261.com/assets/images/Logo_Principal@4x.png'})
     this.meta.updateTag({ name: 'keywords', content: '261,La261,Lorena,Beatriz,Eventos,Agencia,Marketing,Proyectos'})
   }
 
