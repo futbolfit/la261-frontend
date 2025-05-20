@@ -1,5 +1,76 @@
 [
   {
+    "project_name": "intalks-2nd-edition",
+    "client_name": "Negocios Inmobiliarios",
+    "client_description":"Comunidad educativa de inversionistas, profesionales e interesados en el sector inmobiliario.",
+    "client_presenter_name":"Pamela Galvez",
+    "client_presenter_role":"Fundadora de Negocios Inmobiliarios",
+    "client_review":"Fue un reto tremendo animarme a hacer mi primer evento hasta que me reuní con La261. No solo captaron la esencia de lo que quería lograr, sino que lo llevaron mucho más allá de lo que hubiera imaginado. No he dejado de escuchar comentarios tanto de asistentes como de expositores, de lo excelente que fue el concepto, la organización y todos los detalles. Gracias totales por haber sido pieza fundamental en la creación y realización del primer InTalks!",
+    "project_title": "InTalks Segunda Edición",
+    "project_description": "Segunda edición del conversatorio sobre negocios inmobiliarios enfocado en promover un espacio educativo a través de charlas especializadas y networking con especialistas del sector.",
+    "project_details": [
+      "Organización y logística del evento",
+      "Comunicación y contenido digital",
+      "Plan de patrocinio",
+      "Diseño y producción de piezas gráficas",
+      "Merchandising",
+      "Contenido audiovisual",
+      "Ambientación del lugar: luces, sonido y mobiliario"
+    ],
+    "main_image_url": "assets/images/projects/08_Galeria_InTalks_2_Edition/intalks_2nd_edition_01.jpg",
+    "images_urls": [
+      "assets/images/projects/08_Galeria_InTalks_2_Edition/intalks_2nd_edition_01.jpg",
+      "assets/images/projects/08_Galeria_InTalks_2_Edition/intalks_2nd_edition_02.jpg",
+      "assets/images/projects/08_Galeria_InTalks_2_Edition/intalks_2nd_edition_03.jpg",
+      "assets/images/projects/08_Galeria_InTalks_2_Edition/intalks_2nd_edition_04.jpg",
+      "assets/images/projects/08_Galeria_InTalks_2_Edition/intalks_2nd_edition_05.jpg",
+      "assets/images/projects/08_Galeria_InTalks_2_Edition/intalks_2nd_edition_06.jpg",
+      "assets/images/projects/08_Galeria_InTalks_2_Edition/intalks_2nd_edition_07.jpg",
+      "assets/images/projects/08_Galeria_InTalks_2_Edition/intalks_2nd_edition_08.jpg",
+      "assets/images/projects/08_Galeria_InTalks_2_Edition/intalks_2nd_edition_09.jpg",
+      "assets/images/projects/08_Galeria_InTalks_2_Edition/intalks_2nd_edition_10.jpg",
+      "assets/images/projects/08_Galeria_InTalks_2_Edition/intalks_2nd_edition_11.jpg",
+      "assets/images/projects/08_Galeria_InTalks_2_Edition/intalks_2nd_edition_12.jpg",
+      "assets/images/projects/08_Galeria_InTalks_2_Edition/intalks_2nd_edition_13.jpg",
+      "assets/images/projects/08_Galeria_InTalks_2_Edition/intalks_2nd_edition_14.jpg"
+    ],
+    "videos_urls": [
+      "CxFvOEVJ__0"
+    ]
+  },
+  {
+    "project_name": "copa-marathon-2025",
+    "client_name": "Grupo Marathon",
+    "client_description":"Empresa retail especialista en deportes más grande a nivel nacional.",
+    "client_presenter_name":"",
+    "client_presenter_role":"",
+    "client_review":"",
+    "project_title": "Copa Marathon 2025",
+    "project_description": "En su tercera edición, el torneo interno del Grupo Marathon continúa promoviendo la integración entre colaboradores a través de las disciplinas de fútbol masculino, fútbol femenino y vóley mixto.",
+    "project_details": [
+      "Organización y estructura del torneo",
+      "Diseño y producción de piezas gráficas",
+      "Animación, arbitraje y personal del evento",
+      "Contenido audiovisual",
+      "Luces y sonido"
+    ],
+    "main_image_url": "assets/images/projects/09_Galeria_Copa_Marathon_2025/2025_mara_01.jpg",
+    "images_urls": [
+      "assets/images/projects/09_Galeria_Copa_Marathon_2025/2025_mara_01.jpg",
+      "assets/images/projects/09_Galeria_Copa_Marathon_2025/2025_mara_02.jpg",
+      "assets/images/projects/09_Galeria_Copa_Marathon_2025/2025_mara_03.jpg",
+      "assets/images/projects/09_Galeria_Copa_Marathon_2025/2025_mara_04.jpg",
+      "assets/images/projects/09_Galeria_Copa_Marathon_2025/2025_mara_05.jpg",
+      "assets/images/projects/09_Galeria_Copa_Marathon_2025/2025_mara_06.jpg",
+      "assets/images/projects/09_Galeria_Copa_Marathon_2025/2025_mara_07.jpg",
+      "assets/images/projects/09_Galeria_Copa_Marathon_2025/2025_mara_08.jpg",
+      "assets/images/projects/09_Galeria_Copa_Marathon_2025/2025_mara_09.jpg"
+    ],
+    "videos_urls": [
+      "MRuiWRjEAxM"
+    ]
+  },
+  {
     "project_name": "lanzamiento-more-living",
     "client_name": "Huanwil",
     "client_description":"Empresa dedicada al desarrollo, ejecución y comercialización de proyectos inmobiliarios.",
