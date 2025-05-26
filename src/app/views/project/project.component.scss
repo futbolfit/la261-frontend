@@ -45,6 +45,7 @@
           @media (min-width: 1024px) {
             display: flex;
             gap: 35px;
+            // height: 700px
           }
           @media (min-width: 1440px) {
             display: flex;
@@ -271,20 +272,26 @@
                 scroll-behavior: smooth;
               }
               @media (min-width: 1024px) {
-                height: 450px;
+                // height: 450px;
+                height: 100%;
                 margin-bottom: 10px;
                 max-width: 100%;
                 padding: 0;
+                margin-top: 30px;
               }
               @media (min-width: 1440px) {
-                height: 485px;
+                // height: 485px;
+                height: 100%;
                 margin-bottom: 10px;
                 max-width: calc(900px + 78px);
+                margin-top: 20px;
               }
               @media (min-width: 1440px) and (min-height: 860px) {
-                height: 685px;
+                // height: 685px;
+                height: 100%;
                 margin-bottom: 10px;
                 max-width: calc(900px + 78px);
+                margin-top: 105px;
               }
               &::-webkit-scrollbar {
                 width: 5px;

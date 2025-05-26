@@ -184,6 +184,37 @@
     ]
   },
   {
+    "project_name": "copa-henderson-2024",
+    "client_name": "I.M. Henderson",
+    "client_description":"Empresa promotora de inmuebles.",
+    "client_presenter_name":"",
+    "client_presenter_role":"",
+    "client_review":"",
+    "project_title":"Copa Henderson 2024",
+    "project_description":"Torneo de fútbol 7 y evento de integración para las empresas proveedoras de I.M. Henderson. Un encuentro deportivo y social para fortalecer la colaboración.",
+    "project_details":[
+      "Organización y estructura del torneo",
+      "Producción de piezas gráficas y premios",
+      "Animación y activaciones",
+      "Merchandising"
+    ],
+    "main_image_url":"assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_01.jpg",
+    "images_urls": [
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_01.jpg",
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_02.jpg",
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_03.jpg",
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_04.jpg",
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_05.jpg",
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_06.jpg",
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_07.jpg",
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_08.jpg",
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_09.jpg",
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_10.jpg",
+      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_11.jpg"
+    ],
+    "videos_urls": ["ZUDPLLD4QF4"]
+  },
+  {
     "project_name": "copa-marathon-2024",
     "client_name": "Grupo Marathon",
     "client_description":"Empresa retail especialista en deportes más grande a nivel nacional.",
@@ -241,37 +272,6 @@
     "videos_urls": [
       "KdI5JBckZ54"
     ]
-  },
-  {
-    "project_name": "copa-henderson-2024",
-    "client_name": "I.M. Henderson",
-    "client_description":"Empresa promotora de inmuebles.",
-    "client_presenter_name":"",
-    "client_presenter_role":"",
-    "client_review":"",
-    "project_title":"Copa Henderson 2024",
-    "project_description":"Torneo de fútbol 7 y evento de integración para las empresas proveedoras de I.M. Henderson. Un encuentro deportivo y social para fortalecer la colaboración.",
-    "project_details":[
-      "Organización y estructura del torneo",
-      "Producción de piezas gráficas y premios",
-      "Animación y activaciones",
-      "Merchandising"
-    ],
-    "main_image_url":"assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_01.jpg",
-    "images_urls": [
-      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_01.jpg",
-      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_02.jpg",
-      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_03.jpg",
-      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_04.jpg",
-      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_05.jpg",
-      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_06.jpg",
-      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_07.jpg",
-      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_08.jpg",
-      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_09.jpg",
-      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_10.jpg",
-      "assets/images/projects/07_Galeria_Copa_Henderson_2024/henderson_2024_11.jpg"
-    ],
-    "videos_urls": ["ZUDPLLD4QF4"]
   },
   {
     "project_name": "copa-marathon-2023",
