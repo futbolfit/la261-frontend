@@ -61,7 +61,7 @@
               margin-top: 20px;
             }
             @media (min-width: 1440px) and (min-height: 860px) {
-              margin-top: 105px;
+              margin-top: 45px;
             }
             .title_project {
               .sub {
@@ -291,7 +291,7 @@
                 height: 100%;
                 margin-bottom: 10px;
                 max-width: calc(900px + 78px);
-                margin-top: 105px;
+                margin-top: 45px;
               }
               &::-webkit-scrollbar {
                 width: 5px;
@@ -353,6 +353,10 @@
                   display: flex;
                   justify-content: center;
                   align-items: center;
+
+                  &:last-child {
+                    z-index: 1000;
+                  }
                   img {
                     max-width: calc(100vw - 40px);
                     width: 100%;
@@ -387,7 +391,7 @@
                     }
                     @media (min-width: 1024px) {
                       width: 590px;
-                      height: 100%;
+                      // height: 100%;
                     }
                     @media (min-width: 1440px) {
                       width: 927px;
