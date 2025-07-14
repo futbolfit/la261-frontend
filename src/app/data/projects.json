@@ -1,5 +1,109 @@
 [
   {
+    "project_name": "lanzamiento-oficinas-more-living",
+    "client_name": "Huanwil",
+    "client_description": "",
+    "client_presenter_name": "",
+    "client_presenter_role": "",
+    "client_review": "",
+    "project_title": "Lanzamiento Oficinas More Living",
+    "project_description": "Diseñamos una experiencia de alto impacto para posicionar este hub inmobiliario como la mejor opción para vivir, trabajar y disfrutar. Desde un concepto sólido, desarrollamos una narrativa que se reflejó en piezas gráficas, activaciones y momentos memorables que generaron valor para la marca.",
+    "project_details": [
+      "Concepto creativo",
+      "Organización y logística",
+      "Diseño y producción de piezas gráficas",
+      "Ambientación, Iluminación y sonido",
+      "Show musical",
+      "Anfitrionaje",
+      "Espacio fotográfico Multicam"
+    ],
+    "main_image_url": "assets/images/projects/12_More_Oficinas/more_oficinas_00.jpg",
+    "images_urls": [
+      "assets/images/projects/12_More_Oficinas/more_oficinas_01.jpg",
+      "assets/images/projects/12_More_Oficinas/more_oficinas_02.jpg",
+      "assets/images/projects/12_More_Oficinas/more_oficinas_03.jpg",
+      "assets/images/projects/12_More_Oficinas/more_oficinas_04.jpg",
+      "assets/images/projects/12_More_Oficinas/more_oficinas_05.jpg",
+      "assets/images/projects/12_More_Oficinas/more_oficinas_06.jpg",
+      "assets/images/projects/12_More_Oficinas/more_oficinas_07.jpg",
+      "assets/images/projects/12_More_Oficinas/more_oficinas_08.jpg",
+      "assets/images/projects/12_More_Oficinas/more_oficinas_09.jpg",
+      "assets/images/projects/12_More_Oficinas/more_oficinas_10.jpg",
+      "assets/images/projects/12_More_Oficinas/more_oficinas_11.jpg",
+      "assets/images/projects/12_More_Oficinas/more_oficinas_12.jpg",
+      "assets/images/projects/12_More_Oficinas/more_oficinas_13.jpg",
+      "assets/images/projects/12_More_Oficinas/more_oficinas_14.jpg",
+      "assets/images/projects/12_More_Oficinas/more_oficinas_15.jpg",
+      "assets/images/projects/12_More_Oficinas/more_oficinas_16.jpg",
+      "assets/images/projects/12_More_Oficinas/more_oficinas_17.jpg",
+      "assets/images/projects/12_More_Oficinas/more_oficinas_18.jpg"
+    ],
+    "videos_urls": []
+  },
+  {
+    "project_name": "regatas-basketball",
+    "client_name": "Club de Regatas Lima",
+    "client_description": "",
+    "client_presenter_name": "",
+    "client_presenter_role": "",
+    "client_review": "",
+    "project_title": "Festival de Basketball Formativo",
+    "project_description": "Festival de basketball para niños y niñas dividido en las categorías sub10 y sub12, que reunió a clubes de diferentes provincias en una serie de jornadas dinámicas. Con un despliegue integral, se logró ofrecer un evento recreativo, organizado y memorable para los niños y el público en general.",
+    "project_details": [
+      "Organización y logística del torneo",
+      "Plan de patrocinio",
+      "Comunicación y contenido digital",
+      "Diseño y producción de piezas gráficas"
+    ],
+    "main_image_url": "assets/images/projects/11_Regatas_Basketball/regatas_basketball_00.jpg",
+    "images_urls": [
+      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_01.jpg",
+      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_02.jpg",
+      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_03.jpg",
+      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_04.jpg",
+      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_05.jpg",
+      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_06.jpg",
+      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_07.jpg",
+      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_08.jpg",
+      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_09.jpg",
+      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_10.jpg"
+    ],
+    "videos_urls": []
+  },
+  {
+    "project_name": "lifa",
+    "client_name": "Estudios: DLA Piper / Hernández & Cía / Rodrigo, Elías & Medrano",
+    "client_description": "",
+    "client_presenter_name": "",
+    "client_presenter_role": "",
+    "client_review": "",
+    "project_title": "LiFA - Liga de Fútbol de Estudios de Abogadas",
+    "project_description": "Liga de fútbol femenino con identidad propia y un objetivo claro: ser el espacio donde 12 equipos —integrados por mujeres de estudios de abogados de Lima— compitieran por la gloria, promoviendo confraternidad, deporte y diversión.",
+    "project_details": [
+      "Organización y estructura del torneo",
+      "Diseño de branding y producción de piezas gráficas",
+      "Animación, arbitraje y personal del evento",
+      "Comunicación y contenido digital",
+      "Contenido audiovisual",
+      "Luces y sonido"
+    ],
+    "main_image_url": "assets/images/projects/10_LiFA/LiFA_00.jpg",
+    "images_urls": [
+      "assets/images/projects/10_LiFA/LiFA_01.jpg",
+      "assets/images/projects/10_LiFA/LiFA_02.jpg",
+      "assets/images/projects/10_LiFA/LiFA_03.jpg",
+      "assets/images/projects/10_LiFA/LiFA_04.jpg",
+      "assets/images/projects/10_LiFA/LiFA_05.jpg",
+      "assets/images/projects/10_LiFA/LiFA_06.jpg",
+      "assets/images/projects/10_LiFA/LiFA_07.jpg",
+      "assets/images/projects/10_LiFA/LiFA_08.jpg",
+      "assets/images/projects/10_LiFA/LiFA_09.jpg",
+      "assets/images/projects/10_LiFA/LiFA_10.jpg",
+      "assets/images/projects/10_LiFA/LiFA_11.jpg"
+    ],
+    "videos_urls": []
+  },
+  {
     "project_name": "intalks-2nd-edition",
     "client_name": "Negocios Inmobiliarios",
     "client_description":"Comunidad educativa de inversionistas, profesionales e interesados en el sector inmobiliario.",
@@ -17,7 +121,7 @@
       "Contenido audiovisual",
       "Ambientación del lugar: luces, sonido y mobiliario"
     ],
-    "main_image_url": "assets/images/projects/08_Galeria_InTalks_2_Edition/intalks_2nd_edition_01.jpg",
+    "main_image_url": "assets/images/projects/08_Galeria_InTalks_2_Edition/intalks_2nd_edition_00.jpg",
     "images_urls": [
       "assets/images/projects/08_Galeria_InTalks_2_Edition/intalks_2nd_edition_01.jpg",
       "assets/images/projects/08_Galeria_InTalks_2_Edition/intalks_2nd_edition_02.jpg",
@@ -54,7 +158,7 @@
       "Contenido audiovisual",
       "Luces y sonido"
     ],
-    "main_image_url": "assets/images/projects/09_Galeria_Copa_Marathon_2025/2025_mara_01.jpg",
+    "main_image_url": "assets/images/projects/09_Galeria_Copa_Marathon_2025/2025_mara_00.jpg",
     "images_urls": [
       "assets/images/projects/09_Galeria_Copa_Marathon_2025/2025_mara_01.jpg",
       "assets/images/projects/09_Galeria_Copa_Marathon_2025/2025_mara_02.jpg",
