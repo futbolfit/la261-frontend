@@ -1,12 +1,12 @@
 [
   {
-    "project_name": "lanzamiento-oficinas-more-living",
-    "client_name": "Huanwil",
-    "client_description": "",
-    "client_presenter_name": "",
-    "client_presenter_role": "",
-    "client_review": "",
-    "project_title": "Lanzamiento Oficinas More Living",
+    "project_name": "lanzamiento-oficinas-more",
+    "client_name": "Inmobiliaria Huanwil",
+    "client_description":"Empresa dedicada al desarrollo, ejecución y comercialización de proyectos inmobiliarios.",
+    "client_presenter_name": "Aurora Aybar",
+    "client_presenter_role": "Jefe de soporte a proyectos",
+    "client_review": "Son sumamente creativas e innovadoras, lograron captar a la perfección lo que queriamos transmitir a nuestros clientes, convirtiéndolo en una experiencia integral. El evento fluyó de manera natural, con un equipo muy ordenado y proveedores de primer nivel. Recibimos excelentes comentarios de nuestros clientes, así que sin duda los recomendamos siempre.",
+    "project_title": "Lanzamiento Oficinas More",
     "project_description": "Diseñamos una experiencia de alto impacto para posicionar este hub inmobiliario como la mejor opción para vivir, trabajar y disfrutar. Desde un concepto sólido, desarrollamos una narrativa que se reflejó en piezas gráficas, activaciones y momentos memorables que generaron valor para la marca.",
     "project_details": [
       "Concepto creativo",
@@ -107,9 +107,9 @@
     "project_name": "intalks-2nd-edition",
     "client_name": "Negocios Inmobiliarios",
     "client_description":"Comunidad educativa de inversionistas, profesionales e interesados en el sector inmobiliario.",
-    "client_presenter_name":"Pamela Galvez",
-    "client_presenter_role":"Fundadora de Negocios Inmobiliarios",
-    "client_review":"Fue un reto tremendo animarme a hacer mi primer evento hasta que me reuní con La261. No solo captaron la esencia de lo que quería lograr, sino que lo llevaron mucho más allá de lo que hubiera imaginado. No he dejado de escuchar comentarios tanto de asistentes como de expositores, de lo excelente que fue el concepto, la organización y todos los detalles. Gracias totales por haber sido pieza fundamental en la creación y realización del primer InTalks!",
+    "client_presenter_name":"",
+    "client_presenter_role":"",
+    "client_review":"",
     "project_title": "InTalks Segunda Edición",
     "project_description": "Segunda edición del conversatorio sobre negocios inmobiliarios enfocado en promover un espacio educativo a través de charlas especializadas y networking con especialistas del sector.",
     "project_details": [
@@ -176,7 +176,7 @@
   },
   {
     "project_name": "lanzamiento-more-living",
-    "client_name": "Huanwil",
+    "client_name": "Inmobiliaria Huanwil",
     "client_description":"Empresa dedicada al desarrollo, ejecución y comercialización de proyectos inmobiliarios.",
     "client_presenter_name":"",
     "client_presenter_role":"",
