@@ -17,7 +17,16 @@
               Cliente
             </div>
             <div class="main-italic">
-              {{ project?.client_name }}
+              @if (project?.client_name === '12 Estudios de Abogados') {
+                <div>
+                  <div>
+                    12 Estudios
+                  </div>
+                  <img class="group-logos" src="assets/images/groups/Clientes_LiFA_Logos.jpg" alt="">
+                </div>
+              } @else {
+                {{ project?.client_name }}
+              }
             </div>
           </div>
           <div class="description_project">
@@ -26,7 +35,7 @@
             </div>
             <div class="description-text">
               <div>
-                {{ project?.project_description }}
+                {{ project?.project_long_description }}
               </div>
               <div>
                 @for (item of project?.project_details; track $index; let idx = $index) {
@@ -66,46 +75,48 @@
           </div>
         </div>
       </div>
-      <div class="principal_footer">
-        <div>
-          RESEÑA DEL CLIENTE
+      @if (project?.client_description !== '' && project?.client_review !== '') {
+        <div class="principal_footer">
+          <div>
+            RESEÑA DEL CLIENTE
+          </div>
+          <img src="assets/images/Slash@2x.png" alt="" >
         </div>
-        <img src="assets/images/Slash@2x.png" alt="" >
-      </div>
-      <div class="sub_part">
-        <div class="resume">
-          ¿Cómo le fue <br>
-          al cliente <br>
-          trabajando <br>
-          con nosotros?
-        </div>
-        <div class="subtitle-project">
-          <div class="sub">
-            Cliente
+        <div class="sub_part">
+          <div class="resume">
+            ¿Cómo le fue <br>
+            al cliente <br>
+            trabajando <br>
+            con nosotros?
           </div>
-          <div class="main-title">
-            {{ project?.client_name }}
-          </div>
-          <div class="sub-text">
-            {{ project?.client_description }}
-          </div>
-        </div>
-        <div class="subtitle-project">
-          <div class="sub">
-            {{ project?.client_presenter_role }}
-          </div>
-          <div class="main-title">
-            {{ project?.client_presenter_name }}
-          </div>
-          @if (project?.client_review !== '') {
-            <div class="sub-description">
-              "{{ project?.client_review }}"
+          <div class="subtitle-project">
+            <div class="sub">
+              Cliente
             </div>
-          } @else {
-            <div class="sub-description"></div>
-          }
+            <div class="main-title">
+              {{ project?.client_name }}
+            </div>
+            <div class="sub-text">
+              {{ project?.client_description }}
+            </div>
+          </div>
+          <div class="subtitle-project">
+            <div class="sub">
+              {{ project?.client_presenter_role }}
+            </div>
+            <div class="main-title">
+              {{ project?.client_presenter_name }}
+            </div>
+            @if (project?.client_review !== '') {
+              <div class="sub-description">
+                "{{ project?.client_review }}"
+              </div>
+            } @else {
+              <div class="sub-description"></div>
+            }
+          </div>
         </div>
-      </div>
+      }
       <div class="principal_button-container">
         <button class="principal_button" routerLink="/projects">
           MÁS PROYECTOS

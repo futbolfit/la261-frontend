@@ -7,7 +7,8 @@
     "client_presenter_role": "Jefe de soporte a proyectos",
     "client_review": "Son sumamente creativas e innovadoras, lograron captar a la perfección lo que queriamos transmitir a nuestros clientes, convirtiéndolo en una experiencia integral. El evento fluyó de manera natural, con un equipo muy ordenado y proveedores de primer nivel. Recibimos excelentes comentarios de nuestros clientes, así que sin duda los recomendamos siempre.",
     "project_title": "Lanzamiento Oficinas More",
-    "project_description": "Diseñamos una experiencia de alto impacto para posicionar este hub inmobiliario como la mejor opción para vivir, trabajar y disfrutar. Desde un concepto sólido, desarrollamos una narrativa que se reflejó en piezas gráficas, activaciones y momentos memorables que generaron valor para la marca.",
+    "project_short_description": "Evento de lanzamiento de las oficinas del proyecto inmobiliario More: Live, Work, Enjoy.",
+    "project_long_description": "Diseñamos una experiencia de alto impacto para posicionar este hub inmobiliario como la mejor opción para vivir, trabajar y disfrutar. Desde un concepto sólido, desarrollamos una narrativa que se reflejó en piezas gráficas, activaciones y momentos memorables que generaron valor para la marca.",
     "project_details": [
       "Concepto creativo",
       "Organización y logística",
@@ -48,7 +49,8 @@
     "client_presenter_role": "",
     "client_review": "",
     "project_title": "Festival de Basketball Formativo",
-    "project_description": "Festival de basketball para niños y niñas dividido en las categorías sub10 y sub12, que reunió a clubes de diferentes provincias en una serie de jornadas dinámicas. Con un despliegue integral, se logró ofrecer un evento recreativo, organizado y memorable para los niños y el público en general.",
+    "project_short_description": "Torneo de basketball formativo para niños y niñas de las categorías sub10 y sub 12.",
+    "project_long_description": "Festival de basketball para niños y niñas dividido en las categorías sub10 y sub12, que reunió a clubes de diferentes provincias en una serie de jornadas dinámicas. Con un despliegue integral, se logró ofrecer un evento recreativo, organizado y memorable para los niños y el público en general.",
     "project_details": [
       "Organización y logística del torneo",
       "Plan de patrocinio",
@@ -72,13 +74,14 @@
   },
   {
     "project_name": "lifa",
-    "client_name": "Estudios: DLA Piper / Hernández & Cía / Rodrigo, Elías & Medrano",
+    "client_name": "12 Estudios de Abogados",
     "client_description": "",
     "client_presenter_name": "",
     "client_presenter_role": "",
     "client_review": "",
     "project_title": "LiFA - Liga de Fútbol de Estudios de Abogadas",
-    "project_description": "Liga de fútbol femenino con identidad propia y un objetivo claro: ser el espacio donde 12 equipos —integrados por mujeres de estudios de abogados de Lima— compitieran por la gloria, promoviendo confraternidad, deporte y diversión.",
+    "project_short_description": "Liga femenina de fútbol 7 integrada por 12 estudios de abogados de Lima",
+    "project_long_description": "Liga de fútbol femenino con identidad propia y un objetivo claro: ser el espacio donde 12 equipos —integrados por mujeres de estudios de abogados de Lima— compitieran por la gloria, promoviendo confraternidad, deporte y diversión.",
     "project_details": [
       "Organización y estructura del torneo",
       "Diseño de branding y producción de piezas gráficas",
@@ -111,7 +114,8 @@
     "client_presenter_role":"",
     "client_review":"",
     "project_title": "InTalks Segunda Edición",
-    "project_description": "Segunda edición del conversatorio sobre negocios inmobiliarios enfocado en promover un espacio educativo a través de charlas especializadas y networking con especialistas del sector.",
+    "project_short_description": "Segunda edición del conversatorio educativo y de networking especializado en el sector inmobiliario.",
+    "project_long_description": "Segunda edición del conversatorio sobre negocios inmobiliarios enfocado en promover un espacio educativo a través de charlas especializadas y networking con especialistas del sector.",
     "project_details": [
       "Organización y logística del evento",
       "Comunicación y contenido digital",
@@ -150,7 +154,8 @@
     "client_presenter_role":"",
     "client_review":"",
     "project_title": "Copa Marathon 2025",
-    "project_description": "En su tercera edición, el torneo interno del Grupo Marathon continúa promoviendo la integración entre colaboradores a través de las disciplinas de fútbol masculino, fútbol femenino y vóley mixto.",
+    "project_short_description": "Tercera edición del torneo interno para colaboradores del Grupo Marathon: Nike, Under Armour, TAF y Marathon.",
+    "project_long_description": "En su tercera edición, el torneo interno del Grupo Marathon continúa promoviendo la integración entre colaboradores a través de las disciplinas de fútbol masculino, fútbol femenino y vóley mixto.",
     "project_details": [
       "Organización y estructura del torneo",
       "Diseño y producción de piezas gráficas",
@@ -182,7 +187,8 @@
     "client_presenter_role":"",
     "client_review":"",
     "project_title": "Lanzamiento More Living",
-    "project_description": "Evento de Lanzamiento del proyecto inmobiliario More Living: departamentos que combinan el diseño, el confort y la practicidad. Una experiencia para maximizar los sentidos a través de un recorrido con diferentes estaciones.",
+    "project_short_description": "",
+    "project_long_description": "Evento de Lanzamiento del proyecto inmobiliario More Living: departamentos que combinan el diseño, el confort y la practicidad. Una experiencia para maximizar los sentidos a través de un recorrido con diferentes estaciones.",
     "project_details": [
       "Organización y logística",
       "Concepto creativo",
@@ -218,7 +224,8 @@
     "client_presenter_role":"Fundadora de Negocios Inmobiliarios",
     "client_review":"Fue un reto tremendo animarme a hacer mi primer evento hasta que me reuní con La261. No solo captaron la esencia de lo que quería lograr, sino que lo llevaron mucho más allá de lo que hubiera imaginado. No he dejado de escuchar comentarios tanto de asistentes como de expositores, de lo excelente que fue el concepto, la organización y todos los detalles. Gracias totales por haber sido pieza fundamental en la creación y realización del primer InTalks!",
     "project_title": "InTalks",
-    "project_description": "Evento educativo sobre negocios inmobiliarios a base de charlas y espacios de conversación con los especialistas del sector.",
+    "project_short_description": "",
+    "project_long_description": "Evento educativo sobre negocios inmobiliarios a base de charlas y espacios de conversación con los especialistas del sector.",
     "project_details": [
       "Branding e identidad de marca",
       "Comunicación y contenido digital",
@@ -257,7 +264,8 @@
     "client_presenter_role":"Gerente de Gestión, Desarrollo y Experiencia",
     "client_review":"La Copa REMS 2024 fue un éxito rotundo que superó nuestras expectativas y las de nuestros clientes y proveedores. No solo se fomentó la integración entre los participantes, sino también se incrementó su compromiso y motivación. Todos quedamos inspirados y entusiasmados esperando el siguiente evento. ¡Excelente e impecable organización y desarrollo!",
     "project_title": "Copa REMS 2024",
-    "project_description": "Torneo corporativo de fútbol 7 para 35 equipos. El deporte como medio de integración y networking entre empresas clientes de REMS.",
+    "project_short_description": "",
+    "project_long_description": "Torneo corporativo de fútbol 7 para 35 equipos. El deporte como medio de integración y networking entre empresas clientes de REMS.",
     "project_details": [
       "Organización y estructura del torneo",
       "Plan de patrocinio",
@@ -295,7 +303,8 @@
     "client_presenter_role":"",
     "client_review":"",
     "project_title":"Copa Henderson 2024",
-    "project_description":"Torneo de fútbol 7 y evento de integración para las empresas proveedoras de I.M. Henderson. Un encuentro deportivo y social para fortalecer la colaboración.",
+    "project_short_description": "",
+    "project_long_description":"Torneo de fútbol 7 y evento de integración para las empresas proveedoras de I.M. Henderson. Un encuentro deportivo y social para fortalecer la colaboración.",
     "project_details":[
       "Organización y estructura del torneo",
       "Producción de piezas gráficas y premios",
@@ -326,7 +335,8 @@
     "client_presenter_role":"",
     "client_review":"",
     "project_title": "Copa Marathon 2024",
-    "project_description": "Segunda edición del torneo interno para trabajadores del grupo Marathon. Incorporación de voley mixto con el fin de integrar a más colaboradores.",
+    "project_short_description": "",
+    "project_long_description": "Segunda edición del torneo interno para trabajadores del grupo Marathon. Incorporación de voley mixto con el fin de integrar a más colaboradores.",
     "project_details": [
       "Organización y estructura del torneo",
       "Diseño y producción de piezas gráficas",
@@ -354,7 +364,8 @@
     "client_presenter_role":"Asistente de Marketing Netafim Perú",
     "client_review":"Durante las actividades que logramos sacar adelante conjuntamente parecía que nuestro equipo crecía de un momento a otro. Confiamos en su trabajo porque conocemos de primera mano la seriedad y entrega que ven detrás de cada evento",
     "project_title": "Copa Pedregal 2023",
-    "project_description": "Evento de integración y torneo relámpago de fútbol 7 para los agricultores de El Pedregal, Arequipa. Encuentro deportivo para la fidelización de clientes y exposición de marca.",
+    "project_short_description": "",
+    "project_long_description": "Evento de integración y torneo relámpago de fútbol 7 para los agricultores de El Pedregal, Arequipa. Encuentro deportivo para la fidelización de clientes y exposición de marca.",
     "project_details": [
       "Organización y estructura del torneo",
       "Diseño y producción de piezas gráficas",
@@ -385,7 +396,8 @@
     "client_presenter_role":"",
     "client_review":"",
     "project_title": "Copa Marathon 2023",
-    "project_description": "Torneo interno de fútbol 7 para el personal del grupo Marathon: Nike, Under Armour, TAF y Marathon. Promoción de un estilo de vida saludable a través del deporte.",
+    "project_short_description": "",
+    "project_long_description": "Torneo interno de fútbol 7 para el personal del grupo Marathon: Nike, Under Armour, TAF y Marathon. Promoción de un estilo de vida saludable a través del deporte.",
     "project_details": [
       "Organización y estructura del torneo",
       "Diseño y producción de piezas gráficas",

@@ -39,9 +39,9 @@ export default class ProjectComponent implements OnInit {
       this.project = project;
 
       this.title.setTitle(project_found.project_title + ' - La261')
-      this.meta.updateTag({ name: 'description', content: project_found.project_description})
+      this.meta.updateTag({ name: 'description', content: project_found.project_short_description})
       this.meta.updateTag({ name: 'og:title', content: project_found.project_title})
-      this.meta.updateTag({ name: 'og:description', content: project_found.project_description})
+      this.meta.updateTag({ name: 'og:description', content: project_found.project_short_description})
       this.meta.updateTag({ name: 'og:image', content: 'https://la261.com/assets/images/Logo_Principal@4x.png'})
       this.meta.updateTag({ name: 'keywords', content: '261,La261,Lorena,Beatriz,Eventos,Agencia,Marketing,Proyectos'})
       this.meta.updateTag({ name: 'keywords', content: '261,La261,Lorena,Beatriz,Eventos,Agencia,Marketing,Proyectos'})

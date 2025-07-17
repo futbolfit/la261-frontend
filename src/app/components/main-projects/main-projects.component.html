@@ -12,12 +12,14 @@
         }
         <div class="image" [ngStyle]="{ 'background-image' : 'url(' + project.main_image_url + ')'}">
         </div>
-        <div class="title">{{ project.client_name }}</div>
-        <div class="subtitle">
+        <div class="title">
           {{ project.project_title }}
         </div>
+        <div class="subtitle">
+          {{ project.client_name }}
+        </div>
         <div class="description">
-          {{ project.project_description }}
+          {{ project.project_long_description }}
         </div>
       </div>
     }

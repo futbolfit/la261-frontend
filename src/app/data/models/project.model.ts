@@ -8,7 +8,8 @@ export class Project {
   client_review: string;
 
   project_title: string;
-  project_description: string;
+  project_short_description: string;
+  project_long_description: string;
   project_details: string[];
   main_image_url: string;
   images_urls: string[];
@@ -24,7 +25,8 @@ export class Project {
     client_review: string,
 
     project_title: string,
-    project_description: string,
+    project_short_description: string,
+    project_long_description: string,
     project_details: string[],
     main_image_url: string,
     images_urls: string[],
@@ -40,7 +42,8 @@ export class Project {
     this.client_review = client_review;
 
     this.project_title = project_title;
-    this.project_description = project_description;
+    this.project_short_description = project_short_description;
+    this.project_long_description = project_long_description;
     this.project_details = project_details;
     this.main_image_url = main_image_url;
     this.images_urls = images_urls;
@@ -58,7 +61,8 @@ export class Project {
       json['client_review'],
 
       json['project_title'],
-      json['project_description'],
+      json['project_short_description'],
+      json['project_long_description'],
       json['project_details'],
       json['main_image_url'],
       json['images_urls'],
