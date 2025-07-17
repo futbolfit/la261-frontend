@@ -104,7 +104,9 @@
       "assets/images/projects/10_LiFA/LiFA_10.jpg",
       "assets/images/projects/10_LiFA/LiFA_11.jpg"
     ],
-    "videos_urls": []
+    "videos_urls": [
+      "1UVfz8PH4Jg"
+    ]
   },
   {
     "project_name": "intalks-2nd-edition",
@@ -187,7 +189,7 @@
     "client_presenter_role":"",
     "client_review":"",
     "project_title": "Lanzamiento More Living",
-    "project_short_description": "",
+    "project_short_description": "Evento de lanzamiento de departamentos del proyecto inmobiliario More Living.",
     "project_long_description": "Evento de Lanzamiento del proyecto inmobiliario More Living: departamentos que combinan el diseño, el confort y la practicidad. Una experiencia para maximizar los sentidos a través de un recorrido con diferentes estaciones.",
     "project_details": [
       "Organización y logística",
@@ -224,7 +226,7 @@
     "client_presenter_role":"Fundadora de Negocios Inmobiliarios",
     "client_review":"Fue un reto tremendo animarme a hacer mi primer evento hasta que me reuní con La261. No solo captaron la esencia de lo que quería lograr, sino que lo llevaron mucho más allá de lo que hubiera imaginado. No he dejado de escuchar comentarios tanto de asistentes como de expositores, de lo excelente que fue el concepto, la organización y todos los detalles. Gracias totales por haber sido pieza fundamental en la creación y realización del primer InTalks!",
     "project_title": "InTalks",
-    "project_short_description": "",
+    "project_short_description": "Conversatorio educativo y de networking especializado en el sector inmobiliario.",
     "project_long_description": "Evento educativo sobre negocios inmobiliarios a base de charlas y espacios de conversación con los especialistas del sector.",
     "project_details": [
       "Branding e identidad de marca",
@@ -264,7 +266,7 @@
     "client_presenter_role":"Gerente de Gestión, Desarrollo y Experiencia",
     "client_review":"La Copa REMS 2024 fue un éxito rotundo que superó nuestras expectativas y las de nuestros clientes y proveedores. No solo se fomentó la integración entre los participantes, sino también se incrementó su compromiso y motivación. Todos quedamos inspirados y entusiasmados esperando el siguiente evento. ¡Excelente e impecable organización y desarrollo!",
     "project_title": "Copa REMS 2024",
-    "project_short_description": "",
+    "project_short_description": "Torneo corporativo de fútbol 7 para 35 empresas clientes y proveedores de REMS.",
     "project_long_description": "Torneo corporativo de fútbol 7 para 35 equipos. El deporte como medio de integración y networking entre empresas clientes de REMS.",
     "project_details": [
       "Organización y estructura del torneo",
@@ -303,7 +305,7 @@
     "client_presenter_role":"",
     "client_review":"",
     "project_title":"Copa Henderson 2024",
-    "project_short_description": "",
+    "project_short_description": "Torneo de fútbol 7 y evento de integración para proveedores de I.M. Henderson.",
     "project_long_description":"Torneo de fútbol 7 y evento de integración para las empresas proveedoras de I.M. Henderson. Un encuentro deportivo y social para fortalecer la colaboración.",
     "project_details":[
       "Organización y estructura del torneo",
@@ -335,7 +337,7 @@
     "client_presenter_role":"",
     "client_review":"",
     "project_title": "Copa Marathon 2024",
-    "project_short_description": "",
+    "project_short_description": "Segunda edición del torneo interno de fútbol masculino, fútbol femenino y vóley mixto para colaboradores del Grupo Marathon.",
     "project_long_description": "Segunda edición del torneo interno para trabajadores del grupo Marathon. Incorporación de voley mixto con el fin de integrar a más colaboradores.",
     "project_details": [
       "Organización y estructura del torneo",
@@ -364,7 +366,7 @@
     "client_presenter_role":"Asistente de Marketing Netafim Perú",
     "client_review":"Durante las actividades que logramos sacar adelante conjuntamente parecía que nuestro equipo crecía de un momento a otro. Confiamos en su trabajo porque conocemos de primera mano la seriedad y entrega que ven detrás de cada evento",
     "project_title": "Copa Pedregal 2023",
-    "project_short_description": "",
+    "project_short_description": "Evento de integración y torneo relámpago de fútbol 7 para agricultores de El Pedregal, Arequipa.",
     "project_long_description": "Evento de integración y torneo relámpago de fútbol 7 para los agricultores de El Pedregal, Arequipa. Encuentro deportivo para la fidelización de clientes y exposición de marca.",
     "project_details": [
       "Organización y estructura del torneo",
@@ -396,7 +398,7 @@
     "client_presenter_role":"",
     "client_review":"",
     "project_title": "Copa Marathon 2023",
-    "project_short_description": "",
+    "project_short_description": "Torneo interno de fútbol 7 masculino y femenino para colaboradores del Grupo Marathon.",
     "project_long_description": "Torneo interno de fútbol 7 para el personal del grupo Marathon: Nike, Under Armour, TAF y Marathon. Promoción de un estilo de vida saludable a través del deporte.",
     "project_details": [
       "Organización y estructura del torneo",

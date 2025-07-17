@@ -330,6 +330,12 @@
                   -webkit-overflow-scrolling: touch;
                 }
 
+                .video-item {
+                  &:last-child {
+                    z-index: 2;
+                  }
+                }
+
                 .photo-item {
                   // TODO: cuando el width de la img no abarca toda la pantalla
                   // TODO: (debido a que el height limita el tamaño de la img)
@@ -357,9 +363,6 @@
                   justify-content: center;
                   align-items: center;
 
-                  &:last-child {
-                    z-index: 1000;
-                  }
                   img {
                     max-width: calc(100vw - 40px);
                     width: 100%;

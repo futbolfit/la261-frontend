@@ -589,35 +589,32 @@
     }
 
     .clients_list {
-      width: 100%;
+      width: 100vw;
       display:flex;
       justify-content: center;
       @media (min-width: 1440px) {
-        justify-content: end;
+        justify-content: start;
       }
       .client_list-container {
-        padding: 0 20px;
         display:flex;
         flex-wrap: wrap;
+        margin-bottom: 42px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-row-gap: 12px;
+
         @media (min-width: 425px) {
-          padding: 0 20px;
-          justify-content: start;
-          width: 400px;
+          grid-template-columns: 33% 33% 33%;
         }
         @media (min-width: 768px) {
-          padding: 0 75px;
-          justify-content: start;
-          width: 800px;
+          margin-bottom: 85px;
         }
         @media (min-width: 1024px) {
-          padding: 0 75px;
-          justify-content: start;
-          width: 1000px;
+          grid-template-columns: 25% 25% 25% 25%;
+          margin-bottom: 85px;
         }
         @media (min-width: 1440px) {
-          width: 1300px;
-          padding: 0 75px;
-          justify-content: start;
+          margin-bottom: 85px;
         }
         .client_item {
           width: 109.5px;
@@ -775,16 +772,82 @@
               background-image: url('./../../../../public/assets/images/Logos_Clientes/logo_huanwil4x.png');
             }
           }
-        }
-        margin-bottom: 42px;
-        @media (min-width: 768px) {
-          margin-bottom: 85px;
-        }
-        @media (min-width: 1024px) {
-          margin-bottom: 85px;
-        }
-        @media (min-width: 1440px) {
-          margin-bottom: 85px;
+          &:nth-child(8){
+            > div {
+              width: 60px;
+              height: 60px;
+              @media (min-width: 768px) {
+                width: 160px;
+                height: 90px;
+              }
+              @media (min-width: 1024px) {
+                width: 209.5px;
+                height: 120px;
+              }
+              @media (min-width: 1440px) {
+                width: 209.5px;
+                height: 120px;
+              }
+              background-image: url('./../../../../public/assets/images/Logos_Clientes/logo_Regatas.png');
+            }
+          }
+          &:nth-child(9){
+            > div {
+              width: 60px;
+              height: 60px;
+              @media (min-width: 768px) {
+                width: 160px;
+                height: 90px;
+              }
+              @media (min-width: 1024px) {
+                width: 209.5px;
+                height: 100px;
+              }
+              @media (min-width: 1440px) {
+                width: 209.5px;
+                height: 100px;
+              }
+              background-image: url('./../../../../public/assets/images/Logos_Clientes/logo_DLAPiper.png');
+            }
+          }
+          &:nth-child(10){
+            > div {
+              width: 60px;
+              height: 60px;
+              @media (min-width: 768px) {
+                width: 160px;
+                height: 90px;
+              }
+              @media (min-width: 1024px) {
+                width: 209.5px;
+                height: 120px;
+              }
+              @media (min-width: 1440px) {
+                width: 209.5px;
+                height: 100px;
+              }
+              background-image: url('./../../../../public/assets/images/Logos_Clientes/logo_HernandezyCia.png');
+            }
+          }
+          &:nth-child(11){
+            > div {
+              width: 60px;
+              height: 60px;
+              @media (min-width: 768px) {
+                width: 160px;
+                height: 80px;
+              }
+              @media (min-width: 1024px) {
+                width: 209.5px;
+                height: 80px;
+              }
+              @media (min-width: 1440px) {
+                width: 209.5px;
+                height: 90px;
+              }
+              background-image: url('./../../../../public/assets/images/Logos_Clientes/logo_REM.png');
+            }
+          }
         }
       }
     }
