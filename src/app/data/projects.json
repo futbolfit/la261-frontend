@@ -1,5 +1,41 @@
 [
   {
+    "project_name": "lifa",
+    "client_name": "12 Estudios de Abogados",
+    "client_description": "",
+    "client_presenter_name": "",
+    "client_presenter_role": "",
+    "client_review": "",
+    "project_title": "LiFA - Liga de Fútbol de Estudios de Abogadas",
+    "project_short_description": "Liga femenina de fútbol 7 integrada por 12 estudios de abogados de Lima",
+    "project_long_description": "Liga de fútbol femenino con identidad propia y un objetivo claro: ser el espacio donde 12 equipos —integrados por mujeres de estudios de abogados de Lima— compitieran por la gloria, promoviendo confraternidad, deporte y diversión.",
+    "project_details": [
+      "Organización y estructura del torneo",
+      "Diseño de branding y producción de piezas gráficas",
+      "Animación, arbitraje y personal del evento",
+      "Comunicación y contenido digital",
+      "Contenido audiovisual",
+      "Luces y sonido"
+    ],
+    "main_image_url": "assets/images/projects/10_LiFA/LiFA_00.jpg",
+    "images_urls": [
+      "assets/images/projects/10_LiFA/LiFA_01.jpg",
+      "assets/images/projects/10_LiFA/LiFA_02.jpg",
+      "assets/images/projects/10_LiFA/LiFA_03.jpg",
+      "assets/images/projects/10_LiFA/LiFA_04.jpg",
+      "assets/images/projects/10_LiFA/LiFA_05.jpg",
+      "assets/images/projects/10_LiFA/LiFA_06.jpg",
+      "assets/images/projects/10_LiFA/LiFA_07.jpg",
+      "assets/images/projects/10_LiFA/LiFA_08.jpg",
+      "assets/images/projects/10_LiFA/LiFA_09.jpg",
+      "assets/images/projects/10_LiFA/LiFA_10.jpg",
+      "assets/images/projects/10_LiFA/LiFA_11.jpg"
+    ],
+    "videos_urls": [
+      "1UVfz8PH4Jg"
+    ]
+  },
+  {
     "project_name": "lanzamiento-oficinas-more",
     "client_name": "Inmobiliaria Huanwil",
     "client_description":"Empresa dedicada al desarrollo, ejecución y comercialización de proyectos inmobiliarios.",
@@ -71,42 +107,6 @@
       "assets/images/projects/11_Regatas_Basketball/regatas_basketball_10.jpg"
     ],
     "videos_urls": []
-  },
-  {
-    "project_name": "lifa",
-    "client_name": "12 Estudios de Abogados",
-    "client_description": "",
-    "client_presenter_name": "",
-    "client_presenter_role": "",
-    "client_review": "",
-    "project_title": "LiFA - Liga de Fútbol de Estudios de Abogadas",
-    "project_short_description": "Liga femenina de fútbol 7 integrada por 12 estudios de abogados de Lima",
-    "project_long_description": "Liga de fútbol femenino con identidad propia y un objetivo claro: ser el espacio donde 12 equipos —integrados por mujeres de estudios de abogados de Lima— compitieran por la gloria, promoviendo confraternidad, deporte y diversión.",
-    "project_details": [
-      "Organización y estructura del torneo",
-      "Diseño de branding y producción de piezas gráficas",
-      "Animación, arbitraje y personal del evento",
-      "Comunicación y contenido digital",
-      "Contenido audiovisual",
-      "Luces y sonido"
-    ],
-    "main_image_url": "assets/images/projects/10_LiFA/LiFA_00.jpg",
-    "images_urls": [
-      "assets/images/projects/10_LiFA/LiFA_01.jpg",
-      "assets/images/projects/10_LiFA/LiFA_02.jpg",
-      "assets/images/projects/10_LiFA/LiFA_03.jpg",
-      "assets/images/projects/10_LiFA/LiFA_04.jpg",
-      "assets/images/projects/10_LiFA/LiFA_05.jpg",
-      "assets/images/projects/10_LiFA/LiFA_06.jpg",
-      "assets/images/projects/10_LiFA/LiFA_07.jpg",
-      "assets/images/projects/10_LiFA/LiFA_08.jpg",
-      "assets/images/projects/10_LiFA/LiFA_09.jpg",
-      "assets/images/projects/10_LiFA/LiFA_10.jpg",
-      "assets/images/projects/10_LiFA/LiFA_11.jpg"
-    ],
-    "videos_urls": [
-      "1UVfz8PH4Jg"
-    ]
   },
   {
     "project_name": "intalks-2nd-edition",
