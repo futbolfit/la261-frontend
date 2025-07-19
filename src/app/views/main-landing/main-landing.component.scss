@@ -153,16 +153,18 @@
         }
 
         .subtext {
-          font-size: 13px;
+          padding-right: 9%;
+          font-size: 14px;
           letter-spacing: 0.5px;
           font-family: 'ai-li';
           @media (min-width: 425px) {
-            font-size: 14px;
+            font-size: 15px;
             margin-top: 10px;
             max-width: 360px;
           }
           @media (min-width: 768px) {
-            font-size: 14px;
+            padding-right: 0%;
+            font-size: 15px;
             margin-top: 10px;
             padding-left: 25px;
             max-width: 360px;
