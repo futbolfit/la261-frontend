@@ -1,5 +1,40 @@
 [
   {
+    "project_name": "5k-ml",
+    "client_name": "Equipo Medias Largas CF y Municipalidad de San Miguel",
+    "client_description": "",
+    "client_presenter_name": "",
+    "client_presenter_role": "",
+    "client_review": "",
+    "project_title": "Carrera 5K ML",
+    "project_short_description": "Carrera 5K pro fútbol femenino.",
+    "project_long_description": "Carrera de 5K organizada por el equipo de fútbol femenino Medias Largas CF, en colaboración con la Municipalidad de San Miguel, con el objetivo de recaudar fondos para seguir impulsando el crecimiento del equipo, un equipo gestionado de forma independiente que apuesta por el desarrollo del fútbol femenino en el Perú.",
+    "project_details": [
+      "Organización y logística de la carrera",
+      "Diseño y producción de piezas gráficas",
+      "Merchandising del evento",
+      "Comunicación y contenido digital",
+      "Plan de Patrocinio"
+    ],
+    "main_image_url": "assets/images/projects/13_5K_ML/5K_ML_00.jpg",
+    "images_urls": [
+      "assets/images/projects/13_5K_ML/5K_ML_01.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_02.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_03.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_04.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_05.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_06.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_07.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_08.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_09.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_10.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_11.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_12.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_13.jpg"
+    ],
+    "videos_urls": []
+  },
+  {
     "project_name": "lifa",
     "client_name": "12 Estudios de Abogados",
     "client_description": "",
