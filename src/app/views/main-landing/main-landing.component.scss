@@ -273,11 +273,21 @@
           margin-bottom: 85px;
         }
         .client_item {
-          width: 109.5px;
-          height: 51.5px;
           display:flex;
           justify-content: center;
           align-items: center;
+
+          width: 130px;
+          height: 51.5px;
+
+          @media (min-width: 375px) {
+            width: 150px;
+            height: 100px;
+          }
+          @media (min-width: 425px) {
+            width: 109.5px;
+            height: 51.5px;
+          }
           @media (min-width: 768px) {
             width: 200px;
             height: 120px;
@@ -299,6 +309,12 @@
             > div {
               width: 100px;
               height: 60px;
+
+              @media (min-width: 375px) and (max-width: 425px) {
+                width: 140px;
+                height: 90px;
+              }
+
               @media (min-width: 768px) {
                 width: 180px;
                 height: 60px;
@@ -318,6 +334,12 @@
             > div {
               width: 60px;
               height: 60px;
+
+              @media (min-width: 375px) and (max-width: 425px) {
+                width: 100px;
+                height: 90px;
+              }
+
               @media (min-width: 768px) {
                 width: 120px;
                 height: 120px;
@@ -337,6 +359,12 @@
             > div {
               width: 90px;
               height: 60px;
+
+              @media (min-width: 375px) and (max-width: 425px) {
+                width: 130px;
+                height: 90px;
+              }
+
               @media (min-width: 768px) {
                 width: 170px;
                 height: 60px;
@@ -356,6 +384,12 @@
             > div {
               width: 80px;
               height: 60px;
+
+              @media (min-width: 375px) and (max-width: 425px) {
+                width: 110px;
+                height: 90px;
+              }
+
               @media (min-width: 768px) {
                 width: 129px;
                 height: 120px;
@@ -375,6 +409,12 @@
             > div {
               width: 80px;
               height: 60px;
+
+              @media (min-width: 375px) and (max-width: 425px) {
+                width: 110px;
+                height: 90px;
+              }
+
               @media (min-width: 768px) {
                 width: 130.5px;
                 height: 100px;
@@ -394,6 +434,12 @@
             > div {
               width: 90px;
               height: 60px;
+
+              @media (min-width: 375px) and (max-width: 425px) {
+                width: 140px;
+                height: 90px;
+              }
+
               @media (min-width: 768px) {
                 width: 160px;
                 height: 47px;
@@ -413,6 +459,12 @@
             > div {
               width: 60px;
               height: 60px;
+
+              @media (min-width: 375px) and (max-width: 425px) {
+                width: 100px;
+                height: 90px;
+              }
+
               @media (min-width: 768px) {
                 width: 160px;
                 height: 90px;
@@ -432,6 +484,12 @@
             > div {
               width: 60px;
               height: 60px;
+
+              @media (min-width: 375px) and (max-width: 425px) {
+                width: 120px;
+                height: 90px;
+              }
+
               @media (min-width: 768px) {
                 width: 160px;
                 height: 90px;
@@ -451,6 +509,12 @@
             > div {
               width: 60px;
               height: 60px;
+
+              @media (min-width: 375px) and (max-width: 425px) {
+                width: 100px;
+                height: 90px;
+              }
+
               @media (min-width: 768px) {
                 width: 160px;
                 height: 90px;
@@ -468,8 +532,18 @@
           }
           &:nth-child(10){
             > div {
-              width: 60px;
-              height: 60px;
+              width: 160px;
+              height: 90px;
+
+              @media (min-width: 375px) and (max-width: 425px) {
+                width: 150px;
+                height: 90px;
+              }
+
+              @media (min-width: 425px) {
+                width: 60px;
+                height: 60px;
+              }
               @media (min-width: 768px) {
                 width: 160px;
                 height: 90px;
@@ -489,6 +563,11 @@
             > div {
               width: 60px;
               height: 60px;
+
+              @media (min-width: 375px) and (max-width: 425px) {
+                width: 160px;
+                height: 70px;
+              }
               @media (min-width: 768px) {
                 width: 160px;
                 height: 80px;
