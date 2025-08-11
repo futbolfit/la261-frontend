@@ -24,6 +24,21 @@ export default class UsComponent implements OnInit {
   private platform = inject(PLATFORM_ID);
   public isFlipped = false;
 
+  public teams = [
+    {
+      name: 'Beatriz Franco',
+      role: 'Cofundadora <br>& Directora Ejecutiva',
+      imgUrl: 'assets/images/us/us_Bea.jpg',
+      description: 'Arquitecta, deportista y el cerebro del equipo. Lidera la ejecución con estructura y propósito. Es quien aterriza las ideas, construye propuestas sólidas y las convierte en experiencias memorables.'
+    },
+    {
+      name: 'Lorena Cortez',
+      role: 'Cofundadora <br>& Directora Estratégica',
+      imgUrl: 'assets/images/us/us_Lore.jpg',
+      description: 'Marketera, deportista y la visionaria del equipo. Piensa siempre en grande. Crea alianzas, conecta personas, impulsa el crecimiento sostenible de la agencia y provoca que las oportunidades se hagan realidad.'
+    }
+  ]
+
   public whyChooseItems = [
     {
       id: '1',

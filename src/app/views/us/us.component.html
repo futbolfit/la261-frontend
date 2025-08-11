@@ -1,215 +1,89 @@
 <div class="main">
   <div class="main_container" #scrollable>
     <app-navbar></app-navbar>
-    <div class="main-part">
-      <div class="banner">
-        <img src="assets/images/Logo_Alternativo@4x.png" alt="" class="logo_alt">
-      </div>
-      <div class="titles">
-        <img src="assets/images/Logo_Alternativo@4x.png" alt="" class="logo_alt">
-        <div class="star">*</div>
-        <div class="main-title">
-          Conócenos
-        </div>
-        <div class="title-buttons">
-          <div class="title-buttons-container">
-            <div class="title-button" (click)="scrollTo('NOSOTROS')">NOSOTROS</div>
-          </div>
-          <div class="title-buttons-container">
-            <div class="title-button" (click)="scrollTo('EQUIPO')">EQUIPO</div>
-            <div class="title-button" (click)="scrollTo('QUE-NOS-HACE-DIFERENTES')">¿QUÉ NOS HACE DIFERENTES?</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <section class="us" id="NOSOTROS">
-      <div class="principal_footer">
-        <div>
-          CONÓCENOS
-        </div>
-        <img src="assets/images/Slash@2x.png" alt="" >
-      </div>
-
+    <section class="welcome">
       <div class="us-principal">
         <div class="us-text-container">
-          <img src="assets/images/us/Imagen Texto Nosotros 02.png" alt="" class="hi-image">
+          <img
+            src="assets/images/us/Imagen Texto Nosotros 02.png"
+            alt=""
+            class="hi-image"
+          />
           <div class="first-para">
-            <span>Creadores de experiencias únicas e irrepetibles,</span> <br>
-            de conversaciones empáticas que potencian, <br>
+            <span>Creadores de experiencias únicas e irrepetibles,</span> <br />
+            de conversaciones empáticas que potencian, <br />
             de proyectos plasmados de objetivos.
           </div>
           <div class="second-para">
-            <span>¿Y para quiénes?</span> <br>
-            Para organizaciones que buscan potenciarse desde adentro <br>
+            <span>¿Y para quiénes?</span> <br />
+            Para organizaciones que buscan potenciarse desde adentro <br />
             y revolucionar el mundo alla afuera.
           </div>
-
         </div>
       </div>
-     <!--  <div class="principal_footer">
-        <div>
-          VALORES
-        </div>
-        <img src="assets/images/Slash@2x.png" alt="" >
-      </div>
-      <div class="us-text">
-        <div class="main-title">
-          Valores
-        </div>
-        <div class="values-container">
-          <div class="values">
-            <div class="value-item">
-              <div class="value-header">
-                1.
-              </div>
-              <div class="value-body">
-                <div class="value-title">
-                  Profesionalismo
-                </div>
-                <div class="value-description">
-                  Contamos con el equipo idóneo y especializado en las distintas tareas encomendadas de forma integra, transparente, puntual y responsable.
-                </div>
-              </div>
-            </div>
-            <div class="value-item">
-              <div class="value-header">
-                2.
-              </div>
-              <div class="value-body">
-                <div class="value-title">
-                  Orientación al cliente
-                </div>
-                <div class="value-description">
-                  Priorizamos la satisfacción y experiencia del cliente y todas las personas que forman parte del evento, siempre con empatía y buena disposición.
-                </div>
-              </div>
-            </div>
-            <div class="value-item">
-              <div class="value-header">
-                3.
-              </div>
-              <div class="value-body">
-                <div class="value-title">
-                  Trabajo en equipo
-                </div>
-                <div class="value-description">
-                  Fusionamos habilidades, conocimientos y experiencias de cada integrante con creatividad y de forma estratégica.
-                </div>
-              </div>
-            </div>
-            <div class="value-item">
-              <div class="value-header">
-                4.
-              </div>
-              <div class="value-body">
-                <div class="value-title">
-                  Empatía
-                </div>
-                <div class="value-description">
-                  Trabajar desde la escucha y el entendimiento del cliente, con el objetivo de orientarlo y darle toda la confianza para realizar un evento que satisfaga sus necesidades.
-                </div>
-              </div>
-            </div>
-            <div class="value-item">
-              <div class="value-header">
-                5.
-              </div>
-              <div class="value-body">
-                <div class="value-title">
-                  Proactividad
-                </div>
-                <div class="value-description">
-                  Nos retamos constantemente para mejorar día a día, elevar el valor de nuestros servicios y por supuesto, a siempre dar más, superando las expectativas del cliente.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
+    </section>
+    <section class="us">
       <div class="principal_footer" id="EQUIPO">
-        <div>
-          EQUIPO
-        </div>
-        <img src="assets/images/Slash@2x.png" alt="" >
+        <div>EQUIPO</div>
+        <img src="assets/images/Slash@2x.png" alt="" />
       </div>
       <div class="us-text">
-        <div class="main-title">
-          Fundadoras
-        </div>
-        <div class="team">
-          <div class="team-item">
-            <div class="team-picture">
-              <img src="" alt="">
-            </div>
-            <div class="team-text">
-              <div class="team-title">
-                Lorena Cortez
-              </div>
-              <div class="team-subtitle">
-                Cofundadora
-              </div>
-              <div class="team-description">
-                Lore: marketera y deportista. <br> La visionaria del equipo, la que detecta oportunidades y propone las ideas.
+        <div class="main-title">Equipo La261</div>
+        <div class="teams">
+          @for (team of teams; track $index) {
+            <div class="team">
+              <div class="team-img" [ngStyle]="{'background-image': 'url(' + team.imgUrl + ')'}"></div>
+              <div class="team-text">
+                <div class="team-title"> {{ team.name }} </div>
+                <div class="team-subtitle">
+                  <span [innerHTML]="team.role">
+                  </span>
+                </div>
+                <div class="team-description"> {{ team.description }} </div>
               </div>
             </div>
-          </div>
-          <div class="team-item">
-            <div class="team-picture">
-              <img src="" alt="">
-            </div>
-            <div class="team-text">
-              <div class="team-title">
-                Beatriz Franco
-              </div>
-              <div class="team-subtitle">
-                Cofundadora
-              </div>
-              <div class="team-description">
-                Bea: arquitecta y deportista. <br> El cerebro del equipo, la que aterriza las ideas y saca adelante los proyectos.
-              </div>
-            </div>
-          </div>
+          }
         </div>
       </div>
       <div class="principal_footer" id="QUE-NOS-HACE-DIFERENTES">
-        <div>
-          ¿QUÉ NOS HACE DIFERENTES?
-        </div>
-        <img src="assets/images/Slash@2x.png" alt="" >
+        <div>¿POR QUÉ ELEGIRNOS?</div>
+        <img src="assets/images/Slash@2x.png" alt="" />
       </div>
     </section>
     <div class="why-choose">
       <div class="why-choose-container">
-        <div class="main-title">
-          ¿Qué nos hace diferentes?
-        </div>
+        <div class="main-title">¿Qué nos hace diferentes?</div>
         <div class="choose">
           <div class="choose-items-container">
             @for (item of whyChooseItems; track $index) {
-              <div
-                class="choose-item"
-                [class.is-flipped]="whyChooseFlipped[item.id]">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <div class="choose-title" [innerHTML]="item.title">
-                    </div>
-                    <div class="choose-see-more" (click)="processChooseItem($event)">
-                      Ver más
-                    </div>
-                  </div>
-                  <div class="flip-box-back">
-                    <span>
-                      {{ item.description }}
-                    </span>
+            <div
+              class="choose-item"
+              [class.is-flipped]="whyChooseFlipped[item.id]"
+            >
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <div class="choose-title" [innerHTML]="item.title"></div>
+                  <div
+                    class="choose-see-more"
+                    (click)="processChooseItem($event)"
+                  >
+                    Ver más
                   </div>
                 </div>
+                <div class="flip-box-back">
+                  <span>
+                    {{ item.description }}
+                  </span>
+                </div>
               </div>
+            </div>
             }
           </div>
         </div>
         <div class="last-titles">
           <div class="last-title">
-            Transformemos tus objetivos <br> en experiencias únicas
+            Transformemos tus objetivos <br />
+            en experiencias únicas
           </div>
           <div class="buttons">
             <div class="principal_button">COTIZA TU PROYECTO</div>
