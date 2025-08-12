@@ -51,7 +51,7 @@ export default class UsComponent implements OnInit {
       id: '1',
       title: 'Calidad',
       description:
-        'Nuestro objetivo es entregar los mejores resultados y experiencias superando todas las expecativas.',
+        'Nuestro objetivo es entregar los mejores resultados y experiencias superando todas las expectativas.',
     },
     {
       id: '2',
