@@ -1,4 +1,4 @@
-@import 'variables.scss';
+@import "variables.scss";
 
 :host {
   .sidebar {
@@ -15,7 +15,7 @@
       width: 100%;
       display: flex;
       justify-content: end;
-      font-family: 'ai-re';
+      font-family: "ai-re";
       font-size: 40px;
       text-align: end;
       .icon {
@@ -26,7 +26,7 @@
       }
     }
     .sidebar_items {
-      font-family: 'ai-re';
+      font-family: "ai-re";
       display: flex;
       flex-direction: column;
       gap: 10px;
@@ -56,7 +56,7 @@
         }
       }
       margin-top: 5px;
-      font-family: 'ai-semibo';
+      font-family: "ai-semibo";
       font-size: 13.5px;
       text-decoration: underline solid;
       @media (min-width: 768px) {
@@ -73,28 +73,22 @@
       }
     }
     .social_media_logos {
-      display:flex;
+      display: flex;
       gap: 8px;
       margin-top: 25px;
       @media (min-width: 768px) {
-
       }
       @media (min-width: 1024px) {
-
       }
       @media (min-width: 1440px) {
-
       }
       img {
         height: 23.5px;
         @media (min-width: 768px) {
-
         }
         @media (min-width: 1024px) {
-
         }
         @media (min-width: 1440px) {
-
         }
         &:hover {
           cursor: pointer;
@@ -125,6 +119,10 @@
     .navbar-container {
       width: 100%;
       padding: 25px 20px 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
       @media (min-width: 425px) {
         padding: 25px 32px 10px 32px;
         max-width: 1440px;
@@ -141,10 +139,6 @@
         padding: 25px 75px 10px 75px;
         max-width: 1440px;
       }
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: start;
 
       .logo_navbar {
         width: 89px;
@@ -161,17 +155,18 @@
       }
 
       .bar {
-        display:none ;
+        display: none;
         @media (min-width: 1024px) {
           display: flex;
           justify-content: center;
           width: calc(100% - 120px);
           .bar_container {
-            display:flex;
+            display: flex;
             gap: 65px;
             font-size: 10.5px;
-            font-family: 'ai-semibo';
+            font-family: "ai-semibo";
             .active {
+              padding: 5px 0;
               &:hover {
                 text-decoration: underline;
                 cursor: pointer;
@@ -187,11 +182,12 @@
           justify-content: center;
           width: calc(100% - 120px);
           .bar_container {
-            display:flex;
+            display: flex;
             gap: 65px;
             font-size: 13.5px;
-            font-family: 'ai-semibo';
+            font-family: "ai-semibo";
             .active {
+              padding: 5px 0;
               &:hover {
                 text-decoration: underline;
                 cursor: pointer;
@@ -211,7 +207,7 @@
         &:hover {
           cursor: pointer;
         }
-        display:flex;
+        display: flex;
         align-items: center;
         flex-direction: column;
         gap: 8px;
@@ -220,7 +216,7 @@
         }
         .text_menu {
           font-size: 10.5px;
-          font-family: 'ai-li';
+          font-family: "ai-li";
         }
       }
     }

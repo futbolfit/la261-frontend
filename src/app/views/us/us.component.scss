@@ -29,21 +29,10 @@
         width: 100%;
         .us-principal {
           background-color: $la261_yellow;
-          margin: 20px 0 0px 0;
           min-height: calc(612px - 90px);
           display: flex;
           justify-content: center;
           align-items: center;
-          @media (min-width: 768px) {
-            margin: 40px 0 0px 0;
-          }
-          @media (min-width: 1024px) {
-            min-height: 612px;
-            margin: 40px 0 0px 0;
-          }
-          @media (min-width: 1440px) {
-            margin: 40px 0 0px 0;
-          }
           .us-text-container {
             display: flex;
             flex-direction: column;
