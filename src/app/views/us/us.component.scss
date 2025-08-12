@@ -48,9 +48,10 @@
             flex-direction: column;
             align-items: center;
             gap: 10px;
-            font-size: 12.5px;
+            font-size: 16px;
+            width: 65%;
             @media (min-width: 425px) {
-              font-size: 14px;
+              font-size: 16px;
               gap: 12px;
             }
             @media (min-width: 768px) {
@@ -65,11 +66,20 @@
               font-size: 27px;
               gap: 20px;
             }
+
+            br.desktop {
+              display: none;
+
+              @media (min-width: 768px) {
+                display: block;
+              }
+            }
             .hi-image {
-              width: 80%;
-              max-width: 270px;
+              width: 95%;
+              max-width: 350px;
               @media (min-width: 425px) {
-                max-width: 310px;
+                width: 80%;
+                max-width: 350px;
               }
               @media (min-width: 768px) {
                 max-width: 440px;
@@ -146,7 +156,7 @@
             display: flex;
             flex-direction: column;
             gap: 50px;
-            margin-top: 80px;
+            margin-top: 65px;
             margin-bottom: 100px;
           }
 
@@ -154,7 +164,7 @@
             display: flex;
             flex-direction: column;
             gap: 75px;
-            margin-top: 100px;
+            margin-top: 75px;
             margin-bottom: 155px;
           }
 
@@ -162,7 +172,6 @@
             font-family: "ai-bold";
             font-size: 30px;
             margin-bottom: 8px;
-            margin-top: 20px;
             @media (min-width: 1024px) {
               font-size: 32px;
             }
@@ -314,13 +323,24 @@
           }
           .teams {
             display: flex;
-            flex-direction: column;
             align-items: center;
-            gap: 45px;
+            flex-direction: column;
+            gap: 25px;
             width: 100%;
+
+            @media (min-width: 550px) {
+              flex-direction: row;
+            }
+
+            @media (min-width: 768px) {
+              flex-direction: row;
+              gap: 25px;
+              width: 100%;
+            }
 
             @media (min-width: 1024px) {
               flex-direction: row;
+              align-items: center;
               justify-content: center;
               gap: 30px;
             }
@@ -332,10 +352,19 @@
             .team {
               display: flex;
               align-items: center;
+              flex-direction: column;
               justify-content: center;
               gap: 19px;
               width: 100%;
               max-width: 528px;
+
+              @media (min-width: 768px) {
+                flex-direction: column;
+              }
+
+              @media (min-width: 1024px) {
+                flex-direction: row;
+              }
 
               @media (min-width: 1440px) {
                 gap: 28px;
@@ -343,15 +372,20 @@
 
               .team-img {
                 width: 100%;
-                max-width: 200px;
-                height: 335px;
+                max-width: 230px;
+                height: 287.5px;
                 background-color: black;
                 background-size: cover;
                 background-position: center center;
 
+                @media (min-width: 425px) {
+                  max-width: none;
+                  width: 230px;
+                  height: 287.5px;
+                }
+
                 @media (min-width: 768px) {
                   width: 230px;
-                  max-width: none;
                   height: 287.5px;
                 }
 
@@ -450,12 +484,12 @@
             width: 100%;
           }
           @media (min-width: 1024px) {
-            padding: 92px 50px 50px 50px;
+            padding: 45px 50px 50px 50px;
             max-width: 1440px;
             width: 100%;
           }
           @media (min-width: 1440px) {
-            padding: 92px 75px 75px 75px;
+            padding: 45px 75px 75px 75px;
             max-width: 1440px;
             width: 100%;
           }
