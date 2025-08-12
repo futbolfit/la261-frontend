@@ -30,7 +30,7 @@
         .us-principal {
           background-color: $la261_yellow;
           margin: 20px 0 0px 0;
-          min-height: 612px;
+          min-height: calc(612px - 90px);
           display: flex;
           justify-content: center;
           align-items: center;
@@ -38,6 +38,7 @@
             margin: 40px 0 0px 0;
           }
           @media (min-width: 1024px) {
+            min-height: 612px;
             margin: 40px 0 0px 0;
           }
           @media (min-width: 1440px) {
@@ -176,7 +177,7 @@
               font-size: 32px;
             }
             @media (min-width: 1440px) {
-              font-size: 37px;
+              font-size: 50px;
             }
           }
           .us-text-description {
@@ -357,46 +358,50 @@
               gap: 19px;
               width: 100%;
               max-width: 528px;
+              height: calc(287.5px + 233px);
+
+              @media (min-width: 425px) {
+                height: calc(287.5px + 233px);
+              }
 
               @media (min-width: 768px) {
+                height: calc(287.5px + 233px);
                 flex-direction: column;
               }
 
               @media (min-width: 1024px) {
                 flex-direction: row;
+                height: 287.5px;
               }
 
               @media (min-width: 1440px) {
                 gap: 28px;
+                height: 335px;
               }
 
               .team-img {
                 width: 100%;
                 max-width: 230px;
-                height: 287.5px;
                 background-color: black;
                 background-size: cover;
                 background-position: center center;
+                height: 100%;
 
                 @media (min-width: 425px) {
                   max-width: none;
                   width: 230px;
-                  height: 287.5px;
                 }
 
                 @media (min-width: 768px) {
                   width: 230px;
-                  height: 287.5px;
                 }
 
                 @media (min-width: 1024px) {
                   width: 230px;
-                  height: 287.5px;
                 }
 
                 @media (min-width: 1440px) {
                   width: 268px;
-                  height: 335px;
                 }
               }
 
@@ -405,12 +410,14 @@
                 flex-direction: column;
                 justify-content: flex-end;
                 width: 100%;
-                max-width: 200px;
-                height: -webkit-fill-available;
+                max-width: 230px;
+                height: 200px;
                 padding-bottom: 13.5px;
 
                 @media (min-width: 1024px) {
+                  height: 100%;
                   width: 200px;
+                  max-width: 200px;
                 }
 
                 @media (min-width: 1440px) {
@@ -452,9 +459,14 @@
                   }
                 }
                 .team-description {
+                  height: calc(136px - 38px);
                   font-size: 12.5px;
                   font-family: "ai-re";
+                  @media (min-width: 1024px) {
+                    height: 136px;
+                  }
                   @media (min-width: 1440px) {
+                    height: 136px;
                     font-size: 14px;
                   }
                 }
@@ -497,8 +509,18 @@
             font-family: "ai-bold";
             font-size: 25px;
             margin-bottom: 8px;
+
+            @media (min-width: 425px) {
+              font-size: 30px;
+            }
+            @media (min-width: 768px) {
+              font-size: 30px;
+            }
+            @media (min-width: 1024px) {
+              font-size: 32px;
+            }
             @media (min-width: 1440px) {
-              font-size: 40px;
+              font-size: 50px;
               display: flex;
             }
           }
@@ -521,6 +543,7 @@
               justify-content: center;
             }
             @media (min-width: 1440px) {
+              margin-top: 75px;
               flex-direction: row;
               justify-content: center;
             }
