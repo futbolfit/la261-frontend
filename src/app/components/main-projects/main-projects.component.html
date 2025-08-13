@@ -4,7 +4,7 @@
 <div class="main_projects-list_container">
   <div class="main_projects-list">
     @for (project of ( page === 'main-landing' ? projects.slice(0,6) : projects); track $index; let idx = $index) {
-      <div class="main_projects-item" [routerLink]="'/projects/' + project.project_name">
+      <a class="main_projects-item" [routerLink]="'/projects/' + project.project_name">
         @if (idx === 1) {
           <div class="logo_projects">
             <img src="assets/images/Logo_Alternativo@4x.png" alt="">
@@ -21,7 +21,7 @@
         <div class="description">
           {{ project.project_short_description }}
         </div>
-      </div>
+      </a>
     }
   </div>
 </div>
