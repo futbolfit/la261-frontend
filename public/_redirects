@@ -1,1 +1,8 @@
+# 1) Canonizar: todo lo que llegue por apex → www
+https://la261.com/*    https://www.la261.com/:splat   301!
+
+# 2) (Opcional si no usas el botón "Force HTTPS") Forzar HTTPS en www
+http://www.la261.com/* https://www.la261.com/:splat   301!
+
+# 3) Fallback SPA (tu línea actual, al final)
 /* /index.html 200
