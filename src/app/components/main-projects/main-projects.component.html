@@ -7,7 +7,7 @@
       <a class="main_projects-item" [routerLink]="'/projects/' + project.project_name">
         @if (idx === 1) {
           <div class="logo_projects">
-            <img src="assets/images/Logo_Alternativo@4x.png" alt="">
+            <img src="/assets/images/Logo_Alternativo@4x.png" alt="">
           </div>
         }
         <div class="image" [ngStyle]="{ 'background-image' : 'url(' + project.main_image_url + ')'}">
@@ -41,6 +41,6 @@
     <div>
       CLIENTES
     </div>
-    <img src="assets/images/Slash@2x.png" alt="" >
+    <img src="/assets/images/Slash@2x.png" alt="" >
   </div>
 }
