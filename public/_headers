@@ -1,16 +1,68 @@
-/*
-  Strict-Transport-Security: max-age=31536000
-  X-Frame-Options: DENY
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: strict-origin-when-cross-origin
+# ==============================
+# 1) Cabeceras para FUENTES
+# ==============================
+/assets/fonts/*
+  # MIME correctos (Netlify suele detectarlos; aquí los reforzamos)
+  Content-Type: font/woff2
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=31536000, immutable
+  # Si las sirves desde <link rel="preload" as="font" crossorigin>
+  Cross-Origin-Resource-Policy: cross-origin
 
-# Caché larga para assets estáticos
-/assets/*
+# Fallback para otras extensiones de fuente si usas woff/ttf/svg
+/assets/fonts/*.woff
+  Content-Type: font/woff
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=31536000, immutable
+  Cross-Origin-Resource-Policy: cross-origin
+
+/assets/fonts/*.ttf
+  Content-Type: font/ttf
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=31536000, immutable
+  Cross-Origin-Resource-Policy: cross-origin
+
+/assets/fonts/*.svg
+  Content-Type: image/svg+xml
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=31536000, immutable
+  Cross-Origin-Resource-Policy: cross-origin
+
+# ==============================
+# 2) Cabeceras para IMÁGENES
+# ==============================
+/assets/images/*
+  Cache-Control: public, max-age=31536000, immutable
+  Timing-Allow-Origin: *
+  # (Opcional si incrustas SVG)
+//assets/images/*.svg
+  Content-Type: image/svg+xml
+  Cache-Control: public, max-age=31536000, immutable
+  Timing-Allow-Origin: *
+
+# ==============================
+# 3) Estáticos CSS/JS (mejor caché)
+# ==============================
+/assets/*.css
   Cache-Control: public, max-age=31536000, immutable
 
-# CORS explícito para fuentes (si alguna vez las sirves desde el otro host)
-# Si TODO es mismo origen, no es strictly necesario; igual es inofensivo.
-# Si usas sólo www., ajusta el origen en vez de '*'.
-/assets/fonts/*
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Methods: GET, OPTIONS
+/assets/*.js
+  Cache-Control: public, max-age=31536000, immutable
+
+# ==============================
+# 4) Páginas (evita cachear HTML)
+# ==============================
+/*
+  Cache-Control: no-store
+
+# ==============================
+# 5) Seguridad razonable (sin romper cosas)
+# ==============================
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  # CSP básica: permite imágenes, estilos y fuentes desde https y tu mismo origen.
+  # Si usas mapas/CDN externos, agrégalos a cada directiva.
+/*
+  Content-Security-Policy: default-src 'self'; img-src 'self' https: data: blob:; style-src 'self' 'unsafe-inline' https:; script-src 'self' https: 'unsafe-inline' 'unsafe-eval'; font-src 'self' https: data:; connect-src 'self' https:; frame-ancestors 'none';

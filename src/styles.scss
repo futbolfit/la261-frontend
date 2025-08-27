@@ -1,52 +1,61 @@
 
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file;
+font-display: swap; and also import other style files */
 
 @font-face {
   font-family: 'ai-bold';
   src:
-  url('/assets/fonts/Aileron-Bold.woff') format('woff'),
+  url('/assets/fonts/Aileron-Bold.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'ai-li';
   src:
-  url('/assets/fonts/Aileron-Light.woff') format('woff'),
+  url('/assets/fonts/Aileron-Light.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'ai-boit';
   src:
-  url('/assets/fonts/Aileron-BoldItalic.woff') format('woff'),
+  url('/assets/fonts/Aileron-BoldItalic.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'ai-re';
   src:
-  url('/assets/fonts/Aileron-Regular.woff') format('woff'),
+  url('/assets/fonts/Aileron-Regular.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'ai-semibo';
   src:
   url('/assets/fonts/Aileron-SemiBold.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'my-bo';
   src:
   url('/assets/fonts/MyriadPro-Bold.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'my-re';
   src:
   url('/assets/fonts/MyriadPro-Regular.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'my-semibo';
   src:
   url('/assets/fonts/MyriadPro-Semibold.woff') format('woff');
+  font-display: swap;
 }
 
 
