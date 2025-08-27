@@ -1,5 +1,16 @@
-/\*
-Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-X-Frame-Options: DENY
-X-Content-Type-Options: nosniff
-Referrer-Policy: strict-origin-when-cross-origin
+/*
+  Strict-Transport-Security: max-age=31536000
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# Caché larga para assets estáticos
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# CORS explícito para fuentes (si alguna vez las sirves desde el otro host)
+# Si TODO es mismo origen, no es strictly necesario; igual es inofensivo.
+# Si usas sólo www., ajusta el origen en vez de '*'.
+/assets/fonts/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, OPTIONS
