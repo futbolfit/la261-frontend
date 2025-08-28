@@ -1,47 +1,35 @@
 # ==============================
-# 1) Cabeceras para FUENTES
+# 1) FUENTES (si las sirves cross-origin)
 # ==============================
 /assets/fonts/*
-  # MIME correctos (Netlify suele detectarlos; aquí los reforzamos)
-  Content-Type: font/woff2
   Access-Control-Allow-Origin: *
+  Vary: Origin
   Cache-Control: public, max-age=31536000, immutable
-  # Si las sirves desde <link rel="preload" as="font" crossorigin>
   Cross-Origin-Resource-Policy: cross-origin
 
-# Fallback para otras extensiones de fuente si usas woff/ttf/svg
+# Si necesitas reglas por extensión, añade SOLO estas (sin forzar Content-Type):
 /assets/fonts/*.woff
-  Content-Type: font/woff
-  Access-Control-Allow-Origin: *
   Cache-Control: public, max-age=31536000, immutable
-  Cross-Origin-Resource-Policy: cross-origin
+
+/assets/fonts/*.woff2
+  Cache-Control: public, max-age=31536000, immutable
 
 /assets/fonts/*.ttf
-  Content-Type: font/ttf
-  Access-Control-Allow-Origin: *
   Cache-Control: public, max-age=31536000, immutable
-  Cross-Origin-Resource-Policy: cross-origin
-
-/assets/fonts/*.svg
-  Content-Type: image/svg+xml
-  Access-Control-Allow-Origin: *
-  Cache-Control: public, max-age=31536000, immutable
-  Cross-Origin-Resource-Policy: cross-origin
 
 # ==============================
-# 2) Cabeceras para IMÁGENES
+# 2) IMÁGENES
 # ==============================
 /assets/images/*
   Cache-Control: public, max-age=31536000, immutable
   Timing-Allow-Origin: *
-  # (Opcional si incrustas SVG)
-//assets/images/*.svg
-  Content-Type: image/svg+xml
+
+/assets/images/*.svg
   Cache-Control: public, max-age=31536000, immutable
   Timing-Allow-Origin: *
 
 # ==============================
-# 3) Estáticos CSS/JS (mejor caché)
+# 3) ESTÁTICOS CSS/JS
 # ==============================
 /assets/*.css
   Cache-Control: public, max-age=31536000, immutable
@@ -50,19 +38,16 @@
   Cache-Control: public, max-age=31536000, immutable
 
 # ==============================
-# 4) Páginas (evita cachear HTML)
+# 4) PÁGINAS HTML (no cachear SSR)
 # ==============================
 /*
   Cache-Control: no-store
 
 # ==============================
-# 5) Seguridad razonable (sin romper cosas)
+# 5) SEGURIDAD (un solo bloque unificado)
 # ==============================
 /*
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
-  # CSP básica: permite imágenes, estilos y fuentes desde https y tu mismo origen.
-  # Si usas mapas/CDN externos, agrégalos a cada directiva.
-/*
   Content-Security-Policy: default-src 'self'; img-src 'self' https: data: blob:; style-src 'self' 'unsafe-inline' https:; script-src 'self' https: 'unsafe-inline' 'unsafe-eval'; font-src 'self' https: data:; connect-src 'self' https:; frame-ancestors 'none';
