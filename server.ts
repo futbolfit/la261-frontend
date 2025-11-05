@@ -9,6 +9,18 @@ import bootstrap from './src/main.server';
 // Si tu TS se queja del default import, usa:  import * as helmet from 'helmet';
 import helmet from 'helmet';
 
+// 1) Define una única CSP para todo
+const CSP = [
+  "default-src 'self'",
+  "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com",
+  "script-src 'self' https://www.youtube.com https://s.ytimg.com",
+  "img-src 'self' data: https://i.ytimg.com https://*.ggpht.com",
+  "connect-src 'self' https://www.youtube.com https://*.googlevideo.com",
+  "object-src 'none'",
+  "base-uri 'self'",
+  "frame-ancestors 'self'"
+].join('; ');
+
 export function app(): express.Express {
   const server = express();
   const serverDistFolder = dirname(fileURLToPath(import.meta.url));
@@ -20,47 +32,20 @@ export function app(): express.Express {
   server.set('view engine', 'html');
   server.set('views', browserDistFolder);
 
-  // 👇 AÑADIDO: seguridad base y CSP con YouTube permitido
+  // 2) Helmet primero
   server.disable('x-powered-by');
-
-  // Toma la política por defecto de Helmet y extiéndela
-  const cspDefaults = helmet.contentSecurityPolicy.getDefaultDirectives();
-
   server.use(
     helmet({
-      // Desactiva COEP para evitar choques innecesarios
       crossOriginEmbedderPolicy: false,
-      // Política CSP
       contentSecurityPolicy: {
-        useDefaults: false,
+        useDefaults: true,
         directives: {
-          ...cspDefaults, // incluye: default-src 'self', frame-ancestors 'self', etc.
-
-          // Permite iframes de YouTube
+          // Helmet pone defaults; nosotros los reforzamos:
+          "default-src": ["'self'"],
           "frame-src": ["'self'", "https://www.youtube.com", "https://www.youtube-nocookie.com"],
-
-          // Permite scripts del player
-          "script-src": [
-            ...(cspDefaults["script-src"] || ["'self'"]),
-            "https://www.youtube.com",
-            "https://s.ytimg.com"
-          ],
-
-          // Permite imágenes y thumbnails
-          "img-src": [
-            ...(cspDefaults["img-src"] || ["'self'", "data:"]),
-            "https://i.ytimg.com",
-            "https://*.ggpht.com"
-          ],
-
-          // Permite conexiones del reproductor/streams
-          "connect-src": [
-            ...(cspDefaults["connect-src"] || ["'self'"]),
-            "https://www.youtube.com",
-            "https://*.googlevideo.com"
-          ],
-
-          // Endurecemos un poco más (ya vienen por defecto, pero los dejamos explícitos si quieres)
+          "script-src": ["'self'", "https://www.youtube.com", "https://s.ytimg.com"],
+          "img-src": ["'self'", "data:", "https://i.ytimg.com", "https://*.ggpht.com"],
+          "connect-src": ["'self'", "https://www.youtube.com", "https://*.googlevideo.com"],
           "object-src": ["'none'"],
           "base-uri": ["'self'"],
           "frame-ancestors": ["'self'"],
@@ -69,16 +54,29 @@ export function app(): express.Express {
     })
   );
 
-  // Archivos estáticos (mantengo tu orden)
-  server.get('**', express.static(browserDistFolder, {
+  // 3) (Cinturón y tirantes) Fuerza CSP en TODA respuesta
+  server.use((_, res, next) => {
+    res.setHeader('Content-Security-Policy', CSP);
+    next();
+  });
+
+  // 4) Sirve estáticos SIN index.html y con cache fuerte SOLO para assets
+  server.use(express.static(browserDistFolder, {
+    index: false,                // <- MUY IMPORTANTE (no devuelvas index desde static)
     maxAge: '1y',
-    index: 'index.html',
-  }));
+    setHeaders: (res, path) => {
+      // No-cache para HTML por si cae algún .html suelto
+      if (path.endsWith('.html')) {
+        res.setHeader('Cache-Control', 'no-store');
+      }
+    }
+  })); // :contentReference[oaicite:1]{index=1}
 
-  // SSR
+  // 5) Todas las rutas HTML renderizadas por SSR (+ no-store)
   server.get('**', (req, res, next) => {
-    const { protocol, originalUrl, baseUrl, headers } = req;
+    res.setHeader('Cache-Control', 'no-store');
 
+    const { protocol, originalUrl, baseUrl, headers } = req;
     commonEngine
       .render({
         bootstrap,
@@ -93,13 +91,3 @@ export function app(): express.Express {
 
   return server;
 }
-
-function run(): void {
-  const port = process.env['PORT'] || 4000;
-  const server = app();
-  server.listen(port, () => {
-    console.log(`Node Express server listening on http://localhost:${port}`);
-  });
-}
-
-run();
