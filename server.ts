@@ -5,7 +5,10 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join, resolve } from 'node:path';
 import bootstrap from './src/main.server';
 
-// The Express app is exported so that it can be used by serverless Functions.
+// 👇 AÑADIDO: Helmet
+// Si tu TS se queja del default import, usa:  import * as helmet from 'helmet';
+import helmet from 'helmet';
+
 export function app(): express.Express {
   const server = express();
   const serverDistFolder = dirname(fileURLToPath(import.meta.url));
@@ -17,15 +20,62 @@ export function app(): express.Express {
   server.set('view engine', 'html');
   server.set('views', browserDistFolder);
 
-  // Example Express Rest API endpoints
-  // server.get('/api/**', (req, res) => { });
-  // Serve static files from /browser
+  // 👇 AÑADIDO: seguridad base y CSP con YouTube permitido
+  server.disable('x-powered-by');
+
+  // Toma la política por defecto de Helmet y extiéndela
+  const cspDefaults = helmet.contentSecurityPolicy.getDefaultDirectives();
+
+  server.use(
+    helmet({
+      // Desactiva COEP para evitar choques innecesarios
+      crossOriginEmbedderPolicy: false,
+      // Política CSP
+      contentSecurityPolicy: {
+        useDefaults: false,
+        directives: {
+          ...cspDefaults, // incluye: default-src 'self', frame-ancestors 'self', etc.
+
+          // Permite iframes de YouTube
+          "frame-src": ["'self'", "https://www.youtube.com", "https://www.youtube-nocookie.com"],
+
+          // Permite scripts del player
+          "script-src": [
+            ...(cspDefaults["script-src"] || ["'self'"]),
+            "https://www.youtube.com",
+            "https://s.ytimg.com"
+          ],
+
+          // Permite imágenes y thumbnails
+          "img-src": [
+            ...(cspDefaults["img-src"] || ["'self'", "data:"]),
+            "https://i.ytimg.com",
+            "https://*.ggpht.com"
+          ],
+
+          // Permite conexiones del reproductor/streams
+          "connect-src": [
+            ...(cspDefaults["connect-src"] || ["'self'"]),
+            "https://www.youtube.com",
+            "https://*.googlevideo.com"
+          ],
+
+          // Endurecemos un poco más (ya vienen por defecto, pero los dejamos explícitos si quieres)
+          "object-src": ["'none'"],
+          "base-uri": ["'self'"],
+          "frame-ancestors": ["'self'"],
+        },
+      },
+    })
+  );
+
+  // Archivos estáticos (mantengo tu orden)
   server.get('**', express.static(browserDistFolder, {
     maxAge: '1y',
     index: 'index.html',
   }));
 
-  // All regular routes use the Angular engine
+  // SSR
   server.get('**', (req, res, next) => {
     const { protocol, originalUrl, baseUrl, headers } = req;
 
@@ -46,8 +96,6 @@ export function app(): express.Express {
 
 function run(): void {
   const port = process.env['PORT'] || 4000;
-
-  // Start up the Node server
   const server = app();
   server.listen(port, () => {
     console.log(`Node Express server listening on http://localhost:${port}`);
