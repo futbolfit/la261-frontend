@@ -25,13 +25,27 @@ import { Meta, Title } from '@angular/platform-browser';
 export default class ProjectComponent implements OnInit {
   project?: Project;
 
+  isBrowser = typeof window !== 'undefined';
+
   private route = inject(ActivatedRoute);
   private router = inject(Router);
 
   private title = inject(Title);
   private meta = inject(Meta);
 
+  playerVars?: Partial<YT.PlayerVars>;
+
   ngOnInit(): void {
+    if (this.isBrowser) {
+      this.playerVars = {
+        origin: window.location.origin, // recomendado por la IFrame API
+        rel: 0,
+        modestbranding: 1,
+        enablejsapi: 1,
+        playsinline: 1
+      };
+    }
+
     const project_name = this.route.snapshot.paramMap.get('project_name');
     const project_found = projects.find((pro) => pro.project_name === project_name);
     if (project_found) {
@@ -99,7 +113,6 @@ export default class ProjectComponent implements OnInit {
   }
 
   get carouselChildren () {
-    console.log(this.sliderElement.nativeElement.children[0].children);
     return this.sliderElement.nativeElement.children[0].children;
   }
 

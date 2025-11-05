@@ -57,10 +57,7 @@
               }
               @for (video of project?.videos_urls; track $index) {
                 <div class="photo-item video-item">
-                  <youtube-player
-                  [videoId]="video"
-                  >
-                  </youtube-player>
+                  <youtube-player [videoId]="video" [playerVars]="playerVars"></youtube-player>
                 </div>
               }
             </div>
