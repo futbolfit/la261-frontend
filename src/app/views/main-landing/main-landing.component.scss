@@ -608,6 +608,102 @@
               background-image: url("./../../../../public/assets/images/Logos_Clientes/Logo_Lima_Airport.png");
             }
           }
+          &:nth-child(13) {
+            > div {
+              width: 60px;
+              height: 60px;
+
+              @media (min-width: 425px) {
+                width: 100px;
+                height: 70px;
+              }
+              @media (min-width: 768px) {
+                width: 160px;
+                height: 80px;
+              }
+              @media (min-width: 1024px) {
+                width: 209.5px;
+                height: 80px;
+              }
+              @media (min-width: 1440px) {
+                width: 209.5px;
+                height: 90px;
+              }
+              background-image: url("./../../../../public/assets/images/Logos_Clientes/Logo_Andiamo.png");
+            }
+          }
+          &:nth-child(14) {
+            > div {
+              width: 60px;
+              height: 60px;
+
+              @media (min-width: 425px) {
+                width: 100px;
+                height: 70px;
+              }
+              @media (min-width: 768px) {
+                width: 160px;
+                height: 80px;
+              }
+              @media (min-width: 1024px) {
+                width: 209.5px;
+                height: 80px;
+              }
+              @media (min-width: 1440px) {
+                width: 209.5px;
+                height: 90px;
+              }
+              background-image: url("./../../../../public/assets/images/Logos_Clientes/Logo_Educapital.png");
+            }
+          }
+          &:nth-child(15) {
+            > div {
+              width: 60px;
+              height: 60px;
+
+              @media (min-width: 425px) {
+                width: 100px;
+                height: 70px;
+              }
+              @media (min-width: 768px) {
+                width: 160px;
+                height: 80px;
+              }
+              @media (min-width: 1024px) {
+                width: 209.5px;
+                height: 80px;
+              }
+              @media (min-width: 1440px) {
+                width: 209.5px;
+                height: 90px;
+              }
+              background-image: url("./../../../../public/assets/images/Logos_Clientes/Logo_Paz_Inmobiliaria.png");
+            }
+          }
+          &:nth-child(16) {
+            > div {
+              width: 60px;
+              height: 60px;
+
+              @media (min-width: 425px) {
+                width: 100px;
+                height: 70px;
+              }
+              @media (min-width: 768px) {
+                width: 160px;
+                height: 80px;
+              }
+              @media (min-width: 1024px) {
+                width: 209.5px;
+                height: 80px;
+              }
+              @media (min-width: 1440px) {
+                width: 209.5px;
+                height: 90px;
+              }
+              background-image: url("./../../../../public/assets/images/Logos_Clientes/Logo_Shadow.png");
+            }
+          }
         }
       }
     }
