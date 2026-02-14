@@ -1,5 +1,36 @@
 [
   {
+    "project_name":"40-aniversario-andiamo",
+    "client_name": "Andiamo Inmobiliaria",
+    "client_description": "",
+    "client_presenter_name": "",
+    "client_presenter_role": "",
+    "client_review": "",
+    "project_title": "40º aniversario Andiamo",
+    "project_short_description": "Cóctel de celebración por sus 40º aniversario.",
+    "project_long_description": "Cóctel de celebración y agradecimiento por el 40º aniversario de Andiamo Inmobiliaria, que reunió a colaboradores, clientes y aliados estratégicos en un ambiente íntimo y cercano, fortaleciendo vínculos y poniendo en valor su trayectoria y crecimiento.",
+    "project_details": [
+      "Ambientación y decoración",
+      "Iluminación y sonido",
+      "Diseño y producción de piezas gráficas",
+      "Supervisión de evento"
+    ],
+    "main_image_url": "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_00.jpg",
+    "images_urls": [
+      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_01.jpg",
+      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_02.jpg",
+      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_03.jpg",
+      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_04.jpg",
+      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_05.jpg",
+      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_06.jpg",
+      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_07.jpg",
+      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_08.jpg",
+      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_09.jpg",
+      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_10.jpg"
+    ],
+    "videos_urls": ["3spBHw9tspU"]
+  },
+  {
     "project_name": "la-fiesta-deportiva-2025",
     "client_name": "Lima Airport",
     "client_description": "",
