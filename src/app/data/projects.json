@@ -1,36 +1,5 @@
 [
   {
-    "project_name":"40-aniversario-andiamo",
-    "client_name": "Andiamo Inmobiliaria",
-    "client_description": "",
-    "client_presenter_name": "",
-    "client_presenter_role": "",
-    "client_review": "",
-    "project_title": "40º aniversario Andiamo",
-    "project_short_description": "Cóctel de celebración por sus 40º aniversario.",
-    "project_long_description": "Cóctel de celebración y agradecimiento por el 40º aniversario de Andiamo Inmobiliaria, que reunió a colaboradores, clientes y aliados estratégicos en un ambiente íntimo y cercano, fortaleciendo vínculos y poniendo en valor su trayectoria y crecimiento.",
-    "project_details": [
-      "Ambientación y decoración",
-      "Iluminación y sonido",
-      "Diseño y producción de piezas gráficas",
-      "Supervisión de evento"
-    ],
-    "main_image_url": "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_00.jpg",
-    "images_urls": [
-      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_01.jpg",
-      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_02.jpg",
-      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_03.jpg",
-      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_04.jpg",
-      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_05.jpg",
-      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_06.jpg",
-      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_07.jpg",
-      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_08.jpg",
-      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_09.jpg",
-      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_10.jpg"
-    ],
-    "videos_urls": ["3spBHw9tspU"]
-  },
-  {
     "project_name": "la-fiesta-deportiva-2025",
     "client_name": "Lima Airport",
     "client_description": "",
@@ -67,7 +36,41 @@
       "assets/images/projects/14_Galeria_LA_Fiesta_Deportiva_2025/Galeria_LA_Fiesta_Deportiva_2025_16.jpg",
       "assets/images/projects/14_Galeria_LA_Fiesta_Deportiva_2025/Galeria_LA_Fiesta_Deportiva_2025_17.jpg"
     ],
-    "videos_urls": []
+    "videos_urls": ["szRuKRJC_6I"]
+  },
+  {
+    "project_name": "demolition-party-medina",
+    "client_name": "Paz Inmobiliaria",
+    "client_description": "",
+    "client_presenter_name": "",
+    "client_presenter_role": "",
+    "client_review": "",
+    "project_title": "Demolition Party “Medina”",
+    "project_short_description": "Evento experiencial inmobiliario de demolición simbólica.",
+    "project_long_description": "Evento experiencial donde los propietarios del proyecto inmobiliario Medina participaron de una demolición simbólica para dar inicio al proceso de obra. A través de una ambientación integral, transformamos el espacio en una experiencia envolvente que permitió vivir la emoción de dar el primer paso hacia la construcción del nuevo proyecto.",
+    "project_details": [
+      "Organización y logística del evento",
+      "Ambientación, iluminación y sonido",
+      "Diseño y producción de piezas gráficas",
+      "Animación y personal del evento",
+      "Catering y bar"
+    ],
+    "main_image_url": "assets/images/projects/17_Demolition_party/Demolition_party_00.jpg",
+    "images_urls": [
+      "assets/images/projects/17_Demolition_party/Demolition_party_01.jpg",
+      "assets/images/projects/17_Demolition_party/Demolition_party_02.jpg",
+      "assets/images/projects/17_Demolition_party/Demolition_party_03.jpg",
+      "assets/images/projects/17_Demolition_party/Demolition_party_04.jpg",
+      "assets/images/projects/17_Demolition_party/Demolition_party_05.jpg",
+      "assets/images/projects/17_Demolition_party/Demolition_party_06.jpg",
+      "assets/images/projects/17_Demolition_party/Demolition_party_07.jpg",
+      "assets/images/projects/17_Demolition_party/Demolition_party_08.jpg",
+      "assets/images/projects/17_Demolition_party/Demolition_party_09.jpg",
+      "assets/images/projects/17_Demolition_party/Demolition_party_10.jpg",
+      "assets/images/projects/17_Demolition_party/Demolition_party_11.jpg",
+      "assets/images/projects/17_Demolition_party/Demolition_party_12.jpg"
+    ],
+    "videos_urls": ["3spBHw9tspU"]
   },
   {
     "project_name": "copa-REMS-2025",
@@ -104,75 +107,6 @@
       "assets/images/projects/15_Galeria_Copa_REMS_2025/Galeria_Copa_REMS_2025_12.jpg"
     ],
     "videos_urls": ["Jh6yszsIHsA"]
-  },
-  {
-    "project_name": "5k-ml",
-    "client_name": "Equipo Medias Largas CF y Municipalidad de San Miguel",
-    "client_description": "",
-    "client_presenter_name": "",
-    "client_presenter_role": "",
-    "client_review": "",
-    "project_title": "Carrera 5K ML",
-    "project_short_description": "Carrera 5K pro fútbol femenino.",
-    "project_long_description": "Carrera de 5K organizada por el equipo de fútbol femenino Medias Largas CF, en colaboración con la Municipalidad de San Miguel, con el objetivo de recaudar fondos para seguir impulsando el crecimiento del equipo, gestionado de forma independiente, que apuesta por el desarrollo del fútbol femenino en el Perú.",
-    "project_details": [
-      "Organización y logística de la carrera",
-      "Diseño y producción de piezas gráficas",
-      "Merchandising del evento",
-      "Comunicación y contenido digital",
-      "Plan de Patrocinio"
-    ],
-    "main_image_url": "assets/images/projects/13_5K_ML/5K_ML_00.jpg",
-    "images_urls": [
-      "assets/images/projects/13_5K_ML/5K_ML_01.jpg",
-      "assets/images/projects/13_5K_ML/5K_ML_02.jpg",
-      "assets/images/projects/13_5K_ML/5K_ML_03.jpg",
-      "assets/images/projects/13_5K_ML/5K_ML_04.jpg",
-      "assets/images/projects/13_5K_ML/5K_ML_05.jpg",
-      "assets/images/projects/13_5K_ML/5K_ML_06.jpg",
-      "assets/images/projects/13_5K_ML/5K_ML_07.jpg",
-      "assets/images/projects/13_5K_ML/5K_ML_08.jpg",
-      "assets/images/projects/13_5K_ML/5K_ML_09.jpg",
-      "assets/images/projects/13_5K_ML/5K_ML_10.jpg",
-      "assets/images/projects/13_5K_ML/5K_ML_11.jpg",
-      "assets/images/projects/13_5K_ML/5K_ML_12.jpg",
-      "assets/images/projects/13_5K_ML/5K_ML_13.jpg"
-    ],
-    "videos_urls": []
-  },
-  {
-    "project_name": "lifa",
-    "client_name": "12 Estudios de Abogados",
-    "client_description": "",
-    "client_presenter_name": "",
-    "client_presenter_role": "",
-    "client_review": "",
-    "project_title": "LiFA - Liga de Fútbol de Estudios de Abogadas",
-    "project_short_description": "Liga femenina de fútbol 7 integrada por 12 estudios de abogados de Lima.",
-    "project_long_description": "Liga de fútbol femenino con identidad propia y un objetivo claro: ser el espacio donde 12 equipos —integrados por mujeres de estudios de abogados de Lima— compitieran por la gloria, promoviendo confraternidad, deporte y diversión.",
-    "project_details": [
-      "Organización y estructura del torneo",
-      "Diseño de branding y producción de piezas gráficas",
-      "Animación, arbitraje y personal del evento",
-      "Comunicación y contenido digital",
-      "Contenido audiovisual",
-      "Luces y sonido"
-    ],
-    "main_image_url": "assets/images/projects/10_LiFA/LiFA_00.jpg",
-    "images_urls": [
-      "assets/images/projects/10_LiFA/LiFA_01.jpg",
-      "assets/images/projects/10_LiFA/LiFA_02.jpg",
-      "assets/images/projects/10_LiFA/LiFA_03.jpg",
-      "assets/images/projects/10_LiFA/LiFA_04.jpg",
-      "assets/images/projects/10_LiFA/LiFA_05.jpg",
-      "assets/images/projects/10_LiFA/LiFA_06.jpg",
-      "assets/images/projects/10_LiFA/LiFA_07.jpg",
-      "assets/images/projects/10_LiFA/LiFA_08.jpg",
-      "assets/images/projects/10_LiFA/LiFA_09.jpg",
-      "assets/images/projects/10_LiFA/LiFA_10.jpg",
-      "assets/images/projects/10_LiFA/LiFA_11.jpg"
-    ],
-    "videos_urls": ["1UVfz8PH4Jg"]
   },
   {
     "project_name": "lanzamiento-oficinas-more",
@@ -217,35 +151,38 @@
     "videos_urls": []
   },
   {
-    "project_name": "regatas-basketball",
-    "client_name": "Club de Regatas Lima",
+    "project_name": "lifa",
+    "client_name": "12 Estudios de Abogados",
     "client_description": "",
     "client_presenter_name": "",
     "client_presenter_role": "",
     "client_review": "",
-    "project_title": "Festival de Basketball Formativo",
-    "project_short_description": "Torneo de basketball formativo para niños y niñas de las categorías sub10 y sub12.",
-    "project_long_description": "Festival de basketball para niños y niñas dividido en las categorías sub10 y sub12, que reunió a clubes de diferentes provincias en una serie de jornadas dinámicas. Con un despliegue integral, se logró ofrecer un evento recreativo, organizado y memorable para los niños y el público en general.",
+    "project_title": "LiFA - Liga de Fútbol de Estudios de Abogadas",
+    "project_short_description": "Liga femenina de fútbol 7 integrada por 12 estudios de abogados de Lima.",
+    "project_long_description": "Liga de fútbol femenino con identidad propia y un objetivo claro: ser el espacio donde 12 equipos —integrados por mujeres de estudios de abogados de Lima— compitieran por la gloria, promoviendo confraternidad, deporte y diversión.",
     "project_details": [
-      "Organización y logística del torneo",
-      "Plan de patrocinio",
+      "Organización y estructura del torneo",
+      "Diseño de branding y producción de piezas gráficas",
+      "Animación, arbitraje y personal del evento",
       "Comunicación y contenido digital",
-      "Diseño y producción de piezas gráficas"
+      "Contenido audiovisual",
+      "Luces y sonido"
     ],
-    "main_image_url": "assets/images/projects/11_Regatas_Basketball/regatas_basketball_00.jpg",
+    "main_image_url": "assets/images/projects/10_LiFA/LiFA_00.jpg",
     "images_urls": [
-      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_01.jpg",
-      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_02.jpg",
-      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_03.jpg",
-      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_04.jpg",
-      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_05.jpg",
-      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_06.jpg",
-      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_07.jpg",
-      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_08.jpg",
-      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_09.jpg",
-      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_10.jpg"
+      "assets/images/projects/10_LiFA/LiFA_01.jpg",
+      "assets/images/projects/10_LiFA/LiFA_02.jpg",
+      "assets/images/projects/10_LiFA/LiFA_03.jpg",
+      "assets/images/projects/10_LiFA/LiFA_04.jpg",
+      "assets/images/projects/10_LiFA/LiFA_05.jpg",
+      "assets/images/projects/10_LiFA/LiFA_06.jpg",
+      "assets/images/projects/10_LiFA/LiFA_07.jpg",
+      "assets/images/projects/10_LiFA/LiFA_08.jpg",
+      "assets/images/projects/10_LiFA/LiFA_09.jpg",
+      "assets/images/projects/10_LiFA/LiFA_10.jpg",
+      "assets/images/projects/10_LiFA/LiFA_11.jpg"
     ],
-    "videos_urls": []
+    "videos_urls": ["1UVfz8PH4Jg"]
   },
   {
     "project_name": "intalks-2nd-edition",
@@ -285,6 +222,187 @@
     ],
     "videos_urls": ["CxFvOEVJ__0"]
   },
+  {
+    "project_name": "kick-off-comercial",
+    "client_name": "Paz Inmobiliaria",
+    "client_description": "",
+    "client_presenter_name": "",
+    "client_presenter_role": "",
+    "client_review": "",
+    "project_title": "Kick Off Comercial",
+    "project_short_description": "Kick Off Comercial.",
+    "project_long_description": "Evento de presentación de la campaña comercial “La Carrera del Éxito” para la fuerza de ventas de Paz Inmobiliaria. Cada detalle fue pensado en torno a la temática de Fórmula 1 para fomentar el sentido de equipo y motivar a las personas hacia un mismo rumbo: cumplir sus metas del año con el respaldo de la empresa.",
+    "project_details": [
+      "Organización y logística del evento",
+      "Ambientación, iluminación y sonido",
+      "Diseño y producción de piezas gráficas y merchandising",
+      "Anfitrionaje y personal del evento"
+    ],
+    "main_image_url": "assets/images/projects/20_kick_off_comercial/kick_off_comercial_00.jpg",
+    "images_urls": [
+      "assets/images/projects/20_kick_off_comercial/kick_off_comercial_01.jpg",
+      "assets/images/projects/20_kick_off_comercial/kick_off_comercial_02.jpg",
+      "assets/images/projects/20_kick_off_comercial/kick_off_comercial_03.jpg",
+      "assets/images/projects/20_kick_off_comercial/kick_off_comercial_04.jpg",
+      "assets/images/projects/20_kick_off_comercial/kick_off_comercial_05.jpg",
+      "assets/images/projects/20_kick_off_comercial/kick_off_comercial_06.jpg",
+      "assets/images/projects/20_kick_off_comercial/kick_off_comercial_07.jpg"
+    ],
+    "videos_urls": []
+  },
+  {
+    "project_name": "activacion-totems-navidenos",
+    "client_name": "Lima Airport",
+    "client_description": "",
+    "client_presenter_name": "",
+    "client_presenter_role": "",
+    "client_review": "",
+    "project_title": "Activación de Tótems Navideños",
+    "project_short_description": "Evento navideño para hijos de los colaboradores.",
+    "project_long_description": "Diseño e instalación de tótems modulares corporativos acompañados de una activación para motivar a los colaboradores a compartir sus buenos deseos en equipo, previo a las fiestas navideñas.",
+    "project_details": [
+      "Diseño y producción de tótems modulares tipo rompecabezas",
+      "Actividades navideña",
+      "Instalación de piezas"
+    ],
+    "main_image_url": "assets/images/projects/19_Activacion_Totems_Navidenos/Activacion_Totems_Navidenos_00.jpg",
+    "images_urls": [
+      "assets/images/projects/19_Activacion_Totems_Navidenos/Activacion_Totems_Navidenos_01.jpg",
+      "assets/images/projects/19_Activacion_Totems_Navidenos/Activacion_Totems_Navidenos_02.jpg",
+      "assets/images/projects/19_Activacion_Totems_Navidenos/Activacion_Totems_Navidenos_03.jpg",
+      "assets/images/projects/19_Activacion_Totems_Navidenos/Activacion_Totems_Navidenos_04.jpg",
+      "assets/images/projects/19_Activacion_Totems_Navidenos/Activacion_Totems_Navidenos_05.jpg",
+      "assets/images/projects/19_Activacion_Totems_Navidenos/Activacion_Totems_Navidenos_06.jpg"
+    ],
+    "videos_urls": []
+  },
+  {
+    "project_name": "LA-navidad-de-los-ninos",
+    "client_name": "Lima Airport",
+    "client_description": "",
+    "client_presenter_name": "",
+    "client_presenter_role": "",
+    "client_review": "",
+    "project_title": "LA Navidad de los Niños",
+    "project_short_description": "Evento navideño para hijos de los colaboradores.",
+    "project_long_description": "Evento navideño creado para los hijos más pequeños de los colaboradores de Lima Airport, con zonas de estimulación y recreación segmentadas por edades, priorizando la seguridad y el disfrute de cada niño. La experiencia se complementó con un espacio fotográfico con Papá Noel, diseñado para generar momentos memorables en familia.",
+    "project_details": [
+      "Diseño y producción de piezas gráficas",
+      "Actividades de estimulación temprana",
+      "Cobertura de fotos y video"
+    ],
+    "main_image_url": "assets/images/projects/18_navidad_ninos/navidad_de_los_ninos_00.jpg",
+    "images_urls": [
+      "assets/images/projects/18_navidad_ninos/navidad_de_los_ninos_01.jpg",
+      "assets/images/projects/18_navidad_ninos/navidad_de_los_ninos_02.jpg",
+      "assets/images/projects/18_navidad_ninos/navidad_de_los_ninos_03.jpg",
+      "assets/images/projects/18_navidad_ninos/navidad_de_los_ninos_04.jpg",
+      "assets/images/projects/18_navidad_ninos/navidad_de_los_ninos_05.jpg",
+      "assets/images/projects/18_navidad_ninos/navidad_de_los_ninos_06.jpg",
+      "assets/images/projects/18_navidad_ninos/navidad_de_los_ninos_07.jpg",
+      "assets/images/projects/18_navidad_ninos/navidad_de_los_ninos_08.jpg"
+    ],
+    "videos_urls": []
+  },
+  {
+    "project_name": "40-aniversario-andiamo",
+    "client_name": "Andiamo Inmobiliaria",
+    "client_description": "",
+    "client_presenter_name": "",
+    "client_presenter_role": "",
+    "client_review": "",
+    "project_title": "40.º aniversario Andiamo",
+    "project_short_description": "Cóctel de celebración por sus 40º aniversario.",
+    "project_long_description": "Cóctel de celebración y agradecimiento por el 40º aniversario de Andiamo Inmobiliaria, que reunió a colaboradores, clientes y aliados estratégicos en un ambiente íntimo y cercano, fortaleciendo vínculos y poniendo en valor su trayectoria y crecimiento.",
+    "project_details": [
+      "Ambientación y decoración",
+      "Iluminación y sonido",
+      "Diseño y producción de piezas gráficas",
+      "Supervisión de evento"
+    ],
+    "main_image_url": "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_00.jpg",
+    "images_urls": [
+      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_01.jpg",
+      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_02.jpg",
+      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_03.jpg",
+      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_04.jpg",
+      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_05.jpg",
+      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_06.jpg",
+      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_07.jpg",
+      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_08.jpg",
+      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_09.jpg",
+      "assets/images/projects/16_40_Aniversario_Andiamo/40_Aniversario_Andiamo_10.jpg"
+    ],
+    "videos_urls": []
+  },
+
+  {
+    "project_name": "5k-ml",
+    "client_name": "Equipo Medias Largas CF y Municipalidad de San Miguel",
+    "client_description": "",
+    "client_presenter_name": "",
+    "client_presenter_role": "",
+    "client_review": "",
+    "project_title": "Carrera 5K ML",
+    "project_short_description": "Carrera 5K pro fútbol femenino.",
+    "project_long_description": "Carrera de 5K organizada por el equipo de fútbol femenino Medias Largas CF, en colaboración con la Municipalidad de San Miguel, con el objetivo de recaudar fondos para seguir impulsando el crecimiento del equipo, gestionado de forma independiente, que apuesta por el desarrollo del fútbol femenino en el Perú.",
+    "project_details": [
+      "Organización y logística de la carrera",
+      "Diseño y producción de piezas gráficas",
+      "Merchandising del evento",
+      "Comunicación y contenido digital",
+      "Plan de Patrocinio"
+    ],
+    "main_image_url": "assets/images/projects/13_5K_ML/5K_ML_00.jpg",
+    "images_urls": [
+      "assets/images/projects/13_5K_ML/5K_ML_01.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_02.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_03.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_04.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_05.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_06.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_07.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_08.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_09.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_10.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_11.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_12.jpg",
+      "assets/images/projects/13_5K_ML/5K_ML_13.jpg"
+    ],
+    "videos_urls": []
+  },
+  {
+    "project_name": "regatas-basketball",
+    "client_name": "Club de Regatas Lima",
+    "client_description": "",
+    "client_presenter_name": "",
+    "client_presenter_role": "",
+    "client_review": "",
+    "project_title": "Festival de Basketball Formativo",
+    "project_short_description": "Torneo de basketball formativo para niños y niñas de las categorías sub10 y sub12.",
+    "project_long_description": "Festival de basketball para niños y niñas dividido en las categorías sub10 y sub12, que reunió a clubes de diferentes provincias en una serie de jornadas dinámicas. Con un despliegue integral, se logró ofrecer un evento recreativo, organizado y memorable para los niños y el público en general.",
+    "project_details": [
+      "Organización y logística del torneo",
+      "Plan de patrocinio",
+      "Comunicación y contenido digital",
+      "Diseño y producción de piezas gráficas"
+    ],
+    "main_image_url": "assets/images/projects/11_Regatas_Basketball/regatas_basketball_00.jpg",
+    "images_urls": [
+      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_01.jpg",
+      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_02.jpg",
+      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_03.jpg",
+      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_04.jpg",
+      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_05.jpg",
+      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_06.jpg",
+      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_07.jpg",
+      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_08.jpg",
+      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_09.jpg",
+      "assets/images/projects/11_Regatas_Basketball/regatas_basketball_10.jpg"
+    ],
+    "videos_urls": []
+  },
+
   {
     "project_name": "copa-marathon-2025",
     "client_name": "Grupo Marathon",
